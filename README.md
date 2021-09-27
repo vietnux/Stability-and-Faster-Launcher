@@ -52,5 +52,6 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 Thank you Vincent FALZON
 
 ## Donate
-[Donate](http://thegioilaptrinh.net/donate/)
+[Paypal](https://www.paypal.com/paypalme/vietnux)
+[Bitcoind](http://thegioilaptrinh.net/donate/bitcoind.png)(https://www.paypal.com/paypalme/vietnux)
 Thank you!
