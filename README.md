@@ -52,6 +52,7 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 Thank you Vincent FALZON
 
 ## Donate
+If you like Stability and Faster Launcher be happy about a donation. You can either send bitcoin or donate via Paypal.
 
 <table>
   <tr>
