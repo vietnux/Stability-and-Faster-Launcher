@@ -4,7 +4,7 @@ Stability and Faster Launcher provides you a distraction ✋free and clear home 
 Using your finger to slide down for display your favorites applications or up to see the complete list of applications.
 If you hold your finger a few moments on an application, you will be offered to access its system settings.
 
-![ApplicationIcon](gui/logo.png){style="width:80;height:80"}
+![ApplicationIcon](gui/logo.png)
 
 **Available on [F-Droid](https://f-droid.org/en/packages/com.tglt.launcher.discreet) and [Google Play](https://play.google.com/store/apps/details?id=com.tglt.launcher.discreet)**
 *(disponible sur [F-Droid](https://f-droid.org/fr/packages/com.tglt.launcher.discreet) et [Google Play](https://play.google.com/store/apps/details?id=com.tglt.launcher.discreet))*
