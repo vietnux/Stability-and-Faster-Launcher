@@ -52,8 +52,7 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 Thank you Vincent FALZON
 
 ## Donate
-[Paypal](https://www.paypal.com/paypalme/vietnux)
-[Bitcoind](http://thegioilaptrinh.net/donate/bitcoind.png)(https://www.paypal.com/paypalme/vietnux)
+
 <table>
   <tr>
     <td><img src="https://bitcoin.org/img/icons/logotop.svg" alt="Bitcoin"></td>
