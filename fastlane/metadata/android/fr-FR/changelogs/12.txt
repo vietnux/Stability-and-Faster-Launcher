@@ -1,2 +1,0 @@
-- Possibilité de masquer des applications (idée de gicofied9)
-- Possibilité d'exporter/importer les paramètres

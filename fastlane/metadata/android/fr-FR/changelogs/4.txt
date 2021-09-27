@@ -1,4 +1,0 @@
-- Ajouter le support des packs d'icônes
-- Créer un menu "Paramètres et Aide"
-- Remplir la section Aide
-- Déplacer le texte À propos dans ce menu

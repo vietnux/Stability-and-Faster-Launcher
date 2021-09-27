@@ -1,1 +1,0 @@
-Fix unexpected behavior of Back button on some Android versions

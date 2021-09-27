@@ -1,2 +1,0 @@
-- Add feature graphic for F-Droid client
-- Correct line breaks in description

@@ -1,3 +1,0 @@
-- Message "no favorites yet" better integrated
-- Option: hide apps names (idea tuch96)
-- Option: 12-hour format (idea drewski-00h)

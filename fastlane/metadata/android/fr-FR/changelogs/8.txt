@@ -1,2 +1,0 @@
-- Mise à jour automatique de la liste quand une application est ajoutée ou supprimée
-- Réorganisation interne et diverses optimisations du code

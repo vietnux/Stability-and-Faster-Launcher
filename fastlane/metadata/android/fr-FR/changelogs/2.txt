@@ -1,2 +1,0 @@
-- Ajout d'une bannière pour le client F-Droid
-- Correction des sauts de ligne dans la description
