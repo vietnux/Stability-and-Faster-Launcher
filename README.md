@@ -50,3 +50,7 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 ## Update from
 [Discreet Launcher](https://github.com/falzonv/discreet-launcher)
 Thank you Vincent FALZON
+
+## Donate
+[Donate](http://thegioilaptrinh.net/donate/)
+Thank you!
