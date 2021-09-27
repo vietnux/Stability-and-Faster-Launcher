@@ -20,6 +20,8 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 
 ## Screenshots *(Captures d'écran)*
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="360" height="675"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="360" height="675">
+<img src="gui/Screenshot_20210601-102914_Discreet Launcher.jpg" width="360" height="675">
+<img src="gui/Screenshot_20210601-103303_Discreet Launcher.jpg" width="360" height="675">
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="360" height="675"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" width="360" height="675">
+<img src="gui/Screenshot_20210601-103327_Discreet Launcher.jpg" width="360" height="675">
+<img src="gui/Screenshot_20210601-103550_Analytics.jpg" width="360" height="675">
