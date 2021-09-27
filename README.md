@@ -62,8 +62,8 @@ Thank you Vincent FALZON
   </tr>
   <tr>
     <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg" alt="Paypal" width="80px" ></a></td>
-    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paylal.png" alt="Paypal" width="100px"></a></td>
-    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paylal.png" alt="Donate via Paypal" height="35px"></a></td>
+    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paypal.png" alt="Paypal" width="100px"></a></td>
+    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paypal.png" alt="Donate via Paypal" height="35px"></a></td>
   </tr>
 </table>
 
