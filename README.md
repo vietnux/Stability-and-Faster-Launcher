@@ -1,7 +1,8 @@
 # Stability and Faster Launcher *(Lanceur Stability and Stabilité et plus rapide )*
 
-Enjoy a clean home screen while accessing everything in an instant!  
-*(Profitez d'un écran d'accueil épuré tout en accédant à tout en un instant !)*
+Stability and Faster Launcher provides you a distraction ✋free and clear home screen. Everything accessible with one hand and lets you focus on what matters.
+Using your finger to slide down for display your favorites applications or up to see the complete list of applications.
+If you hold your finger a few moments on an application, you will be offered to access its system settings.
 
 ![ApplicationIcon](gui/logo.png)
 
@@ -24,6 +25,27 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 
 <img src="gui/Screenshot_20210601-103327_Discreet Launcher.jpg" width="360" height="675"><img src="gui/Screenshot_20210601-103550_Analytics.jpg" width="360" height="675">
 <img src="gui/Screenshot_20210601-103644_Primary school.jpg" width="360" height="675"><img src="gui/Screenshot_20210601-103709_Discreet Launcher.jpg" width="360" height="675">
+
+## ⚡ Features
+🔹 Favorites applications
+🔹 Quickbar applications
+🔹 Folders
+🔹 Hide applications
+🔹 Notification for favorites access
+🔹 Web applications support
+🔹 Export/import settings
+🔹 Help and changelog
+🔹 Freeform multiple window mode
+🔹 Changer icon site
+
+## 🏆 Customization options
+🔹 Force portrait mode
+🔹 Immersive mode
+🔹 Reversed interface
+🔹 Clock on the home screen
+🔹 Transparent status bar
+🔹 Hide applications names
+🔹 Icon packs support
 
 ## Update from
 [Discreet Launcher](https://github.com/falzonv/discreet-launcher)
