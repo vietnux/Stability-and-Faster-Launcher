@@ -1,0 +1,26 @@
+﻿discreet/discreet@123
+
+Stability and Faster Launcher provides you a distraction ✋free and clear home screen. Everything accessible with one hand and lets you focus on what matters.
+Using your finger to slide down for display your favorites applications or up to see the complete list of applications.
+If you hold your finger a few moments on an application, you will be offered to access its system settings.
+
+⚡ Features
+🔹 Favorites applications
+🔹 Quickbar applications
+🔹 Folders
+🔹 Hide applications
+🔹 Notification for favorites access
+🔹 Web applications support
+🔹 Export/import settings
+🔹 Help and changelog
+🔹 Freeform multiple window mode
+🔹 Changer icon site
+
+🏆 Customization options
+🔹 Force portrait mode
+🔹 Immersive mode
+🔹 Reversed interface
+🔹 Clock on the home screen
+🔹 Transparent status bar
+🔹 Hide applications names
+🔹 Icon packs support

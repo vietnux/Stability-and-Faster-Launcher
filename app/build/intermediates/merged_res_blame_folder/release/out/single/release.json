@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_logo.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_folders.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_folders.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main_reverse.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_main_reverse.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_tutorial_swipe_down.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\tutorial_swipe_down.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_click.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\click.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_shortcut_item_bar.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\shortcut_item_bar.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_swipe_left.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\swipe_left.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_blink.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\blink.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_settings_about.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\settings_about.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_double_tap.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\double_tap.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_export_import.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_export_import.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_fade_out.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_view_favorite.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\view_favorite.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_swipe_up.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\swipe_up.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_view_application.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\view_application.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\xml_settings_changelog.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\xml\\settings_changelog.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_settings.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_zoom_out.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\zoom_out.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_swipe_right.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\swipe_right.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\xml_settings_display.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\xml\\settings_display.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_swipe_down.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\swipe_down.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_zoom_in.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\zoom_in.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_rotate.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_icon.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\drawable\\notification_icon.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_view_folder.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\view_folder.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_folder_popup.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\folder_popup.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_favorites.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\activity_favorites.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\xml_settings.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\menu_contextual_menu.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\menu\\contextual_menu.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_fade_in.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_move.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\move.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\xml_settings_help.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\xml\\settings_help.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_tutorial_swipe_up.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\tutorial_swipe_up.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\layout_tutoirial.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\layout\\tutoirial.xml"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\res\\merged\\release\\anim_sequential.xml.flat",
+        "source": "D:\\Launcher\\discreet-launcher\\app\\src\\main\\res\\anim\\sequential.xml"
+    }
+]

@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tglt.launcher.discreet"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required for Android 11+ (<queries> not applicable for Launcher applications) -->
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:5-8:53
+12-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:22-74
+13    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+13-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:2-72
+13-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:19-69
+14    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+14-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:2-113
+14-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:19-111
+15
+16    <application
+16-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:12:2-78:16
+17        android:allowBackup="false"
+17-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:13:3-30
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:14:3-37
+21        android:label="@string/app_name"
+21-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:15:3-35
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:16:3-48
+23        android:testOnly="true"
+24        android:theme="@style/AppThemeTransparent" >
+24-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:17:3-45
+25        <activity
+25-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:19:3-31:14
+26            android:name="com.tglt.launcher.discreet.ActivityMain"
+26-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:20:5-33
+27            android:excludeFromRecents="true"
+27-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:23:5-38
+28            android:label="@string/app_name"
+28-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:21:5-37
+29            android:launchMode="singleTask" >
+29-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:22:5-36
+30            <intent-filter>
+30-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:24:4-30:20
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:5-57
+31-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:13-54
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:5-65
+33-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:15-62
+34                <category android:name="android.intent.category.HOME" />
+34-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:5-61
+34-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:15-58
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:5-64
+35-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:15-61
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:33:9-37:46
+39            android:name="com.tglt.launcher.discreet.ActivitySettings"
+39-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:34:13-45
+40            android:label="@string/settings_title"
+40-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:35:13-51
+41            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+41-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:36:13-55
+42            android:theme="@style/AppTheme" />
+42-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:37:13-44
+43        <activity
+43-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:39:9-43:46
+44            android:name="com.tglt.launcher.discreet.ActivityExportImport"
+44-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:40:13-49
+45            android:label="@string/export_import_title"
+45-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:41:13-56
+46            android:parentActivityName="com.tglt.launcher.discreet.ActivitySettings"
+46-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:42:13-59
+47            android:theme="@style/AppTheme" />
+47-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:43:13-44
+48        <activity
+48-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:45:9-49:46
+49            android:name="com.tglt.launcher.discreet.ActivityFavorites"
+49-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:46:13-46
+50            android:label="@string/button_manage_favorites"
+50-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:47:13-60
+51            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+51-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:48:13-55
+52            android:theme="@style/AppTheme" />
+52-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:49:13-44
+53        <activity
+53-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:50:3-54:46
+54            android:name="com.tglt.launcher.discreet.ActivityQuickBar"
+54-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:51:13-45
+55            android:label="@string/button_manage_quickbar"
+55-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:52:13-59
+56            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+56-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:53:13-55
+57            android:theme="@style/AppTheme" />
+57-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:54:13-44
+58        <activity
+58-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:56:9-60:46
+59            android:name="com.tglt.launcher.discreet.ActivityFolders"
+59-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:57:13-44
+60            android:label="@string/button_organize_folders"
+60-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:58:13-60
+61            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+61-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:59:13-55
+62            android:theme="@style/AppTheme" />
+62-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:60:13-44
+63        <activity
+63-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:62:9-70:20
+64            android:name="com.tglt.launcher.discreet.events.ShortcutListener"
+64-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:63:13-52
+65            android:excludeFromRecents="true"
+65-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:65:13-46
+66            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain" >
+66-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:64:13-55
+67            <intent-filter>
+67-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:66:13-69:29
+68                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+68-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:17-89
+68-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:25-86
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:5-64
+70-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:15-61
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:72:9-76:20
+74            android:name="com.tglt.launcher.discreet.events.NotificationListener"
+74-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:73:13-56
+75            android:excludeFromRecents="true"
+75-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:75:13-46
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:74:13-72
+77        </activity>
+78    </application>
+79
+80</manifest>

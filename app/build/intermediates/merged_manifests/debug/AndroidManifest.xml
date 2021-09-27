@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tglt.launcher.discreet"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <!-- Required for Android 11+ (<queries> not applicable for Launcher applications) -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:testOnly="true"
+        android:theme="@style/AppThemeTransparent" >
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivityMain"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivitySettings"
+            android:label="@string/settings_title"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivityExportImport"
+            android:label="@string/export_import_title"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivitySettings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivityFavorites"
+            android:label="@string/button_manage_favorites"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivityQuickBar"
+            android:label="@string/button_manage_quickbar"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tglt.launcher.discreet.ActivityFolders"
+            android:label="@string/button_organize_folders"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tglt.launcher.discreet.events.ShortcutListener"
+            android:excludeFromRecents="true"
+            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain" >
+            <intent-filter>
+                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tglt.launcher.discreet.events.NotificationListener"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>

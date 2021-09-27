@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings / Help</string>
+    <string name="set_customization_title">Customization</string>
+    <string name="set_force_portrait">Force portrait mode</string>
+    <string name="set_notification">Notification for favorites access</string>
+    <string name="display_settings_title">Display</string>
+    <string name="display_settings_general_title">General</string>
+    <string name="set_immersive_mode">Enable immersive mode</string>
+    <string name="set_immersive_mode_help">Hide system bars (long press on home screen to force if needed)</string>
+    <string name="set_hide_app_names">Hide applications names</string>
+    <string name="set_hide_app_names_help">Folder names will still be displayed</string>
+    <string name="set_icon_pack">Use an installed icon pack</string>
+    <string name="set_icon_pack_none">None (use the real icons)</string>
+    <string name="display_settings_home_screen_title">Home screen</string>
+    <string name="set_transparent_status_bar">Transparent status bar</string>
+    <string name="set_transparent_status_bar_hint">When favorites are closed</string>
+    <string name="set_reverse_interface">Reverse interface</string>
+    <string name="set_reverse_interface_help">Display the favorites panel on bottom</string>
+    <string name="set_display_clock">Display the clock</string>
+    <string name="set_clock_format">Clock format</string>
+    <string name="set_clock_format_24h">24 hours</string>
+    <string name="set_clock_format_12h">12 hours</string>
+    <string name="set_clock_format_12h_ampm">12 hours + AM/PM</string>
+
+    <!-- Export / Import -->
+    <string name="export_import_title">Export / Import</string>
+    <string name="export_import_help">These buttons allow you to export the application data (favorites, shortcuts and settings) or to import a previous export.</string>
+    <string name="export_import_file_edit_warning">Be careful: if you edit this file, it may produce unexpected results!</string>
+    <string name="export_import_internal_files_header">Internal text files content</string>
+    <string name="export_import_icons">Saved icons</string>
+    <string name="export_import_warning_shortcuts">
+        (With Android Oreo (8) or higher, imported web applications may not work
+        because they are managed by the system and are not supposed to be exported)
+    </string>
+    <string name="export_completed">Export completed</string>
+
+    <!-- Help -->
+    <string name="help_and_general_info_title">Help and general information</string>
+    <string name="help_title">Help</string>
+    <string name="help_navigation_title">Navigation</string>
+    <string name="help_navigation_text">
+        From the home screen, swipe down to display the favorites panel and swipe up to hide it.
+        \n
+        \nIf you swipe up when the favorites panel is hidden, it will display the complete list of applications.
+        Swipe down from the top of this list to come back to the home screen.
+        \n
+        \nPress the button below the favorites panel to display the menu of the launcher.
+        \n
+        \nIf you hold your finger a few moments on an application or a folder, you will be offered to access its settings.
+    </string>
+    <string name="help_notification_title">Notification</string>
+    <string name="help_notification_text">"The notification allows to display a popup with favorites above other applications when you leave the home screen.
+        \nIn most cases, it should work directly and without issues.
+        \nHowever, in some special cases it may bring back to the home screen instead of being displayed over other applications.
+        \nIf you are facing this issue, there are two things you can try:
+        \n- Press the \"clear all\" button in Recent Apps.
+        \n- Reboot your smartphone.
+        \nAfter one of these actions, the problem should not appear again.
+        \nIf it persists, I am sorry but it seems this will not work for you :\n- Finally, if you change the default launcher, you may still see the notification.\nTo hide it, you can open Stability and Faster Launcher (no need to be the default launcher) and disable the notification in the settings."</string>
+    <string name="help_freeform_title">Freeform multiple window mode</string>
+    <string name="help_freeform_text">\(Android 7.0\+, no external display required\)\n
+Launcher lets you launch apps in freeform floating windows on Android 7.0+ devices. No root access is required, although Android 8.0, 8.1, and 9 devices require an adb shell command to be run during initial setup.\n
+Simply follow these steps to configure your device for launching apps in freeform mode:\n\n
+1. Check the box for \"Freeform window support\" inside the Taskbar app\n
+2. Follow the directions that appear in the pop-up to enable the proper settings on your device (one-time setup)\n
+3. Go to your device\'s recent apps page and clear all recent apps\n
+4. Start launch, then select an app to launch it in a freeform window.</string>
+
+    <string name="help_list_update_title">List update</string>
+    <string name="help_list_update_text">
+        The list of applications and their icons are refreshed only after some events
+        (on start, when an application is added or removed, if the icon pack is modified).
+        When this happens, a small popup message appears during a few moments.
+        \n
+        \nIf something does not feel right, you should try to refresh the applications list manually.
+    </string>
+    <string name="help_folders_title">Folders</string>
+    <string name="help_folders_text">
+        You can create as many folders as you want to organize your applications.
+        These folders can also be added in favorites.
+        If a folder is removed, its content will be put back in the main applications list.
+        \n
+        \nAn application can be in only one folder at a time (or not in a folder).
+        However, you can have both an application and the folder containing this application in favorites.
+    </string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_v1_title" translatable="false">Versions v1.x</string>
+    <string name="changelog_v1_text">
+        \n<b>v1.0 - xx/05/2021</b>
+        \n- Initial release
+    </string>
+    <string name="changelog_v2_title" translatable="false">Versions v2.x</string>
+    <string name="changelog_v2_text">
+        \n<b>v2.0 - xx/09/2021</b>
+        \n- Update sdk version 30
+        \n- Changer title
+        \n- Update speed system
+    </string>
+
+</resources>

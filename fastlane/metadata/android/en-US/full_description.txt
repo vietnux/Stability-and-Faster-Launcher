@@ -1,0 +1,24 @@
+Stability and Faster Launcher provides you a distraction-free home screen, allowing you to fully enjoy your wallpaper (only the status and navigation bars have been kept for convenience).
+
+From this clean home screen, simply slide your finger down to display your favorites applications or up to see the complete list of applications.
+
+If you hold your finger a few moments on an application, you will be offered to access its system settings.
+
+Stability and Faster Launcher is open source, doesn't require any unnecessary permission, works completely offline and doesn't include any advertisements.
+
+1/ Other features
+- Folders
+- Hide applications
+- Notification for favorites access
+- Web applications support
+- Export/import settings
+- Help and changelog
+
+2/ Customization options
+- Force portrait mode
+- Immersive mode
+- Reversed interface
+- Clock on the home screen
+- Transparent status bar
+- Hide applications names
+- Icon packs support

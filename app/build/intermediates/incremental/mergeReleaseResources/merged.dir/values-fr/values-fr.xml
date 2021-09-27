@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="app_name">Lanceur Discret</string>
+    <string name="button_access_menu">Accéder au menu</string>
+    <string name="button_add">Ajouter</string>
+    <string name="button_apply">Valider</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_export">Exporter</string>
+    <string name="button_hide_applications">Masquer des applications</string>
+    <string name="button_home" translatable="false">Accueil</string>
+    <string name="button_import">Importer</string>
+    <string name="button_manage_favorites">Gérer les favoris</string>
+    <string name="button_manage_quickbar">Gérer les barre rapide</string>
+    <string name="button_open">Ouvrir</string>
+    <string name="button_organize_folders">Organiser les dossiers</string>
+    <string name="button_refresh_list">Actualiser la liste des applications</string>
+    <string name="button_remove">Supprimer</string>
+    <string name="button_select_favorites">Choisir les favoris</string>
+    <string name="button_select_favorites_clear">Effacer les favoris</string>
+    <string name="button_select_quickbar">Choisir les barre rapide</string>
+    <string name="button_select_quickbar_clear">Effacer les barre rapide</string>
+    <string name="button_settings">Paramètres</string>
+    <string name="changelog_title">Journal des changements</string>
+    <string name="changelog_v1_text">
+        \n<b>v1.0 - xx/05/2021</b>
+        \n- Version initiale
+    </string>
+    <string name="changelog_v2_text">
+        \n<b>v2.0 - xx/09/2021</b>
+        \n- Mettre à jour le SDK version 30
+         \n- Titre du changeur
+         \n- Mettre à jour le système de vitesse
+    </string>
+    <string msgid="3209159573327985035" name="copy">"Copier"</string>
+    <string name="dialog_edit_name">Nouveau nom</string>
+    <string name="dialog_open_or_remove">Voulez-vous ouvrir %1$s ou le supprimer ?</string>
+    <string name="dialog_open_or_settings">Voulez-vous ouvrir %1$s ou ses paramètres ?</string>
+    <string name="display_settings_general_title">Général</string>
+    <string name="display_settings_home_screen_title">Écran d\'accueil</string>
+    <string name="display_settings_title">Affichage</string>
+    <string name="error_appfilter_not_found">Le fichier appfilter.xml est introuvable dans le pack d\'icônes sélectionné ! (%1$s)</string>
+    <string name="error_application_not_found">L\'application %1$s est introuvable !</string>
+    <string name="error_export">Une erreur est survenue durant la création du fichier d\'export !</string>
+    <string name="error_favorite">Une erreur est survenue avec le favori %1$s !</string>
+    <string name="error_folder_already_exists">Ce dossier existe déjà !</string>
+    <string name="error_folder_empty_name">Le nom ne peut pas être vide !</string>
+    <string name="error_import">Une erreur est survenue durant la lecture du fichier d\'import !</string>
+    <string name="error_remove_file">Une erreur est survenue en nettoyant le fichier %1$s !</string>
+    <string name="error_rename_file">Une erreur est survenue en renommant le fichier %1$s !</string>
+    <string name="error_shortcut">Une erreur est survenue avec le raccourci %1$s !</string>
+    <string name="error_shortcut_invalid_request">La requête reçue pour ajouter un raccourci n\'est pas valide !</string>
+    <string name="error_shortcut_missing_info">Des informations sont manquantes et le raccourci ne peut pas être lancé !</string>
+    <string name="error_shortcut_not_default_launcher">Seul le lanceur par défaut peut ouvrir des raccourcis !</string>
+    <string name="error_shortcut_start">Le système Android n\'a pas réussi à ouvrir le raccourci ou ne l\'a pas retrouvé !</string>
+    <string name="error_too_many_selections">Désolé, le nombre de sélections est limité à %1$d !</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Paramètres avancés"</string>
+    <string name="export_completed">Export terminé</string>
+    <string name="export_import_file_edit_warning">Soyez prudent(e) : si vous éditez ce fichier, cela peut produire des résultats inattendus !</string>
+    <string name="export_import_help">Ces boutons permettent d\'exporter les données de l\'application (favoris, raccourcis et paramètres) ou d\'importer un export précédent.</string>
+    <string name="export_import_icons">Icônes sauvegardées</string>
+    <string name="export_import_internal_files_header">Contenu des fichiers textes internes</string>
+    <string name="export_import_title">Exporter / Importer</string>
+    <string name="export_import_warning_shortcuts">
+        (Avec Android Oreo (8) ou plus récent, les applications web importées peuvent ne pas marcher
+        car elles sont gérées par le système et ne sont pas supposées être exportables)
+    </string>
+    <string name="folders_create_new">Nouveau dossier</string>
+    <string name="folders_create_new_help">Vous pouvez créer autant de dossiers que vous voulez pour organiser vos applications.</string>
+    <string name="folders_edit_help">Cliquez sur le nom d\'un dossier pour le changer, le crayon permet de modifier le contenu du dossier.</string>
+    <string name="folders_remove_help">Si un dossier est supprimé, son contenu sera réintégré dans la liste d\'applications principale.</string>
+    <string name="help_and_general_info_title">Aide et informations générales</string>
+    <string name="help_folders_text">
+        Vous pouvez créer autant de dossiers que vous voulez pour organiser vos applications.
+        Ces dossiers peuvent aussi être ajoutés dans les favoris.
+        Si un dossier est supprimé, son contenu sera réintégré dans la liste d\'applications principale.
+        \n
+        \nUne application ne peut être que dans un seul dossier à la fois (ou dans aucun dossier).
+        Cependant, vous pouvez avoir à la fois une application et le dossier contenant cette application dans les favoris.
+    </string>
+    <string name="help_folders_title">Dossiers</string>
+    <string name="help_freeform_text">\(Android 7.0+, aucun affichage externe requis)\n
+Le lanceur vous permet de lancer des applications dans des fenêtres flottantes de forme libre sur les appareils Android 7.0+. Aucun accès root n\'est requis, bien que les appareils Android 8.0, 8.1 et 9 nécessitent l\'exécution d\'une commande adb shell lors de la configuration initiale.\n
+Suivez simplement ces étapes pour configurer votre appareil pour lancer des applications en mode forme libre:\n\n
+1. Cochez la case \"Prise en charge de la fenêtre Freeform\" dans l\'application de la barre des tâches.\n
+2. Suivez les instructions qui s\'affichent dans la fenêtre contextuelle pour activer les paramètres appropriés sur votre appareil (configuration unique)\n
+3. Accédez à la page des applications récentes de votre appareil et effacez toutes les applications récentes.\n
+4. Démarrez le lancement, puis sélectionnez une application pour la lancer dans une fenêtre de forme libre .</string>
+    <string name="help_freeform_title">Mode multi-fenêtres de forme libre</string>
+    <string name="help_list_update_text">
+        La liste des applications et leurs icônes ne sont actualisées qu\'après certains évènements
+        (au démarrage, lorsqu\'une application est ajoutée ou supprimée, quand le pack d\'icônes est modifié).
+        Quand cela se produit, un petit message apparaît dans une bulle pendant quelques instants.
+        \n
+        \nSi quelque chose semble incorrect, vous devriez essayer d\'actualiser la liste manuellement.
+    </string>
+    <string name="help_list_update_title">Mise à jour de la liste</string>
+    <string name="help_navigation_text">
+        Depuis l\'écran d\'accueil, tirez vers le bas pour afficher le panneau des favoris et vers le haut pour le masquer.
+        \n
+        \nSi vous tirez vers le haut quand le panneau des favoris est caché, la liste complète des applications s\'affiche.
+        Tirez vers le bas depuis le haut de cette liste pour revenir à l\'accueil.
+        \n
+        \nPressez le bouton sous le panneau des favoris pour afficher le menu du lanceur.
+        \n
+        \nEn maintenant le doigt quelques instants sur une application ou un dossier, il vous sera proposé d\'accéder à ses paramètres.
+    </string>
+    <string name="help_navigation_title">Navigation</string>
+    <string name="help_notification_text">
+        La notification permet d\'afficher les favoris au dessus d\'autres applications quand vous quitter l\'accueil.
+        Dans la plupart des cas, cela devrait fonctionner sans problèmes.
+        \n
+        \nCependant, dans certains cas vous pouvez être ramené(e) à l\'accueil au lieu d\'avoir l\'affichage au-dessus d\'autres applications.
+        \nSi vous avez ce souci, vous pouvez essayer deux choses :
+        \n- Cliquer sur le bouton \"tout effacer\" dans les applications récentes
+        \n- Redémarrer votre smartphone
+        \nAprès l\'une de ces actions, le problème ne devrait plus apparaître.
+        \nS\'il persiste, je suis désolé mais il semble que cela ne va pas marcher pour vous :-/
+        \n
+        \nEnfin, si vous changez le lanceur par défaut, il est possible que la notification soit toujours là.
+        Pour la cacher, vous pouvez ouvrir Lanceur Discret (pas besoin qu\'il soit le lanceur par défaut) et désactiver la notification dans les paramètres.
+    </string>
+    <string name="help_notification_title">Notification</string>
+    <string name="help_title">Aide</string>
+    <string name="info_applications_list_refreshed">Liste d\'application actualisée</string>
+    <string name="info_favorites_access">Accès aux favoris</string>
+    <string name="info_no_favorites_yet">Vous pouvez ajouter vos applications favorites ici\nen cliquant sur le bouton du menu.</string>
+    <string name="info_order_favorites">Modifiez l\'ordre des favoris dans la liste ci-dessous (utilisez le vide sur les côtés pour défiler).</string>
+    <string name="licence_name">Licence publique générale GNU v3.0</string>
+    <string msgid="478774118347071097" name="not_set">"Non définie"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copié dans le presse-papier."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="set_clock_format">Format de l\'horloge</string>
+    <string name="set_clock_format_12h">12 heures</string>
+    <string name="set_clock_format_12h_ampm">12 heures + AM/PM</string>
+    <string name="set_clock_format_24h">24 heures</string>
+    <string name="set_customization_title">Personnalisation</string>
+    <string name="set_display_clock">Afficher l\'horloge</string>
+    <string name="set_force_portrait">Forcer le mode portrait</string>
+    <string name="set_hide_app_names">Masquer les noms des applications</string>
+    <string name="set_hide_app_names_help">Les noms des dossiers seront toujours affichés</string>
+    <string name="set_icon_pack">Utiliser un pack d\'icônes installé</string>
+    <string name="set_icon_pack_none">Aucun (utiliser les vraies icônes)</string>
+    <string name="set_immersive_mode">Activer le mode immersif</string>
+    <string name="set_immersive_mode_help">Masque les barres systèmes (clic long sur l\'écran d\'accueil pour forcer si besoin)</string>
+    <string name="set_notification">Notification d\'accès aux favoris</string>
+    <string name="set_reverse_interface">Inverser l\'interface</string>
+    <string name="set_reverse_interface_help">Affiche le panneau des favoris en bas</string>
+    <string name="set_transparent_status_bar">Barre de statut transparente</string>
+    <string name="set_transparent_status_bar_hint">Quand les favoris sont fermés</string>
+    <string name="settings_title">Paramètres / Aide</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="tb_action_hide">"Masquer le lanceur "</string>
+    <string name="tb_action_hide_alt">"Cacher "</string>
+    <string name="tb_action_quit">Quitter</string>
+    <string name="tb_action_show">"Afficher le lanceur "</string>
+    <string name="tb_action_show_alt">Spectacle</string>
+    <string name="tb_click_to_open_settings">"Cliquez pour ouvrir les paramètres "</string>
+    <string name="tb_freeform_off">"Freeform désactivé "</string>
+    <string name="tb_freeform_on">"Freeform sur "</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DÉSACTIVÉ"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVÉ"</string>
+    <string name="website_description">Pour accéder au code source, signaler un problème ou voir mes autres projets, consulter le site</string>
+</resources>

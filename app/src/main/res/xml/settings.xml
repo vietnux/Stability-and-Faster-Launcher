@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/set_customization_title"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            app:key="force_portrait"
+            app:title="@string/set_force_portrait"
+            app:iconSpaceReserved="false"
+            app:defaultValue="false"/>
+
+        <SwitchPreference
+            app:key="notification"
+            app:title="@string/set_notification"
+            app:iconSpaceReserved="false"
+            app:defaultValue="true"/>
+
+        <Preference
+            app:title="@string/display_settings_title"
+            app:fragment="com.tglt.launcher.discreet.ActivitySettings$DisplayFragment"
+            app:icon="@android:drawable/ic_menu_gallery"/>
+
+        <MultiSelectListPreference
+            app:key="hidden_applications"
+            app:isPreferenceVisible="false"/>
+
+        <Preference
+            app:title="@string/export_import_title"
+            app:icon="@android:drawable/ic_menu_upload">
+            <intent
+                android:targetPackage="com.tglt.launcher.discreet"
+                android:targetClass="com.tglt.launcher.discreet.ActivityExportImport"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/help_and_general_info_title"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:title="@string/help_title"
+            app:fragment="com.tglt.launcher.discreet.ActivitySettings$HelpFragment"
+            app:icon="@android:drawable/ic_menu_help"/>
+
+        <Preference
+            app:title="@string/changelog_title"
+            app:fragment="com.tglt.launcher.discreet.ActivitySettings$ChangelogFragment"
+            app:icon="@android:drawable/ic_input_get"/>
+
+        <Preference app:layout="@layout/settings_about"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

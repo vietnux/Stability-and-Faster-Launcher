@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Paramètres -->
+    <string name="settings_title">Paramètres / Aide</string>
+    <string name="set_customization_title">Personnalisation</string>
+    <string name="set_force_portrait">Forcer le mode portrait</string>
+    <string name="set_notification">Notification d\'accès aux favoris</string>
+    <string name="display_settings_title">Affichage</string>
+    <string name="display_settings_general_title">Général</string>
+    <string name="set_immersive_mode">Activer le mode immersif</string>
+    <string name="set_immersive_mode_help">Masque les barres systèmes (clic long sur l\'écran d\'accueil pour forcer si besoin)</string>
+    <string name="set_hide_app_names">Masquer les noms des applications</string>
+    <string name="set_hide_app_names_help">Les noms des dossiers seront toujours affichés</string>
+    <string name="set_icon_pack">Utiliser un pack d\'icônes installé</string>
+    <string name="set_icon_pack_none">Aucun (utiliser les vraies icônes)</string>
+    <string name="display_settings_home_screen_title">Écran d\'accueil</string>
+    <string name="set_transparent_status_bar">Barre de statut transparente</string>
+    <string name="set_transparent_status_bar_hint">Quand les favoris sont fermés</string>
+    <string name="set_reverse_interface">Inverser l\'interface</string>
+    <string name="set_reverse_interface_help">Affiche le panneau des favoris en bas</string>
+    <string name="set_display_clock">Afficher l\'horloge</string>
+    <string name="set_clock_format">Format de l\'horloge</string>
+    <string name="set_clock_format_24h">24 heures</string>
+    <string name="set_clock_format_12h">12 heures</string>
+    <string name="set_clock_format_12h_ampm">12 heures + AM/PM</string>
+
+    <!-- Export / Import -->
+    <string name="export_import_title">Exporter / Importer</string>
+    <string name="export_import_help">Ces boutons permettent d\'exporter les données de l\'application (favoris, raccourcis et paramètres) ou d\'importer un export précédent.</string>
+    <string name="export_import_file_edit_warning">Soyez prudent(e) : si vous éditez ce fichier, cela peut produire des résultats inattendus !</string>
+    <string name="export_import_internal_files_header">Contenu des fichiers textes internes</string>
+    <string name="export_import_icons">Icônes sauvegardées</string>
+    <string name="export_import_warning_shortcuts">
+        (Avec Android Oreo (8) ou plus récent, les applications web importées peuvent ne pas marcher
+        car elles sont gérées par le système et ne sont pas supposées être exportables)
+    </string>
+    <string name="export_completed">Export terminé</string>
+
+    <!-- Aide -->
+    <string name="help_and_general_info_title">Aide et informations générales</string>
+    <string name="help_title">Aide</string>
+    <string name="help_navigation_title">Navigation</string>
+    <string name="help_navigation_text">
+        Depuis l\'écran d\'accueil, tirez vers le bas pour afficher le panneau des favoris et vers le haut pour le masquer.
+        \n
+        \nSi vous tirez vers le haut quand le panneau des favoris est caché, la liste complète des applications s\'affiche.
+        Tirez vers le bas depuis le haut de cette liste pour revenir à l\'accueil.
+        \n
+        \nPressez le bouton sous le panneau des favoris pour afficher le menu du lanceur.
+        \n
+        \nEn maintenant le doigt quelques instants sur une application ou un dossier, il vous sera proposé d\'accéder à ses paramètres.
+    </string>
+    <string name="help_notification_title">Notification</string>
+    <string name="help_notification_text">
+        La notification permet d\'afficher les favoris au dessus d\'autres applications quand vous quitter l\'accueil.
+        Dans la plupart des cas, cela devrait fonctionner sans problèmes.
+        \n
+        \nCependant, dans certains cas vous pouvez être ramené(e) à l\'accueil au lieu d\'avoir l\'affichage au-dessus d\'autres applications.
+        \nSi vous avez ce souci, vous pouvez essayer deux choses :
+        \n- Cliquer sur le bouton \"tout effacer\" dans les applications récentes
+        \n- Redémarrer votre smartphone
+        \nAprès l\'une de ces actions, le problème ne devrait plus apparaître.
+        \nS\'il persiste, je suis désolé mais il semble que cela ne va pas marcher pour vous :-/
+        \n
+        \nEnfin, si vous changez le lanceur par défaut, il est possible que la notification soit toujours là.
+        Pour la cacher, vous pouvez ouvrir Lanceur Discret (pas besoin qu\'il soit le lanceur par défaut) et désactiver la notification dans les paramètres.
+    </string>
+
+    <string name="help_freeform_title">Mode multi-fenêtres de forme libre</string>
+    <string name="help_freeform_text">\(Android 7.0+, aucun affichage externe requis)\n
+Le lanceur vous permet de lancer des applications dans des fenêtres flottantes de forme libre sur les appareils Android 7.0+. Aucun accès root n\'est requis, bien que les appareils Android 8.0, 8.1 et 9 nécessitent l\'exécution d\'une commande adb shell lors de la configuration initiale.\n
+Suivez simplement ces étapes pour configurer votre appareil pour lancer des applications en mode forme libre:\n\n
+1. Cochez la case \"Prise en charge de la fenêtre Freeform\" dans l\'application de la barre des tâches.\n
+2. Suivez les instructions qui s\'affichent dans la fenêtre contextuelle pour activer les paramètres appropriés sur votre appareil (configuration unique)\n
+3. Accédez à la page des applications récentes de votre appareil et effacez toutes les applications récentes.\n
+4. Démarrez le lancement, puis sélectionnez une application pour la lancer dans une fenêtre de forme libre .</string>
+
+    <string name="help_list_update_title">Mise à jour de la liste</string>
+    <string name="help_list_update_text">
+        La liste des applications et leurs icônes ne sont actualisées qu\'après certains évènements
+        (au démarrage, lorsqu\'une application est ajoutée ou supprimée, quand le pack d\'icônes est modifié).
+        Quand cela se produit, un petit message apparaît dans une bulle pendant quelques instants.
+        \n
+        \nSi quelque chose semble incorrect, vous devriez essayer d\'actualiser la liste manuellement.
+    </string>
+    <string name="help_folders_title">Dossiers</string>
+    <string name="help_folders_text">
+        Vous pouvez créer autant de dossiers que vous voulez pour organiser vos applications.
+        Ces dossiers peuvent aussi être ajoutés dans les favoris.
+        Si un dossier est supprimé, son contenu sera réintégré dans la liste d\'applications principale.
+        \n
+        \nUne application ne peut être que dans un seul dossier à la fois (ou dans aucun dossier).
+        Cependant, vous pouvez avoir à la fois une application et le dossier contenant cette application dans les favoris.
+    </string>
+
+    <!-- Journal des changements -->
+    <string name="changelog_title">Journal des changements</string>
+    <string name="changelog_v1_text">
+        \n<b>v1.0 - xx/05/2021</b>
+        \n- Version initiale
+    </string>
+    <string name="changelog_v2_text">
+        \n<b>v2.0 - xx/09/2021</b>
+        \n- Mettre à jour le SDK version 30
+         \n- Titre du changeur
+         \n- Mettre à jour le système de vitesse
+    </string>
+
+</resources>

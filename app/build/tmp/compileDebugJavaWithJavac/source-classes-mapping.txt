@@ -1,0 +1,110 @@
+com/tglt/launcher/discreet/events/PrefManager.java
+ com.tglt.launcher.discreet.events.PrefManager
+com/tglt/launcher/discreet/events/MinuteListener.java
+ com.tglt.launcher.discreet.events.MinuteListener
+com/tglt/launcher/discreet/storage/InternalFileTXT.java
+ com.tglt.launcher.discreet.storage.InternalFileTXT
+com/tglt/launcher/discreet/NotificationMenu.java
+ com.tglt.launcher.discreet.NotificationMenu
+com/tglt/launcher/discreet/core/Shortcut.java
+ com.tglt.launcher.discreet.core.Shortcut
+com/tglt/launcher/discreet/storage/InternalFile.java
+ com.tglt.launcher.discreet.storage.InternalFile
+ com.tglt.launcher.discreet.storage.InternalFile$1
+com/tglt/launcher/discreet/ActivitySettings.java
+ com.tglt.launcher.discreet.ActivitySettings
+ com.tglt.launcher.discreet.ActivitySettings$ChangelogFragment
+ com.tglt.launcher.discreet.ActivitySettings$DisplayFragment
+ com.tglt.launcher.discreet.ActivitySettings$HelpFragment
+ com.tglt.launcher.discreet.ActivitySettings$SettingsFragment
+com/tglt/launcher/discreet/core/DefaultApps.java
+ com.tglt.launcher.discreet.core.DefaultApps
+com/tglt/launcher/discreet/ActivityFavorites.java
+ com.tglt.launcher.discreet.ActivityFavorites
+ com.tglt.launcher.discreet.ActivityFavorites$1
+ com.tglt.launcher.discreet.ActivityFavorites$2
+ com.tglt.launcher.discreet.ActivityFavorites$3
+ com.tglt.launcher.discreet.ActivityFavorites$RecyclerAdapter
+ com.tglt.launcher.discreet.ActivityFavorites$RecyclerAdapter$1
+ com.tglt.launcher.discreet.ActivityFavorites$RecyclerAdapter$FavoriteView
+ com.tglt.launcher.discreet.ActivityFavorites$TouchCallback
+com/tglt/launcher/discreet/core/FolderIcon.java
+ com.tglt.launcher.discreet.core.FolderIcon
+com/tglt/launcher/discreet/ActivityQuickBar.java
+ com.tglt.launcher.discreet.ActivityQuickBar
+ com.tglt.launcher.discreet.ActivityQuickBar$1
+ com.tglt.launcher.discreet.ActivityQuickBar$2
+ com.tglt.launcher.discreet.ActivityQuickBar$3
+ com.tglt.launcher.discreet.ActivityQuickBar$4
+ com.tglt.launcher.discreet.ActivityQuickBar$RecyclerAdapter
+ com.tglt.launcher.discreet.ActivityQuickBar$RecyclerAdapter$1
+ com.tglt.launcher.discreet.ActivityQuickBar$RecyclerAdapter$FavoriteView
+ com.tglt.launcher.discreet.ActivityQuickBar$TouchCallback
+com/tglt/launcher/discreet/core/ApplicationType.java
+ com.tglt.launcher.discreet.core.ApplicationType
+com/tglt/launcher/discreet/core/Application.java
+ com.tglt.launcher.discreet.core.Application
+com/tglt/launcher/discreet/RecyclerAdapter.java
+ com.tglt.launcher.discreet.RecyclerAdapter
+ com.tglt.launcher.discreet.RecyclerAdapter$ApplicationView
+ com.tglt.launcher.discreet.RecyclerAdapter$ApplicationView$1
+ com.tglt.launcher.discreet.RecyclerAdapter$ApplicationView$2
+ com.tglt.launcher.discreet.RecyclerAdapter$ApplicationView$3
+ com.tglt.launcher.discreet.RecyclerAdapter$ApplicationView$4
+com/tglt/launcher/discreet/ShowDialog.java
+ com.tglt.launcher.discreet.ShowDialog
+ com.tglt.launcher.discreet.ShowDialog$1
+ com.tglt.launcher.discreet.ShowDialog$2
+com/tglt/launcher/discreet/events/ShortcutListener.java
+ com.tglt.launcher.discreet.events.ShortcutListener
+com/tglt/launcher/discreet/core/Folder.java
+ com.tglt.launcher.discreet.core.Folder
+ com.tglt.launcher.discreet.core.Folder$1
+ com.tglt.launcher.discreet.core.Folder$ManageFoldersAccessor
+ com.tglt.launcher.discreet.core.Folder$PopupTouchListener
+com/tglt/launcher/discreet/events/U.java
+ com.tglt.launcher.discreet.events.DisplayInfo
+ com.tglt.launcher.discreet.events.U
+ com.tglt.launcher.discreet.events.U$1
+com/tglt/launcher/discreet/ActivityMain.java
+ com.tglt.launcher.discreet.ActivityMain
+ com.tglt.launcher.discreet.ActivityMain$1
+ com.tglt.launcher.discreet.ActivityMain$DrawerScrollListener
+ com.tglt.launcher.discreet.ActivityMain$GestureListener
+com/tglt/launcher/discreet/ActivityExportImport.java
+ com.tglt.launcher.discreet.ActivityExportImport
+com/tglt/launcher/discreet/storage/ExternalFile.java
+ com.tglt.launcher.discreet.storage.ExternalFile
+com/tglt/launcher/discreet/storage/InternalFilePNG.java
+ com.tglt.launcher.discreet.storage.InternalFilePNG
+com/tglt/launcher/discreet/helper/FreeformHackHelper.java
+ com.tglt.launcher.discreet.helper.FreeformHackHelper
+com/tglt/launcher/discreet/events/PackagesListener.java
+ com.tglt.launcher.discreet.events.PackagesListener
+com/tglt/launcher/discreet/events/NotificationListener.java
+ com.tglt.launcher.discreet.events.NotificationListener
+ com.tglt.launcher.discreet.events.NotificationListener$1
+ com.tglt.launcher.discreet.events.NotificationListener$2
+com/tglt/launcher/discreet/ActivityFolders.java
+ com.tglt.launcher.discreet.ActivityFolders
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter$FolderView
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter$FolderView$1
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter$FolderView$2
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter$FolderView$3
+ com.tglt.launcher.discreet.ActivityFolders$FoldersListAdapter$FolderView$4
+com/tglt/launcher/discreet/core/IconPack.java
+ com.tglt.launcher.discreet.core.IconPack
+com/tglt/launcher/discreet/BuildConfig.java
+ com.tglt.launcher.discreet.BuildConfig
+com/tglt/launcher/discreet/events/ShortcutLegacyListener.java
+ com.tglt.launcher.discreet.events.ShortcutLegacyListener
+com/tglt/launcher/discreet/Constants.java
+ com.tglt.launcher.discreet.Constants
+com/tglt/launcher/discreet/core/ApplicationsList.java
+ com.tglt.launcher.discreet.core.ApplicationsList
+ com.tglt.launcher.discreet.core.ApplicationsList$1
+ com.tglt.launcher.discreet.core.ApplicationsList$2
+ com.tglt.launcher.discreet.core.ApplicationsList$3
+ com.tglt.launcher.discreet.core.ApplicationsList$4
+ com.tglt.launcher.discreet.core.ApplicationsList$StartupTask
