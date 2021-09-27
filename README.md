@@ -26,4 +26,5 @@ Il y a donc parfois une différence entre la dernière version et ce qui est dis
 <img src="gui/Screenshot_20210601-103644_Primary school.jpg" width="360" height="675"><img src="gui/Screenshot_20210601-103709_Discreet Launcher.jpg" width="360" height="675">
 
 ## Update from
-[discreet-launcher](https://github.com/falzonv/discreet-launcher)
+[Discreet Launcher](https://github.com/falzonv/discreet-launcher)
+Thank you Vincent FALZON
