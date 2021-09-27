@@ -54,4 +54,17 @@ Thank you Vincent FALZON
 ## Donate
 [Paypal](https://www.paypal.com/paypalme/vietnux)
 [Bitcoind](http://thegioilaptrinh.net/donate/bitcoind.png)(https://www.paypal.com/paypalme/vietnux)
+<table>
+  <tr>
+    <td><img src="https://bitcoin.org/img/icons/logotop.svg" alt="Bitcoin"></td>
+    <td><img src="http://thegioilaptrinh.net/donate/bitcoind.png" alt="Bitcoin QR code" width="100px"></td>
+    <td><samp>bc1q8z8ec9m29revsvpe9wtyvnlnave3jjz8w47snd</samp></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg" alt="Paypal" width="80px" ></a></td>
+    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paylal.png" alt="Paypal" width="100px"></a></td>
+    <td><a href="https://www.paypal.com/paypalme/vietnux"><img src="gui/paylal.png" alt="Donate via Paypal" height="35px"></a></td>
+  </tr>
+</table>
+
 Thank you!
