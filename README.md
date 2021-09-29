@@ -24,25 +24,25 @@ If you hold your finger a few moments on an application, you will be offered to 
 <img src="gui/Screenshot_20210601-103644_Primary school.jpg" width="360" height="675"><img src="gui/Screenshot_20210601-103709_Discreet Launcher.jpg" width="360" height="675">
 
 ## ⚡ Features
-🔹 Favorites applications
-🔹 Quickbar applications
-🔹 Folders
-🔹 Hide applications
-🔹 Notification for favorites access
-🔹 Web applications support
-🔹 Export/import settings
-🔹 Help and changelog
-🔹 Freeform multiple window mode
-🔹 Changer icon site
+🔹 Favorites applications  
+🔹 Quickbar applications  
+🔹 Folders  
+🔹 Hide applications  
+🔹 Notification for favorites access  
+🔹 Web applications support  
+🔹 Export/import settings  
+🔹 Help and changelog  
+🔹 Freeform multiple window mode  
+🔹 Changer icon site  
 
 ## 🏆 Customization options
-🔹 Force portrait mode\n
-🔹 Immersive mode\n
-🔹 Reversed interface\n
-🔹 Clock on the home screen\n
-🔹 Transparent status bar\n
-🔹 Hide applications names\n
-🔹 Icon packs support\n
+🔹 Force portrait mode  
+🔹 Immersive mode  
+🔹 Reversed interface  
+🔹 Clock on the home screen  
+🔹 Transparent status bar  
+🔹 Hide applications names  
+🔹 Icon packs support  
 
 ## Update from
 [Discreet Launcher](https://github.com/falzonv/discreet-launcher)
