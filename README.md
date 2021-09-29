@@ -36,13 +36,13 @@ If you hold your finger a few moments on an application, you will be offered to 
 🔹 Changer icon site
 
 ## 🏆 Customization options
-🔹 Force portrait mode
-🔹 Immersive mode
-🔹 Reversed interface
-🔹 Clock on the home screen
-🔹 Transparent status bar
-🔹 Hide applications names
-🔹 Icon packs support
+🔹 Force portrait mode\n
+🔹 Immersive mode\n
+🔹 Reversed interface\n
+🔹 Clock on the home screen\n
+🔹 Transparent status bar\n
+🔹 Hide applications names\n
+🔹 Icon packs support\n
 
 ## Update from
 [Discreet Launcher](https://github.com/falzonv/discreet-launcher)
