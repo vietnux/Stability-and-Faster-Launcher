@@ -11,7 +11,7 @@ If you hold your finger a few moments on an application, you will be offered to 
 
 [![](https://img.shields.io/github/v/release/vietnux/Stability-and-Faster-Launcher?label=Latest%20release&style=plastic)](https://github.com/vietnux/Stability-and-Faster-Launcher/releases)
 [<img src="https://d3unf4s5rp9dfh.cloudfront.net/SDP/GalaxyStore_English.png" height="18">](http://galaxystore.samsung.com/detail/com.tglt.launcher.discreet)
-[![](https://img.shields.io/endpoint?style=plastic&color=blue&label=Google%20Play%20release&url=https://playshields.herokuapp.com/play?i=com.tglt.launcher.discreet&m=$version)](https://play.google.com/store/apps/details?id=com.tglt.launcher.discreet)  
+[![](https://img.shields.io/endpoint?style=plastic&color=blue&label=Google%20Play%20release&url=https://play.cuzi.workers.dev/play?i=com.tglt.launcher.discreet&m=$version)](https://play.google.com/store/apps/details?id=com.tglt.launcher.discreet)  
 
 
 [![Build project](https://github.com/vietnux/Stability-and-Faster-Launcher/actions/workflows/build_project.yml/badge.svg)](https://github.com/vietnux/Stability-and-Faster-Launcher/actions/workflows/build_project.yml)
