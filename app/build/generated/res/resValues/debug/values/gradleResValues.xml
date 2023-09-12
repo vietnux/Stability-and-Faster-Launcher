@@ -4,6 +4,6 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Value from build type: debug -->
-    <string name="app_version" translatable="false">2.0.dbg</string>
+    <string name="app_version" translatable="false">3.0.dbg</string>
 
 </resources>

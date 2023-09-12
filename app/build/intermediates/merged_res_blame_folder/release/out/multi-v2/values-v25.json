@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "/Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vietn\\.gradle\\caches\\transforms-2\\files-2.1\\baf0dc31829adf197a572a81727f18f7\\appcompat-1.3.0\\res\\values-v25\\values-v25.xml",
+                    "source": "/Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

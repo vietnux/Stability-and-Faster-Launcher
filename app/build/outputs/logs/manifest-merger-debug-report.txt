@@ -1,246 +1,246 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\b7f624538b3b9b419a197115fa477125\preference-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\baf0dc31829adf197a572a81727f18f7\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8691aa885b8e903f7bd4beea6e6a64f8\recyclerview-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\19f14860a898457fd2cc917054e34869\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c28ace7a6cab7791b51f3d40e4e327f2\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\0c00055d20b67f6e79e314a4537c2327\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/640ebe7d2f6677fc0aa7bf4bbae966df/recyclerview-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3dfbfe02bbb582980615633bd4eefc97/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d128facc77236ff5d81a90815740df63/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a171b9d351fa3c3e43a6b0f78d6ded81/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9bcad8df747e7e541c668492e993a22d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b9a8ccdf08677e6ebe8a29448e9bae04/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3438716bbde0c4ae93b6b3ca42413f5c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/818f45328ee8f5b99bad88c27c6cc009/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/f8265d5cb033aea9b3b2b59393038f53/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d9a1f9c79beb812a29c08dec8e929987/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9f5395c9e2c4a1a11a43e64f5d81258c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d2ff709217adbaee68cbce4e138923f2/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b3cfbfb1b9d3c28903be03b381ffe5a1/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/5b22b0456eb746581b5b739357fde86e/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/2173da8f0e3b2f5d6ed51ddfa294cf15/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/ff8dbfa10da45676d6eca019f7a5273b/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/e3a7d3b723deff8b2b903c0665652c62/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/475447259d8237c8605745086fc55597/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/69846ae0a25a5c26a4168a449d371740/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a81ff3a6f4fe4cdba627ce49c2369465/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/8b1826e082b884f9fc593d27a9580a45/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:4:5-41
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:1-80:12
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:5-8:53
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:7:5-8:53
 	tools:ignore
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:8:9-50
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:8:9-50
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:22-74
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.ACCESS_SUPERUSER
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:2-72
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:9:2-72
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:19-69
-uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:2-113
-	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:19-111
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:9:19-69
 application
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:12:2-78:16
-MERGED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:12:2-80:16
+MERGED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:15:3-35
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:15:3-35
 	android:roundIcon
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:16:3-48
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:16:3-48
 	android:icon
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:14:3-37
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:14:3-37
 	android:allowBackup
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:13:3-30
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:13:3-30
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:17:3-45
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:17:3-45
 activity#com.tglt.launcher.discreet.ActivityMain
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:19:3-31:14
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:19:3-32:14
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:21:5-37
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:21:5-37
 	android:excludeFromRecents
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:23:5-38
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:23:5-38
 	android:launchMode
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:22:5-36
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:22:5-36
+	android:exported
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:24:4-27
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:20:5-33
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:20:5-33
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:24:4-30:20
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:25:4-31:20
 action#android.intent.action.MAIN
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:5-57
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:26:5-57
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:13-54
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:26:13-54
 category#android.intent.category.LAUNCHER
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:5-65
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:15-62
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:28:15-62
 category#android.intent.category.HOME
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:5-61
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:29:5-61
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:15-58
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:29:15-58
 category#android.intent.category.DEFAULT
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:5-64
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:5-64
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:15-61
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:15-61
 activity#com.tglt.launcher.discreet.ActivitySettings
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:33:9-37:46
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:34:9-38:46
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:36:13-55
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:37:13-55
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:35:13-51
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:36:13-51
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:37:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:38:13-44
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:35:13-45
 activity#com.tglt.launcher.discreet.ActivityExportImport
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:39:9-43:46
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:40:9-44:46
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:42:13-59
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:43:13-59
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:42:13-56
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:43:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:44:13-44
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:40:13-49
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:41:13-49
 activity#com.tglt.launcher.discreet.ActivityFavorites
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:45:9-49:46
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:46:9-50:46
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:48:13-55
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:49:13-55
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:47:13-60
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:48:13-60
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:49:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:50:13-44
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:46:13-46
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:47:13-46
 activity#com.tglt.launcher.discreet.ActivityQuickBar
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:50:3-54:46
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:51:3-55:46
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:53:13-55
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:54:13-55
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:52:13-59
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:53:13-59
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:54:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:55:13-44
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:51:13-45
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:52:13-45
 activity#com.tglt.launcher.discreet.ActivityFolders
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:56:9-60:46
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:57:9-61:46
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:59:13-55
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:60:13-55
 	android:label
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:58:13-60
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:59:13-60
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:60:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:61:13-44
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:57:13-44
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:58:13-44
 activity#com.tglt.launcher.discreet.events.ShortcutListener
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:62:9-70:20
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:63:9-72:20
 	android:parentActivityName
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:64:13-55
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:65:13-55
 	android:excludeFromRecents
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:65:13-46
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:66:13-46
+	android:exported
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:67:4-27
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:63:13-52
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:64:13-52
 intent-filter#action:name:android.content.pm.action.CONFIRM_PIN_SHORTCUT+category:name:android.intent.category.DEFAULT
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:66:13-69:29
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:68:13-71:29
 action#android.content.pm.action.CONFIRM_PIN_SHORTCUT
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:17-89
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:69:17-89
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:25-86
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:69:25-86
 activity#com.tglt.launcher.discreet.events.NotificationListener
-ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:72:9-76:20
+ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:74:9-78:20
 	android:excludeFromRecents
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:75:13-46
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:77:13-46
 	android:theme
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:74:13-72
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:76:13-72
 	android:name
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:73:13-56
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:75:13-56
 uses-sdk
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\b7f624538b3b9b419a197115fa477125\preference-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\b7f624538b3b9b419a197115fa477125\preference-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\baf0dc31829adf197a572a81727f18f7\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\baf0dc31829adf197a572a81727f18f7\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8691aa885b8e903f7bd4beea6e6a64f8\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8691aa885b8e903f7bd4beea6e6a64f8\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\19f14860a898457fd2cc917054e34869\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\19f14860a898457fd2cc917054e34869\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c28ace7a6cab7791b51f3d40e4e327f2\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c28ace7a6cab7791b51f3d40e4e327f2\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\0c00055d20b67f6e79e314a4537c2327\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\0c00055d20b67f6e79e314a4537c2327\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+MERGED from [androidx.preference:preference:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/640ebe7d2f6677fc0aa7bf4bbae966df/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/640ebe7d2f6677fc0aa7bf4bbae966df/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3dfbfe02bbb582980615633bd4eefc97/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3dfbfe02bbb582980615633bd4eefc97/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d128facc77236ff5d81a90815740df63/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d128facc77236ff5d81a90815740df63/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a171b9d351fa3c3e43a6b0f78d6ded81/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a171b9d351fa3c3e43a6b0f78d6ded81/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9bcad8df747e7e541c668492e993a22d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9bcad8df747e7e541c668492e993a22d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b9a8ccdf08677e6ebe8a29448e9bae04/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b9a8ccdf08677e6ebe8a29448e9bae04/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3438716bbde0c4ae93b6b3ca42413f5c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3438716bbde0c4ae93b6b3ca42413f5c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/818f45328ee8f5b99bad88c27c6cc009/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/818f45328ee8f5b99bad88c27c6cc009/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/f8265d5cb033aea9b3b2b59393038f53/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/f8265d5cb033aea9b3b2b59393038f53/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d9a1f9c79beb812a29c08dec8e929987/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d9a1f9c79beb812a29c08dec8e929987/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9f5395c9e2c4a1a11a43e64f5d81258c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9f5395c9e2c4a1a11a43e64f5d81258c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d2ff709217adbaee68cbce4e138923f2/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d2ff709217adbaee68cbce4e138923f2/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b3cfbfb1b9d3c28903be03b381ffe5a1/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b3cfbfb1b9d3c28903be03b381ffe5a1/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/5b22b0456eb746581b5b739357fde86e/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/5b22b0456eb746581b5b739357fde86e/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/2173da8f0e3b2f5d6ed51ddfa294cf15/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/2173da8f0e3b2f5d6ed51ddfa294cf15/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/ff8dbfa10da45676d6eca019f7a5273b/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/ff8dbfa10da45676d6eca019f7a5273b/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/e3a7d3b723deff8b2b903c0665652c62/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/e3a7d3b723deff8b2b903c0665652c62/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/475447259d8237c8605745086fc55597/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/475447259d8237c8605745086fc55597/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/69846ae0a25a5c26a4168a449d371740/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/69846ae0a25a5c26a4168a449d371740/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a81ff3a6f4fe4cdba627ce49c2369465/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/a81ff3a6f4fe4cdba627ce49c2369465/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/8b1826e082b884f9fc593d27a9580a45/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/8b1826e082b884f9fc593d27a9580a45/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml

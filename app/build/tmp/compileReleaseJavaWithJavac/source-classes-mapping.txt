@@ -73,10 +73,10 @@ com/tglt/launcher/discreet/ActivityMain.java
  com.tglt.launcher.discreet.ActivityMain$GestureListener
 com/tglt/launcher/discreet/ActivityExportImport.java
  com.tglt.launcher.discreet.ActivityExportImport
-com/tglt/launcher/discreet/storage/ExternalFile.java
- com.tglt.launcher.discreet.storage.ExternalFile
 com/tglt/launcher/discreet/storage/InternalFilePNG.java
  com.tglt.launcher.discreet.storage.InternalFilePNG
+com/tglt/launcher/discreet/storage/ExternalFile.java
+ com.tglt.launcher.discreet.storage.ExternalFile
 com/tglt/launcher/discreet/helper/FreeformHackHelper.java
  com.tglt.launcher.discreet.helper.FreeformHackHelper
 com/tglt/launcher/discreet/events/PackagesListener.java

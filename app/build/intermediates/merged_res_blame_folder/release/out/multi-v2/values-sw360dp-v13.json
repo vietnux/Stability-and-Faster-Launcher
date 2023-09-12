@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Launcher\\discreet-launcher\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "/Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vietn\\.gradle\\caches\\transforms-2\\files-2.1\\b7f624538b3b9b419a197115fa477125\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "/Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

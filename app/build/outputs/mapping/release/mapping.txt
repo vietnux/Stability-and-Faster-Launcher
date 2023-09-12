@@ -1,7 +1,7 @@
 # compiler: R8
-# compiler_version: 2.1.86
+# compiler_version: 2.2.71
 # min_api: 21
-# pg_map_id: 88ef14a
+# pg_map_id: baeb1c5
 # common_typos_disable
 android.support.v4.app.INotificationSideChannel -> a.a.a.a.a:
     void notify(java.lang.String,int,java.lang.String,android.app.Notification) -> a
@@ -105,11 +105,11 @@ androidx.activity.ComponentActivity$NonConfigurationInstances -> androidx.activi
     androidx.lifecycle.ViewModelStore viewModelStore -> b
     java.lang.Object custom -> a
 androidx.activity.ImmLeaksCleaner -> androidx.activity.ImmLeaksCleaner:
-    java.lang.reflect.Field sServedViewField -> d
-    java.lang.reflect.Field sNextServedViewField -> e
-    java.lang.reflect.Field sHField -> c
-    int sReflectedFieldsInitialized -> b
-    android.app.Activity mActivity -> a
+    android.app.Activity mActivity -> e
+    java.lang.reflect.Field sNextServedViewField -> d
+    java.lang.reflect.Field sHField -> b
+    java.lang.reflect.Field sServedViewField -> c
+    int sReflectedFieldsInitialized -> a
     1:1:void initializeReflectiveFields():0:0 -> g
     1:1:void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event):0 -> g
     2:2:void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event):0:0 -> g
@@ -628,58 +628,58 @@ androidx.appcompat.app.AppCompatDelegate -> b.b.c.m:
     void setSupportActionBar(androidx.appcompat.widget.Toolbar) -> y
     void setTheme(int) -> z
 androidx.appcompat.app.AppCompatDelegateImpl -> b.b.c.n:
-    androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager mAutoTimeNightModeManager -> Q
-    boolean mActivityHandlesUiModeChecked -> P
-    android.view.ViewGroup mSubDecor -> u
-    boolean sCanReturnDifferentContext -> b0
-    boolean mIsDestroyed -> L
-    android.widget.TextView mTitleView -> v
-    android.content.Context mContext -> e
-    android.view.Window mWindow -> f
-    boolean mFeatureIndeterminateProgress -> y
-    androidx.appcompat.app.AppCompatDelegateImpl$PanelMenuPresenterCallback mPanelMenuPresenterCallback -> n
-    android.graphics.Rect mTempRect1 -> W
-    int mInvalidatePanelMenuFeatures -> T
-    boolean mIsFloating -> C
-    boolean mBaseContextAttached -> I
-    androidx.appcompat.app.ActionBar mActionBar -> i
-    android.view.MenuInflater mMenuInflater -> j
-    androidx.appcompat.app.AppCompatCallback mAppCompatCallback -> h
-    androidx.appcompat.app.AppCompatDelegateImpl$ActionMenuPresenterCallback mActionMenuPresenterCallback -> m
-    android.view.View mStatusGuard -> w
-    java.lang.CharSequence mTitle -> k
-    boolean mHasActionBar -> z
-    android.widget.PopupWindow mActionModePopup -> q
-    androidx.collection.SimpleArrayMap sLocalNightModes -> Z
-    android.graphics.Rect mTempRect2 -> X
-    androidx.appcompat.widget.DecorContentParent mDecorContentParent -> l
-    boolean mLongPressBackDown -> H
-    boolean mWindowNoTitle -> D
-    java.lang.Runnable mInvalidatePanelMenuRunnable -> U
-    androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState[] mPanels -> F
-    java.lang.Runnable mShowActionModePopup -> r
-    int mLocalNightMode -> M
-    boolean mCreated -> J
-    java.lang.Object mHost -> d
-    boolean sCanApplyOverrideConfiguration -> c0
-    boolean mEnableDefaultActionBarUp -> V
-    boolean mClosingActionMenu -> E
-    boolean mOverlayActionBar -> A
-    androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState mPreparedPanel -> G
-    androidx.appcompat.widget.ActionBarContextView mActionModeView -> p
-    int mThemeResId -> N
-    boolean mActivityHandlesUiMode -> O
-    androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager mAutoBatteryNightModeManager -> R
-    boolean mStarted -> K
-    boolean mFeatureProgress -> x
-    boolean mInvalidatePanelMenuPosted -> S
-    boolean mSubDecorInstalled -> t
-    boolean mOverlayActionMode -> B
-    int[] sWindowBackgroundStyleable -> a0
-    androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback mAppCompatWindowCallback -> g
-    androidx.appcompat.view.ActionMode mActionMode -> o
-    androidx.core.view.ViewPropertyAnimatorCompat mFadeAnim -> s
-    androidx.appcompat.app.AppCompatViewInflater mAppCompatViewInflater -> Y
+    boolean mIsDestroyed -> P
+    boolean mLongPressBackDown -> L
+    android.content.Context mContext -> i
+    android.view.ViewGroup mSubDecor -> y
+    android.widget.TextView mTitleView -> z
+    androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager mAutoTimeNightModeManager -> U
+    boolean mActivityHandlesUiModeChecked -> T
+    int mInvalidatePanelMenuFeatures -> X
+    android.view.Window mWindow -> j
+    boolean mIsFloating -> G
+    androidx.appcompat.app.AppCompatDelegateImpl$PanelMenuPresenterCallback mPanelMenuPresenterCallback -> r
+    boolean mFeatureIndeterminateProgress -> C
+    boolean mBaseContextAttached -> M
+    androidx.appcompat.app.ActionBar mActionBar -> m
+    androidx.appcompat.widget.ActionBarContextView mActionModeView -> t
+    android.view.MenuInflater mMenuInflater -> n
+    boolean mClosingActionMenu -> I
+    androidx.appcompat.app.AppCompatViewInflater mAppCompatViewInflater -> c0
+    android.graphics.Rect mTempRect2 -> b0
+    androidx.appcompat.app.AppCompatDelegateImpl$ActionMenuPresenterCallback mActionMenuPresenterCallback -> q
+    int[] sWindowBackgroundStyleable -> e
+    android.view.View mStatusGuard -> A
+    boolean mWindowNoTitle -> H
+    androidx.appcompat.widget.DecorContentParent mDecorContentParent -> p
+    boolean mHasActionBar -> D
+    int mLocalNightMode -> Q
+    boolean mCreated -> N
+    java.lang.Object mHost -> h
+    androidx.appcompat.view.ActionMode mActionMode -> s
+    androidx.collection.SimpleArrayMap sLocalNightModes -> d
+    android.widget.PopupWindow mActionModePopup -> u
+    java.lang.Runnable mInvalidatePanelMenuRunnable -> Y
+    java.lang.Runnable mShowActionModePopup -> v
+    java.lang.CharSequence mTitle -> o
+    boolean mEnableDefaultActionBarUp -> Z
+    androidx.appcompat.app.AppCompatCallback mAppCompatCallback -> l
+    boolean mOverlayActionBar -> E
+    boolean sCanReturnDifferentContext -> f
+    androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState mPreparedPanel -> K
+    int mThemeResId -> R
+    boolean mStarted -> O
+    boolean mInvalidatePanelMenuPosted -> W
+    boolean mSubDecorInstalled -> x
+    boolean mActivityHandlesUiMode -> S
+    androidx.appcompat.app.AppCompatDelegateImpl$AutoNightModeManager mAutoBatteryNightModeManager -> V
+    androidx.appcompat.app.AppCompatDelegateImpl$AppCompatWindowCallback mAppCompatWindowCallback -> k
+    android.graphics.Rect mTempRect1 -> a0
+    boolean mOverlayActionMode -> F
+    boolean sCanApplyOverrideConfiguration -> g
+    androidx.core.view.ViewPropertyAnimatorCompat mFadeAnim -> w
+    boolean mFeatureProgress -> B
+    androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState[] mPanels -> J
     1:1:androidx.appcompat.app.AppCompatActivity tryUnwrapContext():0:0 -> <init>
     1:1:void <init>(android.content.Context,android.view.Window,androidx.appcompat.app.AppCompatCallback,java.lang.Object):0 -> <init>
     2:2:void <init>(android.content.Context,android.view.Window,androidx.appcompat.app.AppCompatCallback,java.lang.Object):0:0 -> <init>
@@ -821,41 +821,37 @@ androidx.appcompat.app.AppCompatDelegateImpl -> b.b.c.n:
     2:2:void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener):0:0 -> M
     2:2:android.view.ViewGroup createSubDecor():0 -> M
     2:2:void ensureSubDecor():0 -> M
-    3:3:void androidx.core.view.ViewCompat$Api21Impl.setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener):0:0 -> M
-    3:3:void androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener):0 -> M
-    3:3:android.view.ViewGroup createSubDecor():0 -> M
+    3:3:android.view.ViewGroup createSubDecor():0:0 -> M
     3:3:void ensureSubDecor():0 -> M
-    4:4:android.view.ViewGroup createSubDecor():0:0 -> M
+    4:4:void androidx.appcompat.widget.ViewUtils.makeOptionalFitsSystemWindows(android.view.View):0:0 -> M
+    4:4:android.view.ViewGroup createSubDecor():0 -> M
     4:4:void ensureSubDecor():0 -> M
-    5:5:void androidx.appcompat.widget.ViewUtils.makeOptionalFitsSystemWindows(android.view.View):0:0 -> M
-    5:5:android.view.ViewGroup createSubDecor():0 -> M
+    5:5:android.view.ViewGroup createSubDecor():0:0 -> M
     5:5:void ensureSubDecor():0 -> M
-    6:6:android.view.ViewGroup createSubDecor():0:0 -> M
-    6:6:void ensureSubDecor():0 -> M
-    7:7:void ensureSubDecor():0:0 -> M
-    8:8:java.lang.CharSequence getTitle():0:0 -> M
-    8:8:void ensureSubDecor():0 -> M
-    9:9:void ensureSubDecor():0:0 -> M
-    10:10:androidx.appcompat.app.ActionBar peekSupportActionBar():0:0 -> M
-    10:10:void ensureSubDecor():0 -> M
-    11:11:void ensureSubDecor():0:0 -> M
-    12:12:void applyFixedSizeWindow():0:0 -> M
+    6:6:void ensureSubDecor():0:0 -> M
+    7:7:java.lang.CharSequence getTitle():0:0 -> M
+    7:7:void ensureSubDecor():0 -> M
+    8:8:void ensureSubDecor():0:0 -> M
+    9:9:androidx.appcompat.app.ActionBar peekSupportActionBar():0:0 -> M
+    9:9:void ensureSubDecor():0 -> M
+    10:10:void ensureSubDecor():0:0 -> M
+    11:11:void applyFixedSizeWindow():0:0 -> M
+    11:11:void ensureSubDecor():0 -> M
+    12:12:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0:0 -> M
+    12:12:void applyFixedSizeWindow():0 -> M
     12:12:void ensureSubDecor():0 -> M
-    13:13:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0:0 -> M
+    13:13:boolean androidx.core.view.ViewCompat.isLaidOut(android.view.View):0:0 -> M
+    13:13:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0 -> M
     13:13:void applyFixedSizeWindow():0 -> M
     13:13:void ensureSubDecor():0 -> M
-    14:14:boolean androidx.core.view.ViewCompat.isLaidOut(android.view.View):0:0 -> M
-    14:14:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0 -> M
+    14:14:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0:0 -> M
     14:14:void applyFixedSizeWindow():0 -> M
     14:14:void ensureSubDecor():0 -> M
-    15:15:void androidx.appcompat.widget.ContentFrameLayout.setDecorPadding(int,int,int,int):0:0 -> M
-    15:15:void applyFixedSizeWindow():0 -> M
+    15:15:void applyFixedSizeWindow():0:0 -> M
     15:15:void ensureSubDecor():0 -> M
-    16:16:void applyFixedSizeWindow():0:0 -> M
-    16:16:void ensureSubDecor():0 -> M
-    17:17:void ensureSubDecor():0:0 -> M
-    18:18:android.view.ViewGroup createSubDecor():0:0 -> M
-    18:18:void ensureSubDecor():0 -> M
+    16:16:void ensureSubDecor():0:0 -> M
+    17:17:android.view.ViewGroup createSubDecor():0:0 -> M
+    17:17:void ensureSubDecor():0 -> M
     void ensureWindow() -> N
     androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState findMenuPanel(android.view.Menu) -> O
     1:1:androidx.appcompat.app.TwilightManager androidx.appcompat.app.TwilightManager.getInstance(android.content.Context):0:0 -> P
@@ -928,12 +924,15 @@ androidx.appcompat.app.AppCompatDelegateImpl -> b.b.c.n:
     void throwFeatureRequestIfSubDecorInstalled() -> Z
     1:1:void reopenMenu(boolean):0:0 -> a
     1:1:void onMenuModeChange(androidx.appcompat.view.menu.MenuBuilder):0 -> a
-    1:1:int androidx.core.view.ViewCompat.getWindowSystemUiVisibility(android.view.View):0:0 -> a0
-    1:1:void updateStatusGuardColor(android.view.View):0 -> a0
+    1:1:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat.getRootWindowInsets(android.view.View):0:0 -> a0
     1:1:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0 -> a0
-    2:2:void updateStatusGuardColor(android.view.View):0:0 -> a0
-    2:2:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0 -> a0
-    3:3:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0:0 -> a0
+    2:2:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0:0 -> a0
+    3:3:int androidx.core.view.ViewCompat.getWindowSystemUiVisibility(android.view.View):0:0 -> a0
+    3:3:void updateStatusGuardColor(android.view.View):0 -> a0
+    3:3:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0 -> a0
+    4:4:void updateStatusGuardColor(android.view.View):0:0 -> a0
+    4:4:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0 -> a0
+    5:5:int updateStatusGuard(androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0:0 -> a0
     boolean onMenuItemSelected(androidx.appcompat.view.menu.MenuBuilder,android.view.MenuItem) -> b
     1:1:android.view.Window$Callback androidx.appcompat.view.WindowCallbackWrapper.getWrapped():0:0 -> c
     1:1:void addContentView(android.view.View,android.view.ViewGroup$LayoutParams):0 -> c
@@ -1362,11 +1361,11 @@ androidx.appcompat.app.AppCompatDialog -> b.b.c.s:
 androidx.appcompat.app.AppCompatDialog$1 -> b.b.c.s$a:
     androidx.appcompat.app.AppCompatDialog this$0 -> b
 androidx.appcompat.app.AppCompatViewInflater -> b.b.c.t:
-    androidx.collection.SimpleArrayMap sConstructorMap -> e
-    int[] sOnClickAttrs -> c
-    java.lang.Object[] mConstructorArgs -> a
-    java.lang.Class[] sConstructorSignature -> b
-    java.lang.String[] sClassPrefixList -> d
+    java.lang.Object[] mConstructorArgs -> e
+    androidx.collection.SimpleArrayMap sConstructorMap -> d
+    int[] sOnClickAttrs -> b
+    java.lang.Class[] sConstructorSignature -> a
+    java.lang.String[] sClassPrefixList -> c
     1:1:java.lang.Object androidx.collection.SimpleArrayMap.get(java.lang.Object):0:0 -> a
     1:1:android.view.View createViewByPrefix(android.content.Context,java.lang.String,java.lang.String):0 -> a
     2:2:android.view.View createViewByPrefix(android.content.Context,java.lang.String,java.lang.String):0:0 -> a
@@ -1428,48 +1427,48 @@ androidx.appcompat.app.ToolbarActionBar$ToolbarCallbackWrapper -> b.b.c.u$e:
     1:1:boolean onPreparePanel(int,android.view.View,android.view.Menu):0 -> onPreparePanel
     2:2:boolean onPreparePanel(int,android.view.View,android.view.Menu):0:0 -> onPreparePanel
 androidx.appcompat.app.TwilightCalculator -> b.b.c.v:
-    long sunrise -> b
-    long sunset -> a
-    androidx.appcompat.app.TwilightCalculator sInstance -> d
-    int state -> c
+    long sunset -> b
+    int state -> d
+    long sunrise -> c
+    androidx.appcompat.app.TwilightCalculator sInstance -> a
     void calculateTwilight(long,double,double) -> a
 androidx.appcompat.app.TwilightManager -> b.b.c.w:
-    android.content.Context mContext -> a
-    androidx.appcompat.app.TwilightManager sInstance -> d
-    androidx.appcompat.app.TwilightManager$TwilightState mTwilightState -> c
-    android.location.LocationManager mLocationManager -> b
+    android.content.Context mContext -> b
+    androidx.appcompat.app.TwilightManager sInstance -> a
+    androidx.appcompat.app.TwilightManager$TwilightState mTwilightState -> d
+    android.location.LocationManager mLocationManager -> c
     android.location.Location getLastKnownLocationForProvider(java.lang.String) -> a
 androidx.appcompat.app.TwilightManager$TwilightState -> b.b.c.w$a:
     long nextUpdate -> b
     boolean isNight -> a
 androidx.appcompat.app.WindowDecorActionBar -> b.b.c.x:
-    android.content.Context mContext -> a
-    android.view.animation.Interpolator sShowInterpolator -> A
-    androidx.appcompat.app.WindowDecorActionBar$ActionModeImpl mActionMode -> i
-    boolean mShowHideAnimationEnabled -> u
-    androidx.appcompat.view.ViewPropertyAnimatorCompatSet mCurrentShowAnim -> t
-    androidx.core.view.ViewPropertyAnimatorListener mShowListener -> x
-    androidx.appcompat.view.ActionMode$Callback mDeferredModeDestroyCallback -> k
-    boolean mHiddenBySystem -> q
-    boolean mNowShowing -> s
-    java.util.ArrayList mMenuVisibilityListeners -> m
-    androidx.appcompat.widget.ActionBarContextView mContextView -> f
-    androidx.appcompat.view.ActionMode mDeferredDestroyActionMode -> j
-    boolean mDisplayHomeAsUpSet -> h
-    android.view.View mContentView -> g
-    android.view.animation.Interpolator sHideInterpolator -> z
-    boolean mHasEmbeddedTabs -> n
-    int mCurWindowVisibility -> o
-    android.content.Context mThemedContext -> b
-    boolean mContentAnimations -> p
-    androidx.appcompat.widget.ActionBarOverlayLayout mOverlayLayout -> c
-    boolean mLastMenuVisibility -> l
-    androidx.core.view.ViewPropertyAnimatorUpdateListener mUpdateListener -> y
-    boolean mHideOnContentScroll -> v
-    androidx.core.view.ViewPropertyAnimatorListener mHideListener -> w
-    boolean mShowingForMode -> r
-    androidx.appcompat.widget.DecorToolbar mDecorToolbar -> e
-    androidx.appcompat.widget.ActionBarContainer mContainerView -> d
+    android.content.Context mContext -> c
+    androidx.appcompat.app.WindowDecorActionBar$ActionModeImpl mActionMode -> k
+    android.view.animation.Interpolator sShowInterpolator -> b
+    boolean mNowShowing -> u
+    androidx.appcompat.view.ViewPropertyAnimatorCompatSet mCurrentShowAnim -> v
+    androidx.appcompat.view.ActionMode$Callback mDeferredModeDestroyCallback -> m
+    boolean mShowHideAnimationEnabled -> w
+    androidx.core.view.ViewPropertyAnimatorListener mShowListener -> z
+    boolean mHiddenBySystem -> s
+    android.view.View mContentView -> i
+    java.util.ArrayList mMenuVisibilityListeners -> o
+    androidx.core.view.ViewPropertyAnimatorUpdateListener mUpdateListener -> A
+    androidx.appcompat.widget.ActionBarContextView mContextView -> h
+    androidx.appcompat.view.ActionMode mDeferredDestroyActionMode -> l
+    int mCurWindowVisibility -> q
+    boolean mLastMenuVisibility -> n
+    androidx.appcompat.widget.ActionBarOverlayLayout mOverlayLayout -> e
+    boolean mHasEmbeddedTabs -> p
+    android.view.animation.Interpolator sHideInterpolator -> a
+    boolean mDisplayHomeAsUpSet -> j
+    boolean mHideOnContentScroll -> x
+    androidx.core.view.ViewPropertyAnimatorListener mHideListener -> y
+    android.content.Context mThemedContext -> d
+    boolean mContentAnimations -> r
+    boolean mShowingForMode -> t
+    androidx.appcompat.widget.DecorToolbar mDecorToolbar -> g
+    androidx.appcompat.widget.ActionBarContainer mContainerView -> f
     boolean collapseActionView() -> b
     void dispatchMenuVisibilityChanged(boolean) -> c
     int getDisplayOptions() -> d
@@ -1861,19 +1860,19 @@ androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$Transition 
     void start() -> c
     void stop() -> d
 androidx.appcompat.graphics.drawable.DrawableContainer -> b.b.e.a.b:
-    int $r8$clinit -> n
-    androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState mDrawableContainerState -> b
-    android.graphics.drawable.Drawable mCurrDrawable -> d
-    android.graphics.drawable.Drawable mLastDrawable -> e
-    long mExitAnimationEnd -> l
-    long mEnterAnimationEnd -> k
-    boolean mMutated -> i
-    int mCurIndex -> h
-    int mAlpha -> f
-    android.graphics.Rect mHotspotBounds -> c
-    androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback mBlockInvalidateCallback -> m
-    boolean mHasAlpha -> g
-    java.lang.Runnable mAnimationRunnable -> j
+    android.graphics.drawable.Drawable mCurrDrawable -> e
+    long mEnterAnimationEnd -> l
+    androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState mDrawableContainerState -> c
+    android.graphics.drawable.Drawable mLastDrawable -> f
+    boolean mMutated -> j
+    int mCurIndex -> i
+    int mAlpha -> g
+    int $r8$clinit -> b
+    android.graphics.Rect mHotspotBounds -> d
+    androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback mBlockInvalidateCallback -> n
+    java.lang.Runnable mAnimationRunnable -> k
+    boolean mHasAlpha -> h
+    long mExitAnimationEnd -> m
     void animate(boolean) -> a
     1:1:void androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState.applyTheme(android.content.res.Resources$Theme):0:0 -> applyTheme
     1:1:void applyTheme(android.content.res.Resources$Theme):0 -> applyTheme
@@ -2167,12 +2166,12 @@ androidx.appcompat.view.SupportActionModeWrapper$CallbackWrapper -> b.b.h.e$a:
     1:1:android.view.Menu getMenuWrapper(android.view.Menu):0 -> f
     2:2:android.view.Menu getMenuWrapper(android.view.Menu):0:0 -> f
 androidx.appcompat.view.SupportMenuInflater -> b.b.h.f:
-    java.lang.Class[] ACTION_VIEW_CONSTRUCTOR_SIGNATURE -> e
-    java.lang.Object[] mActionProviderConstructorArguments -> b
-    android.content.Context mContext -> c
-    java.lang.Class[] ACTION_PROVIDER_CONSTRUCTOR_SIGNATURE -> f
-    java.lang.Object[] mActionViewConstructorArguments -> a
-    java.lang.Object mRealOwner -> d
+    java.lang.Object[] mActionProviderConstructorArguments -> d
+    java.lang.Object[] mActionViewConstructorArguments -> c
+    java.lang.Object mRealOwner -> f
+    java.lang.Class[] ACTION_VIEW_CONSTRUCTOR_SIGNATURE -> a
+    java.lang.Class[] ACTION_PROVIDER_CONSTRUCTOR_SIGNATURE -> b
+    android.content.Context mContext -> e
     java.lang.Object findRealOwner(java.lang.Object) -> a
     1:1:void androidx.appcompat.view.SupportMenuInflater$MenuState.resetGroup():0:0 -> b
     1:1:void parseMenu(org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.view.Menu):0 -> b
@@ -2205,9 +2204,9 @@ androidx.appcompat.view.SupportMenuInflater -> b.b.h.f:
     15:15:void parseMenu(org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.view.Menu):0 -> b
     16:16:void parseMenu(org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.view.Menu):0:0 -> b
 androidx.appcompat.view.SupportMenuInflater$InflatedOnMenuItemClickListener -> b.b.h.f$a:
-    java.lang.Class[] PARAM_TYPES -> d
-    java.lang.Object mRealOwner -> b
-    java.lang.reflect.Method mMethod -> c
+    java.lang.Class[] PARAM_TYPES -> b
+    java.lang.Object mRealOwner -> c
+    java.lang.reflect.Method mMethod -> d
 androidx.appcompat.view.SupportMenuInflater$MenuState -> b.b.h.f$b:
     int itemCategoryOrder -> j
     char itemAlphabeticShortcut -> n
@@ -2476,113 +2475,112 @@ androidx.appcompat.view.menu.CascadingMenuPopup -> b.b.h.i.d:
     5:5:void updateMenuView(boolean):0:0 -> h
     void show() -> i
     void addMenu(androidx.appcompat.view.menu.MenuBuilder) -> l
-    boolean closeMenuOnSubMenuOpened() -> m
-    1:1:int androidx.core.view.ViewCompat.getLayoutDirection(android.view.View):0:0 -> o
-    1:1:void setAnchorView(android.view.View):0 -> o
-    2:2:int androidx.core.view.GravityCompat.getAbsoluteGravity(int,int):0:0 -> o
-    2:2:void setAnchorView(android.view.View):0 -> o
-    3:3:void setAnchorView(android.view.View):0:0 -> o
-    void setForceShowIcon(boolean) -> p
-    1:1:int androidx.core.view.ViewCompat.getLayoutDirection(android.view.View):0:0 -> q
-    1:1:void setGravity(int):0 -> q
-    2:2:int androidx.core.view.GravityCompat.getAbsoluteGravity(int,int):0:0 -> q
-    2:2:void setGravity(int):0 -> q
-    3:3:void setGravity(int):0:0 -> q
-    void setHorizontalOffset(int) -> r
-    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> s
-    void setShowTitle(boolean) -> t
-    void setVerticalOffset(int) -> u
-    1:1:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> w
-    1:1:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    2:2:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    3:3:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> w
-    3:3:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    4:4:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    5:5:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> w
-    5:5:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    6:6:void androidx.appcompat.widget.MenuPopupWindow.setHoverListener(androidx.appcompat.widget.MenuItemHoverListener):0:0 -> w
-    6:6:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    6:6:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    7:7:void androidx.appcompat.widget.ListPopupWindow.setOnItemClickListener(android.widget.AdapterView$OnItemClickListener):0:0 -> w
-    7:7:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    7:7:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    8:8:void androidx.appcompat.widget.ListPopupWindow.setOnDismissListener(android.widget.PopupWindow$OnDismissListener):0:0 -> w
-    8:8:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    8:8:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    9:9:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> w
-    9:9:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    10:10:void androidx.appcompat.widget.ListPopupWindow.setAnchorView(android.view.View):0:0 -> w
-    10:10:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    10:10:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    11:11:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> w
-    11:11:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    12:12:void androidx.appcompat.widget.ListPopupWindow.setDropDownGravity(int):0:0 -> w
-    12:12:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    12:12:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    13:13:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> w
-    13:13:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    14:14:void androidx.appcompat.widget.ListPopupWindow.setInputMethodMode(int):0:0 -> w
-    14:14:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> w
-    14:14:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    15:15:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    16:16:void androidx.appcompat.widget.ListPopupWindow.setDropDownGravity(int):0:0 -> w
-    16:16:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    17:17:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    18:18:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    18:18:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    19:19:android.view.MenuItem findMenuItemForSubmenu(androidx.appcompat.view.menu.MenuBuilder,androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    19:19:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    19:19:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    20:20:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0:0 -> w
-    20:20:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    20:20:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    21:21:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> w
-    21:21:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0 -> w
-    21:21:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    21:21:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    22:22:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    22:22:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    23:23:void androidx.appcompat.widget.MenuPopupWindow.setTouchModal(boolean):0:0 -> w
-    23:23:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    24:24:void androidx.appcompat.widget.MenuPopupWindow.setEnterTransition(java.lang.Object):0:0 -> w
-    24:24:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    25:25:int getNextMenuPosition(int):0:0 -> w
-    25:25:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    26:26:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0:0 -> w
-    26:26:int getNextMenuPosition(int):0 -> w
-    26:26:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    27:27:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> w
-    27:27:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0 -> w
-    27:27:int getNextMenuPosition(int):0 -> w
-    27:27:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    28:28:int getNextMenuPosition(int):0:0 -> w
-    28:28:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    29:29:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    30:30:void androidx.appcompat.widget.ListPopupWindow.setAnchorView(android.view.View):0:0 -> w
-    30:30:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    31:31:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    32:32:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> w
-    32:32:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    33:33:void androidx.appcompat.widget.ListPopupWindow.setOverlapAnchor(boolean):0:0 -> w
-    33:33:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    34:34:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    35:35:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> w
-    35:35:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    36:36:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    37:37:android.graphics.Rect androidx.appcompat.view.menu.MenuPopup.getEpicenterBounds():0:0 -> w
-    37:37:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    38:38:void androidx.appcompat.widget.ListPopupWindow.setEpicenterBounds(android.graphics.Rect):0:0 -> w
-    38:38:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    39:39:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    40:40:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> w
-    40:40:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    41:41:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    42:42:java.lang.CharSequence androidx.appcompat.view.menu.MenuBuilder.getHeaderTitle():0:0 -> w
-    42:42:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    43:43:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
-    44:44:java.lang.CharSequence androidx.appcompat.view.menu.MenuBuilder.getHeaderTitle():0:0 -> w
-    44:44:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> w
-    45:45:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> w
+    1:1:int androidx.core.view.ViewCompat.getLayoutDirection(android.view.View):0:0 -> n
+    1:1:void setAnchorView(android.view.View):0 -> n
+    2:2:int androidx.core.view.GravityCompat.getAbsoluteGravity(int,int):0:0 -> n
+    2:2:void setAnchorView(android.view.View):0 -> n
+    3:3:void setAnchorView(android.view.View):0:0 -> n
+    void setForceShowIcon(boolean) -> o
+    1:1:int androidx.core.view.ViewCompat.getLayoutDirection(android.view.View):0:0 -> p
+    1:1:void setGravity(int):0 -> p
+    2:2:int androidx.core.view.GravityCompat.getAbsoluteGravity(int,int):0:0 -> p
+    2:2:void setGravity(int):0 -> p
+    3:3:void setGravity(int):0:0 -> p
+    void setHorizontalOffset(int) -> q
+    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> r
+    void setShowTitle(boolean) -> s
+    void setVerticalOffset(int) -> t
+    1:1:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> v
+    1:1:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    2:2:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    3:3:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> v
+    3:3:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    4:4:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    5:5:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> v
+    5:5:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    6:6:void androidx.appcompat.widget.MenuPopupWindow.setHoverListener(androidx.appcompat.widget.MenuItemHoverListener):0:0 -> v
+    6:6:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    6:6:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    7:7:void androidx.appcompat.widget.ListPopupWindow.setOnItemClickListener(android.widget.AdapterView$OnItemClickListener):0:0 -> v
+    7:7:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    7:7:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    8:8:void androidx.appcompat.widget.ListPopupWindow.setOnDismissListener(android.widget.PopupWindow$OnDismissListener):0:0 -> v
+    8:8:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    8:8:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    9:9:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> v
+    9:9:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    10:10:void androidx.appcompat.widget.ListPopupWindow.setAnchorView(android.view.View):0:0 -> v
+    10:10:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    10:10:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    11:11:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> v
+    11:11:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    12:12:void androidx.appcompat.widget.ListPopupWindow.setDropDownGravity(int):0:0 -> v
+    12:12:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    12:12:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    13:13:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0:0 -> v
+    13:13:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    14:14:void androidx.appcompat.widget.ListPopupWindow.setInputMethodMode(int):0:0 -> v
+    14:14:androidx.appcompat.widget.MenuPopupWindow createPopupWindow():0 -> v
+    14:14:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    15:15:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    16:16:void androidx.appcompat.widget.ListPopupWindow.setDropDownGravity(int):0:0 -> v
+    16:16:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    17:17:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    18:18:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    18:18:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    19:19:android.view.MenuItem findMenuItemForSubmenu(androidx.appcompat.view.menu.MenuBuilder,androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    19:19:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    19:19:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    20:20:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0:0 -> v
+    20:20:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    20:20:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    21:21:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> v
+    21:21:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0 -> v
+    21:21:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    21:21:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    22:22:android.view.View findParentViewForSubmenu(androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo,androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    22:22:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    23:23:void androidx.appcompat.widget.MenuPopupWindow.setTouchModal(boolean):0:0 -> v
+    23:23:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    24:24:void androidx.appcompat.widget.MenuPopupWindow.setEnterTransition(java.lang.Object):0:0 -> v
+    24:24:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    25:25:int getNextMenuPosition(int):0:0 -> v
+    25:25:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    26:26:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0:0 -> v
+    26:26:int getNextMenuPosition(int):0 -> v
+    26:26:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    27:27:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> v
+    27:27:android.widget.ListView androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo.getListView():0 -> v
+    27:27:int getNextMenuPosition(int):0 -> v
+    27:27:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    28:28:int getNextMenuPosition(int):0:0 -> v
+    28:28:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    29:29:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    30:30:void androidx.appcompat.widget.ListPopupWindow.setAnchorView(android.view.View):0:0 -> v
+    30:30:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    31:31:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    32:32:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> v
+    32:32:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    33:33:void androidx.appcompat.widget.ListPopupWindow.setOverlapAnchor(boolean):0:0 -> v
+    33:33:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    34:34:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    35:35:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> v
+    35:35:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    36:36:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    37:37:android.graphics.Rect androidx.appcompat.view.menu.MenuPopup.getEpicenterBounds():0:0 -> v
+    37:37:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    38:38:void androidx.appcompat.widget.ListPopupWindow.setEpicenterBounds(android.graphics.Rect):0:0 -> v
+    38:38:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    39:39:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    40:40:android.widget.ListView androidx.appcompat.widget.ListPopupWindow.getListView():0:0 -> v
+    40:40:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    41:41:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    42:42:java.lang.CharSequence androidx.appcompat.view.menu.MenuBuilder.getHeaderTitle():0:0 -> v
+    42:42:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    43:43:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
+    44:44:java.lang.CharSequence androidx.appcompat.view.menu.MenuBuilder.getHeaderTitle():0:0 -> v
+    44:44:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0 -> v
+    45:45:void showMenu(androidx.appcompat.view.menu.MenuBuilder):0:0 -> v
 androidx.appcompat.view.menu.CascadingMenuPopup$1 -> b.b.h.i.d$a:
     androidx.appcompat.view.menu.CascadingMenuPopup this$0 -> b
     1:1:boolean androidx.appcompat.widget.ListPopupWindow.isModal():0:0 -> onGlobalLayout
@@ -2604,8 +2602,8 @@ androidx.appcompat.view.menu.CascadingMenuPopup$CascadingMenuInfo -> b.b.h.i.d$d
     int position -> c
     androidx.appcompat.widget.MenuPopupWindow window -> a
 androidx.appcompat.view.menu.ExpandedMenuView -> androidx.appcompat.view.menu.ExpandedMenuView:
-    int[] TINT_ATTRS -> c
-    androidx.appcompat.view.menu.MenuBuilder mMenu -> b
+    androidx.appcompat.view.menu.MenuBuilder mMenu -> c
+    int[] TINT_ATTRS -> b
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:androidx.appcompat.widget.TintTypedArray androidx.appcompat.widget.TintTypedArray.obtainStyledAttributes(android.content.Context,android.util.AttributeSet,int[],int,int):0:0 -> <init>
@@ -2802,31 +2800,31 @@ androidx.appcompat.view.menu.MenuAdapter -> b.b.h.i.f:
     3:3:android.view.View getView(int,android.view.View,android.view.ViewGroup):0 -> getView
     4:4:android.view.View getView(int,android.view.View,android.view.ViewGroup):0:0 -> getView
 androidx.appcompat.view.menu.MenuBuilder -> b.b.h.i.g:
-    android.content.Context mContext -> a
-    int mDefaultShowAsAction -> l
-    int[] sCategoryToOrder -> y
-    boolean mIsActionItemsStale -> k
-    java.util.ArrayList mVisibleItems -> g
-    boolean mGroupDividerEnabled -> w
-    boolean mItemsChangedWhileDispatchPrevented -> q
-    boolean mIsClosing -> s
-    java.lang.CharSequence mHeaderTitle -> m
-    java.util.concurrent.CopyOnWriteArrayList mPresenters -> u
-    java.util.ArrayList mActionItems -> i
-    android.view.View mHeaderView -> o
-    androidx.appcompat.view.menu.MenuItemImpl mExpandedItem -> v
-    boolean mIsVisibleItemsStale -> h
-    android.graphics.drawable.Drawable mHeaderIcon -> n
-    android.content.res.Resources mResources -> b
-    boolean mShortcutsVisible -> d
-    androidx.appcompat.view.menu.MenuBuilder$Callback mCallback -> e
-    boolean mPreventDispatchingItemsChanged -> p
-    java.util.ArrayList mItems -> f
-    boolean mOverrideVisibleItems -> x
-    boolean mStructureChangedWhileDispatchPrevented -> r
-    java.util.ArrayList mNonActionItems -> j
-    java.util.ArrayList mTempShortcutItemList -> t
-    boolean mQwertyMode -> c
+    androidx.appcompat.view.menu.MenuBuilder$Callback mCallback -> f
+    boolean mIsVisibleItemsStale -> i
+    java.util.ArrayList mItems -> g
+    android.view.View mHeaderView -> p
+    boolean mPreventDispatchingItemsChanged -> q
+    boolean mStructureChangedWhileDispatchPrevented -> s
+    java.util.ArrayList mNonActionItems -> k
+    boolean mOverrideVisibleItems -> y
+    java.util.ArrayList mTempShortcutItemList -> u
+    boolean mQwertyMode -> d
+    android.content.Context mContext -> b
+    int mDefaultShowAsAction -> m
+    boolean mIsActionItemsStale -> l
+    int[] sCategoryToOrder -> a
+    boolean mGroupDividerEnabled -> x
+    boolean mItemsChangedWhileDispatchPrevented -> r
+    boolean mIsClosing -> t
+    java.util.concurrent.CopyOnWriteArrayList mPresenters -> v
+    java.lang.CharSequence mHeaderTitle -> n
+    java.util.ArrayList mActionItems -> j
+    java.util.ArrayList mVisibleItems -> h
+    boolean mShortcutsVisible -> e
+    androidx.appcompat.view.menu.MenuItemImpl mExpandedItem -> w
+    android.graphics.drawable.Drawable mHeaderIcon -> o
+    android.content.res.Resources mResources -> c
     1:1:void setShortcutsVisibleInner(boolean):0:0 -> <init>
     1:1:void <init>(android.content.Context):0 -> <init>
     2:2:boolean androidx.core.view.ViewConfigurationCompat.shouldShowMenuShortcutsWhenKeyboardPresent(android.view.ViewConfiguration,android.content.Context):0:0 -> <init>
@@ -3107,19 +3105,21 @@ androidx.appcompat.view.menu.MenuPopup -> b.b.h.i.k:
     void initForMenu(android.content.Context,androidx.appcompat.view.menu.MenuBuilder) -> j
     boolean collapseItemActionView(androidx.appcompat.view.menu.MenuBuilder,androidx.appcompat.view.menu.MenuItemImpl) -> k
     void addMenu(androidx.appcompat.view.menu.MenuBuilder) -> l
-    boolean closeMenuOnSubMenuOpened() -> m
-    int measureIndividualMenuWidth(android.widget.ListAdapter,android.view.ViewGroup,android.content.Context,int) -> n
-    void setAnchorView(android.view.View) -> o
+    int measureIndividualMenuWidth(android.widget.ListAdapter,android.view.ViewGroup,android.content.Context,int) -> m
+    void setAnchorView(android.view.View) -> n
+    void setForceShowIcon(boolean) -> o
     1:1:androidx.appcompat.view.menu.MenuAdapter toMenuAdapter(android.widget.ListAdapter):0:0 -> onItemClick
     1:1:void onItemClick(android.widget.AdapterView,android.view.View,int,long):0 -> onItemClick
     2:2:void onItemClick(android.widget.AdapterView,android.view.View,int,long):0:0 -> onItemClick
-    void setForceShowIcon(boolean) -> p
-    void setGravity(int) -> q
-    void setHorizontalOffset(int) -> r
-    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> s
-    void setShowTitle(boolean) -> t
-    void setVerticalOffset(int) -> u
-    boolean shouldPreserveIconSpacing(androidx.appcompat.view.menu.MenuBuilder) -> v
+    3:3:boolean closeMenuOnSubMenuOpened():0:0 -> onItemClick
+    3:3:void onItemClick(android.widget.AdapterView,android.view.View,int,long):0 -> onItemClick
+    4:4:void onItemClick(android.widget.AdapterView,android.view.View,int,long):0:0 -> onItemClick
+    void setGravity(int) -> p
+    void setHorizontalOffset(int) -> q
+    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> r
+    void setShowTitle(boolean) -> s
+    void setVerticalOffset(int) -> t
+    boolean shouldPreserveIconSpacing(androidx.appcompat.view.menu.MenuBuilder) -> u
 androidx.appcompat.view.menu.MenuPopupHelper -> b.b.h.i.l:
     android.content.Context mContext -> a
     androidx.appcompat.view.menu.MenuBuilder mMenu -> b
@@ -3288,19 +3288,19 @@ androidx.appcompat.view.menu.StandardMenuPopup -> b.b.h.i.q:
     20:20:void show():0 -> i
     21:21:void show():0:0 -> i
     void addMenu(androidx.appcompat.view.menu.MenuBuilder) -> l
-    void setAnchorView(android.view.View) -> o
+    void setAnchorView(android.view.View) -> n
+    1:1:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> o
+    1:1:void setForceShowIcon(boolean):0 -> o
     1:1:void androidx.appcompat.view.menu.MenuBuilder.close():0:0 -> onDismiss
     1:1:void onDismiss():0 -> onDismiss
     2:2:void onDismiss():0:0 -> onDismiss
-    1:1:void androidx.appcompat.view.menu.MenuAdapter.setForceShowIcon(boolean):0:0 -> p
-    1:1:void setForceShowIcon(boolean):0 -> p
-    void setGravity(int) -> q
-    1:1:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> r
-    1:1:void setHorizontalOffset(int):0 -> r
-    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> s
-    void setShowTitle(boolean) -> t
-    1:1:void androidx.appcompat.widget.ListPopupWindow.setVerticalOffset(int):0:0 -> u
-    1:1:void setVerticalOffset(int):0 -> u
+    void setGravity(int) -> p
+    1:1:void androidx.appcompat.widget.ListPopupWindow.setHorizontalOffset(int):0:0 -> q
+    1:1:void setHorizontalOffset(int):0 -> q
+    void setOnDismissListener(android.widget.PopupWindow$OnDismissListener) -> r
+    void setShowTitle(boolean) -> s
+    1:1:void androidx.appcompat.widget.ListPopupWindow.setVerticalOffset(int):0:0 -> t
+    1:1:void setVerticalOffset(int):0 -> t
 androidx.appcompat.view.menu.StandardMenuPopup$1 -> b.b.h.i.q$a:
     androidx.appcompat.view.menu.StandardMenuPopup this$0 -> b
     1:1:boolean androidx.appcompat.widget.ListPopupWindow.isModal():0:0 -> onGlobalLayout
@@ -3453,38 +3453,38 @@ androidx.appcompat.widget.ActionBarContextView -> androidx.appcompat.widget.Acti
 androidx.appcompat.widget.ActionBarContextView$1 -> androidx.appcompat.widget.ActionBarContextView$a:
     androidx.appcompat.view.ActionMode val$mode -> b
 androidx.appcompat.widget.ActionBarOverlayLayout -> androidx.appcompat.widget.ActionBarOverlayLayout:
-    int mLastSystemUiVisibility -> n
-    android.widget.OverScroller mFlingEstimator -> A
-    android.graphics.drawable.Drawable mWindowContentOverlay -> g
-    boolean mOverlayMode -> i
-    boolean mHideOnContentScroll -> k
-    androidx.core.view.NestedScrollingParentHelper mParentHelper -> F
-    androidx.core.view.WindowInsetsCompat mBaseInnerInsets -> v
-    androidx.appcompat.widget.ContentFrameLayout mContent -> d
-    int mActionBarHeight -> b
-    android.animation.AnimatorListenerAdapter mTopAnimatorListener -> C
-    int[] ATTRS -> G
-    android.graphics.Rect mLastBaseContentInsets -> p
-    java.lang.Runnable mRemoveActionBarHideOffset -> D
-    androidx.core.view.WindowInsetsCompat mInnerInsets -> x
-    androidx.appcompat.widget.DecorToolbar mDecorToolbar -> f
-    boolean mIgnoreWindowContentOverlay -> h
-    android.graphics.Rect mInnerInsetsRect -> t
-    androidx.appcompat.widget.ActionBarContainer mActionBarTop -> e
-    android.graphics.Rect mBaseInnerInsetsRect -> r
-    int mHideOnContentScrollReference -> m
-    boolean mHasNonEmbeddedTabs -> j
-    boolean mAnimatingForFling -> l
-    androidx.core.view.WindowInsetsCompat mLastBaseInnerInsets -> w
-    int mWindowVisibility -> c
-    androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback mActionBarVisibilityCallback -> z
-    android.graphics.Rect mBaseContentInsets -> o
-    java.lang.Runnable mAddActionBarHideOffset -> E
-    androidx.core.view.WindowInsetsCompat mLastInnerInsets -> y
-    android.view.ViewPropertyAnimator mCurrentActionBarTopAnimator -> B
-    android.graphics.Rect mLastInnerInsetsRect -> u
-    android.graphics.Rect mLastBaseInnerInsetsRect -> s
-    android.graphics.Rect mContentInsets -> q
+    boolean mAnimatingForFling -> m
+    int mHideOnContentScrollReference -> n
+    boolean mIgnoreWindowContentOverlay -> i
+    boolean mHasNonEmbeddedTabs -> k
+    androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback mActionBarVisibilityCallback -> A
+    int mWindowVisibility -> d
+    android.graphics.Rect mBaseContentInsets -> p
+    int[] ATTRS -> b
+    androidx.core.view.WindowInsetsCompat mLastInnerInsets -> z
+    androidx.core.view.WindowInsetsCompat mLastBaseInnerInsets -> x
+    java.lang.Runnable mAddActionBarHideOffset -> F
+    android.view.ViewPropertyAnimator mCurrentActionBarTopAnimator -> C
+    android.graphics.Rect mLastInnerInsetsRect -> v
+    android.graphics.Rect mLastBaseInnerInsetsRect -> t
+    android.graphics.Rect mContentInsets -> r
+    android.animation.AnimatorListenerAdapter mTopAnimatorListener -> D
+    int mLastSystemUiVisibility -> o
+    android.graphics.drawable.Drawable mWindowContentOverlay -> h
+    boolean mOverlayMode -> j
+    boolean mHideOnContentScroll -> l
+    androidx.core.view.NestedScrollingParentHelper mParentHelper -> G
+    androidx.core.view.WindowInsetsCompat mBaseInnerInsets -> w
+    int mActionBarHeight -> c
+    androidx.appcompat.widget.ContentFrameLayout mContent -> e
+    android.widget.OverScroller mFlingEstimator -> B
+    java.lang.Runnable mRemoveActionBarHideOffset -> E
+    androidx.core.view.WindowInsetsCompat mInnerInsets -> y
+    androidx.appcompat.widget.DecorToolbar mDecorToolbar -> g
+    android.graphics.Rect mInnerInsetsRect -> u
+    android.graphics.Rect mBaseInnerInsetsRect -> s
+    android.graphics.Rect mLastBaseContentInsets -> q
+    androidx.appcompat.widget.ActionBarContainer mActionBarTop -> f
     boolean showOverflowMenu() -> a
     void setMenu(android.view.Menu,androidx.appcompat.view.menu.MenuPresenter$Callback) -> b
     boolean isOverflowMenuShowPending() -> c
@@ -3509,20 +3509,17 @@ androidx.appcompat.widget.ActionBarOverlayLayout -> androidx.appcompat.widget.Ac
     boolean onStartNestedScroll(android.view.View,android.view.View,int,int) -> o
     1:1:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat.computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0:0 -> onApplyWindowInsets
     1:1:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    2:2:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0:0 -> onApplyWindowInsets
-    2:2:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat.computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect):0 -> onApplyWindowInsets
-    2:2:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    3:3:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
-    4:4:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.inset(int,int,int,int):0:0 -> onApplyWindowInsets
-    4:4:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    5:5:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
-    6:6:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeDisplayCutout():0:0 -> onApplyWindowInsets
+    2:2:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
+    3:3:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.inset(int,int,int,int):0:0 -> onApplyWindowInsets
+    3:3:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
+    4:4:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
+    5:5:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeDisplayCutout():0:0 -> onApplyWindowInsets
+    5:5:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
+    6:6:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeSystemWindowInsets():0:0 -> onApplyWindowInsets
     6:6:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeSystemWindowInsets():0:0 -> onApplyWindowInsets
+    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeStableInsets():0:0 -> onApplyWindowInsets
     7:7:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    8:8:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.consumeStableInsets():0:0 -> onApplyWindowInsets
-    8:8:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0 -> onApplyWindowInsets
-    9:9:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
+    8:8:android.view.WindowInsets onApplyWindowInsets(android.view.WindowInsets):0:0 -> onApplyWindowInsets
     1:1:void androidx.core.view.ViewCompat.requestApplyInsets(android.view.View):0:0 -> onConfigurationChanged
     1:1:void onConfigurationChanged(android.content.res.Configuration):0 -> onConfigurationChanged
     1:1:int androidx.core.view.ViewCompat.getWindowSystemUiVisibility(android.view.View):0:0 -> onMeasure
@@ -3888,9 +3885,9 @@ androidx.appcompat.widget.AlertDialogLayout -> androidx.appcompat.widget.AlertDi
     1:1:int resolveMinimumHeight(android.view.View):0 -> p
     2:2:int resolveMinimumHeight(android.view.View):0:0 -> p
 androidx.appcompat.widget.AppCompatAutoCompleteTextView -> b.b.i.d:
-    int[] TINT_ATTRS -> d
-    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> b
-    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> c
+    int[] TINT_ATTRS -> b
+    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> c
+    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> d
     1:1:void androidx.appcompat.widget.TintTypedArray.recycle():0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0 -> <init>
     2:2:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
@@ -4004,8 +4001,8 @@ androidx.appcompat.widget.AppCompatCheckBox -> b.b.i.g:
     1:1:void androidx.appcompat.widget.AppCompatCompoundButtonHelper.setSupportButtonTintMode(android.graphics.PorterDuff$Mode):0:0 -> setSupportButtonTintMode
     1:1:void setSupportButtonTintMode(android.graphics.PorterDuff$Mode):0 -> setSupportButtonTintMode
 androidx.appcompat.widget.AppCompatCheckedTextView -> b.b.i.h:
-    int[] TINT_ATTRS -> c
-    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> b
+    int[] TINT_ATTRS -> b
+    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> c
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:void androidx.appcompat.widget.TintTypedArray.recycle():0:0 -> <init>
@@ -4036,9 +4033,9 @@ androidx.appcompat.widget.AppCompatCompoundButtonHelper -> b.b.i.i:
     6:6:void loadFromAttributes(android.util.AttributeSet,int):0 -> b
     7:7:void loadFromAttributes(android.util.AttributeSet,int):0:0 -> b
 androidx.appcompat.widget.AppCompatDrawableManager -> b.b.i.j:
-    android.graphics.PorterDuff$Mode DEFAULT_MODE -> b
-    androidx.appcompat.widget.ResourceManagerInternal mResourceManager -> a
-    androidx.appcompat.widget.AppCompatDrawableManager INSTANCE -> c
+    androidx.appcompat.widget.ResourceManagerInternal mResourceManager -> c
+    android.graphics.PorterDuff$Mode DEFAULT_MODE -> a
+    androidx.appcompat.widget.AppCompatDrawableManager INSTANCE -> b
     androidx.appcompat.widget.AppCompatDrawableManager get() -> a
     android.graphics.drawable.Drawable getDrawable(android.content.Context,int) -> b
     android.content.res.ColorStateList getTintList(android.content.Context,int) -> c
@@ -4196,9 +4193,9 @@ androidx.appcompat.widget.AppCompatImageView -> b.b.i.n:
     1:1:boolean hasOverlappingRendering():0 -> hasOverlappingRendering
     2:2:boolean hasOverlappingRendering():0:0 -> hasOverlappingRendering
 androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView -> b.b.i.o:
-    int[] TINT_ATTRS -> d
-    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> b
-    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> c
+    int[] TINT_ATTRS -> b
+    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> c
+    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> d
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:void androidx.appcompat.widget.TintTypedArray.recycle():0:0 -> <init>
@@ -4230,9 +4227,9 @@ androidx.appcompat.widget.AppCompatPopupWindow -> b.b.i.p:
     8:8:void init(android.content.Context,android.util.AttributeSet,int,int):0 -> <init>
     8:8:void <init>(android.content.Context,android.util.AttributeSet,int,int):0 -> <init>
 androidx.appcompat.widget.AppCompatProgressBarHelper -> b.b.i.q:
-    android.widget.ProgressBar mView -> a
-    android.graphics.Bitmap mSampleTile -> b
-    int[] TINT_ATTRS -> c
+    android.graphics.Bitmap mSampleTile -> c
+    android.widget.ProgressBar mView -> b
+    int[] TINT_ATTRS -> a
     1:1:android.graphics.drawable.Drawable tileifyIndeterminate(android.graphics.drawable.Drawable):0:0 -> a
     1:1:void loadFromAttributes(android.util.AttributeSet,int):0 -> a
     2:2:void loadFromAttributes(android.util.AttributeSet,int):0:0 -> a
@@ -4323,15 +4320,15 @@ androidx.appcompat.widget.AppCompatSeekBarHelper -> b.b.i.v:
     4:4:void applyTickMarkTint():0:0 -> c
     void drawTickMarks(android.graphics.Canvas) -> d
 androidx.appcompat.widget.AppCompatSpinner -> b.b.i.x:
-    android.content.Context mPopupContext -> c
-    androidx.appcompat.widget.AppCompatSpinner$SpinnerPopup mPopup -> g
-    androidx.appcompat.widget.ForwardingListener mForwardingListener -> d
-    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> b
-    int mDropDownWidth -> h
-    android.graphics.Rect mTempRect -> i
-    boolean mPopupSet -> f
-    int[] ATTRS_ANDROID_SPINNERMODE -> j
-    android.widget.SpinnerAdapter mTempAdapter -> e
+    int[] ATTRS_ANDROID_SPINNERMODE -> b
+    androidx.appcompat.widget.ForwardingListener mForwardingListener -> e
+    androidx.appcompat.widget.AppCompatBackgroundHelper mBackgroundTintHelper -> c
+    int mDropDownWidth -> i
+    android.graphics.Rect mTempRect -> j
+    boolean mPopupSet -> g
+    android.widget.SpinnerAdapter mTempAdapter -> f
+    android.content.Context mPopupContext -> d
+    androidx.appcompat.widget.AppCompatSpinner$SpinnerPopup mPopup -> h
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int,int,android.content.res.Resources$Theme):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int,int):0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0 -> <init>
@@ -4793,20 +4790,20 @@ androidx.appcompat.widget.AppCompatTextView -> b.b.i.b0:
     1:1:void setTypeface(android.graphics.Typeface,int):0 -> setTypeface
     2:2:void setTypeface(android.graphics.Typeface,int):0:0 -> setTypeface
 androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper -> b.b.i.c0:
-    float mAutoSizeMaxTextSizeInPx -> e
-    float mAutoSizeMinTextSizeInPx -> d
-    float mAutoSizeStepGranularityInPx -> c
-    android.content.Context mContext -> j
-    android.graphics.RectF TEMP_RECTF -> l
-    int mAutoSizeTextType -> a
-    int[] mAutoSizeTextSizesInPx -> f
-    java.util.concurrent.ConcurrentHashMap sTextViewFieldByNameCache -> n
-    boolean mHasPresetAutoSizeValues -> g
-    android.widget.TextView mTextView -> i
-    java.util.concurrent.ConcurrentHashMap sTextViewMethodByNameCache -> m
-    boolean mNeedsAutoSizeText -> b
-    android.text.TextPaint mTempTextPaint -> h
-    androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl mImpl -> k
+    androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl mImpl -> n
+    android.graphics.RectF TEMP_RECTF -> a
+    float mAutoSizeMaxTextSizeInPx -> h
+    float mAutoSizeMinTextSizeInPx -> g
+    boolean mHasPresetAutoSizeValues -> j
+    float mAutoSizeStepGranularityInPx -> f
+    int mAutoSizeTextType -> d
+    int[] mAutoSizeTextSizesInPx -> i
+    android.content.Context mContext -> m
+    java.util.concurrent.ConcurrentHashMap sTextViewFieldByNameCache -> c
+    java.util.concurrent.ConcurrentHashMap sTextViewMethodByNameCache -> b
+    boolean mNeedsAutoSizeText -> e
+    android.text.TextPaint mTempTextPaint -> k
+    android.widget.TextView mTextView -> l
     1:1:boolean isAutoSizeEnabled():0:0 -> a
     1:1:void autoSizeText():0 -> a
     2:2:void autoSizeText():0:0 -> a
@@ -5250,35 +5247,35 @@ androidx.appcompat.widget.LinearLayoutCompat -> b.b.i.k0:
     24:24:void onMeasure(int,int):0 -> onMeasure
 androidx.appcompat.widget.LinearLayoutCompat$LayoutParams -> b.b.i.k0$a:
 androidx.appcompat.widget.ListPopupWindow -> b.b.i.m0:
-    int mListItemExpandMaximum -> n
-    android.os.Handler mHandler -> w
-    androidx.appcompat.widget.DropDownListView mDropDownList -> d
-    int mDropDownVerticalOffset -> h
-    boolean mOverlapAnchor -> k
-    int mDropDownWidth -> f
-    android.widget.PopupWindow mPopup -> A
-    android.widget.AdapterView$OnItemClickListener mItemClickListener -> r
-    androidx.appcompat.widget.ListPopupWindow$ListSelectorHider mHideSelector -> v
-    androidx.appcompat.widget.ListPopupWindow$PopupScrollListener mScrollListener -> u
-    java.lang.reflect.Method sSetEpicenterBoundsMethod -> D
-    androidx.appcompat.widget.ListPopupWindow$PopupTouchInterceptor mTouchInterceptor -> t
-    android.graphics.Rect mTempRect -> x
-    java.lang.reflect.Method sSetClipToWindowEnabledMethod -> B
-    int mPromptPosition -> o
-    android.content.Context mContext -> b
-    int mDropDownGravity -> m
-    boolean mDropDownVerticalOffsetSet -> j
-    android.graphics.Rect mEpicenterBounds -> y
-    int mDropDownWindowLayoutType -> i
-    boolean mOverlapAnchorSet -> l
-    android.view.View mDropDownAnchorView -> q
-    int mDropDownHorizontalOffset -> g
-    int mDropDownHeight -> e
-    android.database.DataSetObserver mObserver -> p
-    android.widget.ListAdapter mAdapter -> c
-    boolean mModal -> z
-    java.lang.reflect.Method sGetMaxAvailableHeightMethod -> C
-    androidx.appcompat.widget.ListPopupWindow$ResizePopupRunnable mResizePopupRunnable -> s
+    boolean mDropDownVerticalOffsetSet -> m
+    android.database.DataSetObserver mObserver -> s
+    int mDropDownWindowLayoutType -> l
+    boolean mOverlapAnchorSet -> o
+    int mDropDownHorizontalOffset -> j
+    int mDropDownHeight -> h
+    android.content.Context mContext -> e
+    android.view.View mDropDownAnchorView -> t
+    android.graphics.Rect mEpicenterBounds -> B
+    android.widget.ListAdapter mAdapter -> f
+    java.lang.reflect.Method sGetMaxAvailableHeightMethod -> c
+    boolean mModal -> C
+    int mListItemExpandMaximum -> q
+    boolean mOverlapAnchor -> n
+    androidx.appcompat.widget.ListPopupWindow$PopupScrollListener mScrollListener -> x
+    int mDropDownVerticalOffset -> k
+    androidx.appcompat.widget.ListPopupWindow$ResizePopupRunnable mResizePopupRunnable -> v
+    int mDropDownWidth -> i
+    androidx.appcompat.widget.DropDownListView mDropDownList -> g
+    androidx.appcompat.widget.ListPopupWindow$ListSelectorHider mHideSelector -> y
+    android.os.Handler mHandler -> z
+    android.widget.AdapterView$OnItemClickListener mItemClickListener -> u
+    android.graphics.Rect mTempRect -> A
+    android.widget.PopupWindow mPopup -> D
+    java.lang.reflect.Method sSetEpicenterBoundsMethod -> d
+    int mPromptPosition -> r
+    androidx.appcompat.widget.ListPopupWindow$PopupTouchInterceptor mTouchInterceptor -> w
+    int mDropDownGravity -> p
+    java.lang.reflect.Method sSetClipToWindowEnabledMethod -> b
     boolean isShowing() -> a
     void setHorizontalOffset(int) -> c
     int getHorizontalOffset() -> d
@@ -5357,8 +5354,8 @@ androidx.appcompat.widget.MenuItemHoverListener -> b.b.i.n0:
     void onItemHoverEnter(androidx.appcompat.view.menu.MenuBuilder,android.view.MenuItem) -> g
     void onItemHoverExit(androidx.appcompat.view.menu.MenuBuilder,android.view.MenuItem) -> k
 androidx.appcompat.widget.MenuPopupWindow -> b.b.i.o0:
-    androidx.appcompat.widget.MenuItemHoverListener mHoverListener -> E
-    java.lang.reflect.Method sSetTouchModalMethod -> F
+    androidx.appcompat.widget.MenuItemHoverListener mHoverListener -> F
+    java.lang.reflect.Method sSetTouchModalMethod -> E
     void onItemHoverEnter(androidx.appcompat.view.menu.MenuBuilder,android.view.MenuItem) -> g
     void onItemHoverExit(androidx.appcompat.view.menu.MenuBuilder,android.view.MenuItem) -> k
     androidx.appcompat.widget.DropDownListView createDropDownListView(android.content.Context,boolean) -> q
@@ -5374,16 +5371,16 @@ androidx.appcompat.widget.MenuPopupWindow$MenuDropDownListView -> b.b.i.o0$a:
     1:1:boolean onKeyDown(int,android.view.KeyEvent):0 -> onKeyDown
     2:2:boolean onKeyDown(int,android.view.KeyEvent):0:0 -> onKeyDown
 androidx.appcompat.widget.ResourceManagerInternal -> b.b.i.p0:
-    androidx.appcompat.widget.ResourceManagerInternal$ColorFilterLruCache COLOR_FILTER_CACHE -> j
-    androidx.collection.SimpleArrayMap mDelegates -> b
-    androidx.appcompat.widget.ResourceManagerInternal INSTANCE -> i
-    androidx.collection.SparseArrayCompat mKnownDrawableIdTags -> c
-    android.graphics.PorterDuff$Mode DEFAULT_MODE -> h
-    androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks mHooks -> g
-    boolean mHasCheckedVectorDrawableSetup -> f
-    java.util.WeakHashMap mDrawableCaches -> d
-    java.util.WeakHashMap mTintLists -> a
-    android.util.TypedValue mTypedValue -> e
+    androidx.collection.SparseArrayCompat mKnownDrawableIdTags -> f
+    androidx.collection.SimpleArrayMap mDelegates -> e
+    boolean mHasCheckedVectorDrawableSetup -> i
+    java.util.WeakHashMap mDrawableCaches -> g
+    android.graphics.PorterDuff$Mode DEFAULT_MODE -> a
+    androidx.appcompat.widget.ResourceManagerInternal INSTANCE -> b
+    androidx.appcompat.widget.ResourceManagerInternal$ColorFilterLruCache COLOR_FILTER_CACHE -> c
+    java.util.WeakHashMap mTintLists -> d
+    android.util.TypedValue mTypedValue -> h
+    androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks mHooks -> j
     void addDelegate(java.lang.String,androidx.appcompat.widget.ResourceManagerInternal$InflateDelegate) -> a
     boolean addDrawableToCache(android.content.Context,long,android.graphics.drawable.Drawable) -> b
     1:1:long createCacheKey(android.util.TypedValue):0:0 -> c
@@ -5539,57 +5536,57 @@ androidx.appcompat.widget.ScrollingTabContainerView$TabView -> b.b.i.s0$a:
     androidx.appcompat.app.ActionBar$Tab mTab -> b
     androidx.appcompat.widget.ScrollingTabContainerView this$0 -> c
 androidx.appcompat.widget.SearchView -> androidx.appcompat.widget.SearchView:
-    android.widget.ImageView mVoiceButton -> x
-    android.graphics.drawable.Drawable mSearchHintIcon -> F
-    boolean mVoiceButtonEnabled -> b0
-    int mSuggestionRowLayout -> G
-    android.view.View$OnFocusChangeListener mOnQueryTextFocusChangeListener -> N
-    android.view.View mSubmitArea -> t
-    android.graphics.Rect mSearchSrtTextViewBoundsExpanded -> B
-    java.lang.CharSequence mDefaultQueryHint -> K
-    boolean mSubmitButtonEnabled -> T
-    java.lang.CharSequence mUserQuery -> d0
-    android.view.View$OnClickListener mOnClickListener -> l0
-    java.lang.Runnable mUpdateDrawableStateRunnable -> i0
-    androidx.appcompat.widget.SearchView$OnQueryTextListener mOnQueryChangeListener -> L
-    android.widget.ImageView mCloseButton -> w
-    int mSuggestionCommitIconResId -> H
-    int mCollapsedImeOptions -> f0
-    android.view.View mSearchPlate -> s
-    android.app.SearchableInfo mSearchable -> g0
-    boolean mIconifiedByDefault -> Q
-    android.widget.ImageView mCollapsedIcon -> E
-    int[] mTemp2 -> D
-    android.view.View$OnClickListener mOnSearchClickListener -> P
-    androidx.appcompat.widget.SearchView$OnSuggestionListener mOnSuggestionListener -> O
-    android.text.TextWatcher mTextWatcher -> q0
-    androidx.appcompat.widget.SearchView$PreQAutoCompleteTextViewReflector PRE_API_29_HIDDEN_METHOD_INVOKER -> r0
-    boolean mExpandedInActionView -> e0
-    androidx.appcompat.widget.SearchView$SearchAutoComplete mSearchSrcTextView -> q
-    android.widget.ImageView mGoButton -> v
-    androidx.cursoradapter.widget.CursorAdapter mSuggestionsAdapter -> S
-    boolean mQueryRefinement -> V
-    android.view.View mSearchEditFrame -> r
-    boolean mIconified -> R
-    java.lang.CharSequence mOldQueryText -> c0
-    int[] mTemp -> C
-    android.os.Bundle mAppSearchData -> h0
-    java.lang.Runnable mReleaseCursorRunnable -> j0
-    java.util.WeakHashMap mOutsideDrawablesCache -> k0
-    android.widget.AdapterView$OnItemClickListener mOnItemClickListener -> o0
-    android.content.Intent mVoiceAppSearchIntent -> J
-    android.widget.ImageView mSearchButton -> u
-    android.view.View mDropDownAnchor -> y
-    int mMaxWidth -> a0
-    android.view.View$OnKeyListener mTextKeyListener -> m0
-    boolean mClearingFocus -> W
-    androidx.appcompat.widget.SearchView$UpdatableTouchDelegate mTouchDelegate -> z
-    android.graphics.Rect mSearchSrcTextViewBounds -> A
-    androidx.appcompat.widget.SearchView$OnCloseListener mOnCloseListener -> M
-    java.lang.CharSequence mQueryHint -> U
-    android.widget.TextView$OnEditorActionListener mOnEditorActionListener -> n0
-    android.content.Intent mVoiceWebSearchIntent -> I
-    android.widget.AdapterView$OnItemSelectedListener mOnItemSelectedListener -> p0
+    android.widget.ImageView mCloseButton -> x
+    boolean mExpandedInActionView -> f0
+    android.view.View mSearchPlate -> t
+    android.graphics.Rect mSearchSrcTextViewBounds -> B
+    java.lang.CharSequence mOldQueryText -> d0
+    java.lang.CharSequence mDefaultQueryHint -> L
+    java.lang.Runnable mReleaseCursorRunnable -> k0
+    android.widget.ImageView mCollapsedIcon -> F
+    android.os.Bundle mAppSearchData -> i0
+    int[] mTemp2 -> E
+    androidx.appcompat.widget.SearchView$OnCloseListener mOnCloseListener -> N
+    android.view.View$OnClickListener mOnSearchClickListener -> Q
+    android.widget.AdapterView$OnItemClickListener mOnItemClickListener -> p0
+    java.util.WeakHashMap mOutsideDrawablesCache -> l0
+    int mMaxWidth -> b0
+    android.view.View$OnKeyListener mTextKeyListener -> n0
+    android.widget.ImageView mGoButton -> w
+    android.graphics.drawable.Drawable mSearchHintIcon -> G
+    androidx.appcompat.widget.SearchView$SearchAutoComplete mSearchSrcTextView -> r
+    int mSuggestionRowLayout -> H
+    boolean mSubmitButtonEnabled -> U
+    android.view.View mSearchEditFrame -> s
+    android.graphics.Rect mSearchSrtTextViewBoundsExpanded -> C
+    java.lang.CharSequence mUserQuery -> e0
+    int[] mTemp -> D
+    android.widget.TextView$OnEditorActionListener mOnEditorActionListener -> o0
+    android.widget.AdapterView$OnItemSelectedListener mOnItemSelectedListener -> q0
+    android.content.Intent mVoiceAppSearchIntent -> K
+    android.widget.ImageView mSearchButton -> v
+    android.view.View mDropDownAnchor -> z
+    boolean mClearingFocus -> a0
+    int mSuggestionCommitIconResId -> I
+    boolean mVoiceButtonEnabled -> c0
+    boolean mIconifiedByDefault -> R
+    androidx.appcompat.widget.SearchView$PreQAutoCompleteTextViewReflector PRE_API_29_HIDDEN_METHOD_INVOKER -> q
+    android.view.View$OnClickListener mOnClickListener -> m0
+    java.lang.Runnable mUpdateDrawableStateRunnable -> j0
+    androidx.appcompat.widget.SearchView$UpdatableTouchDelegate mTouchDelegate -> A
+    androidx.appcompat.widget.SearchView$OnSuggestionListener mOnSuggestionListener -> P
+    java.lang.CharSequence mQueryHint -> V
+    android.content.Intent mVoiceWebSearchIntent -> J
+    androidx.cursoradapter.widget.CursorAdapter mSuggestionsAdapter -> T
+    android.widget.ImageView mVoiceButton -> y
+    int mCollapsedImeOptions -> g0
+    android.view.View$OnFocusChangeListener mOnQueryTextFocusChangeListener -> O
+    boolean mQueryRefinement -> W
+    android.view.View mSubmitArea -> u
+    android.app.SearchableInfo mSearchable -> h0
+    boolean mIconified -> S
+    android.text.TextWatcher mTextWatcher -> r0
+    androidx.appcompat.widget.SearchView$OnQueryTextListener mOnQueryChangeListener -> M
     1:1:androidx.appcompat.widget.TintTypedArray androidx.appcompat.widget.TintTypedArray.obtainStyledAttributes(android.content.Context,android.util.AttributeSet,int[],int,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0 -> <init>
     2:2:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
@@ -5818,20 +5815,20 @@ androidx.appcompat.widget.SearchView$UpdatableTouchDelegate -> androidx.appcompa
     android.graphics.Rect mTargetBounds -> b
     void setBounds(android.graphics.Rect,android.graphics.Rect) -> a
 androidx.appcompat.widget.SuggestionsAdapter -> b.b.i.t0:
-    android.content.res.ColorStateList mUrlColor -> s
-    java.util.WeakHashMap mOutsideDrawablesCache -> p
-    int $r8$clinit -> z
-    androidx.appcompat.widget.SearchView mSearchView -> m
-    android.content.Context mProviderContext -> o
-    int mIconName2Col -> x
-    int mFlagsCol -> y
-    android.app.SearchableInfo mSearchable -> n
-    int mText2UrlCol -> v
-    int mIconName1Col -> w
-    int mText1Col -> t
-    int mText2Col -> u
-    int mQueryRefinement -> r
-    int mCommitIconResId -> q
+    int $r8$clinit -> m
+    android.content.res.ColorStateList mUrlColor -> t
+    java.util.WeakHashMap mOutsideDrawablesCache -> q
+    android.content.Context mProviderContext -> p
+    int mFlagsCol -> z
+    androidx.appcompat.widget.SearchView mSearchView -> n
+    int mIconName1Col -> x
+    int mIconName2Col -> y
+    int mText2Col -> v
+    int mText2UrlCol -> w
+    android.app.SearchableInfo mSearchable -> o
+    int mText1Col -> u
+    int mCommitIconResId -> r
+    int mQueryRefinement -> s
     1:1:void setViewText(android.widget.TextView,java.lang.CharSequence):0:0 -> a
     1:1:void bindView(android.view.View,android.content.Context,android.database.Cursor):0 -> a
     2:2:void bindView(android.view.View,android.content.Context,android.database.Cursor):0:0 -> a
@@ -5920,47 +5917,47 @@ androidx.appcompat.widget.SuggestionsAdapter$ChildViewCache -> b.b.i.t0$a:
     android.widget.ImageView mIconRefine -> e
     android.widget.ImageView mIcon1 -> c
 androidx.appcompat.widget.SwitchCompat -> androidx.appcompat.widget.SwitchCompat:
-    int mSwitchPadding -> n
-    int mThumbTextPadding -> l
-    boolean mSplitTrack -> o
-    android.graphics.drawable.Drawable mTrackDrawable -> g
-    boolean mHasTrackTintMode -> k
-    android.graphics.PorterDuff$Mode mThumbTintMode -> d
-    int mSwitchRight -> E
-    int mSwitchLeft -> C
-    int mSwitchHeight -> A
-    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> M
-    android.graphics.PorterDuff$Mode mTrackTintMode -> i
-    android.text.TextPaint mTextPaint -> G
-    float mThumbPosition -> y
-    android.content.res.ColorStateList mThumbTintList -> c
-    java.lang.CharSequence mTextOff -> q
-    float mTouchX -> u
-    android.content.res.ColorStateList mTextColors -> H
-    boolean mHasThumbTintMode -> f
-    android.text.Layout mOnLayout -> I
-    int mTouchMode -> s
-    android.util.Property THUMB_POS -> O
-    int mSwitchMinWidth -> m
-    boolean mHasTrackTint -> j
-    int mSwitchBottom -> F
-    int mSwitchTop -> D
-    android.animation.ObjectAnimator mPositionAnimator -> L
-    int mThumbWidth -> B
-    boolean mShowText -> r
-    android.graphics.drawable.Drawable mThumbDrawable -> b
-    android.text.method.TransformationMethod mSwitchTransformationMethod -> K
-    android.graphics.Rect mTempRect -> N
-    java.lang.CharSequence mTextOn -> p
-    int mSwitchWidth -> z
-    float mTouchY -> v
-    int mMinFlingVelocity -> x
-    boolean mHasThumbTint -> e
-    android.content.res.ColorStateList mTrackTintList -> h
-    int[] CHECKED_STATE_SET -> P
-    int mTouchSlop -> t
-    android.view.VelocityTracker mVelocityTracker -> w
-    android.text.Layout mOffLayout -> J
+    boolean mHasTrackTintMode -> m
+    int mThumbTextPadding -> n
+    android.graphics.drawable.Drawable mTrackDrawable -> i
+    int mSwitchRight -> G
+    int mSwitchLeft -> E
+    boolean mSplitTrack -> q
+    int mSwitchHeight -> C
+    androidx.appcompat.widget.AppCompatTextHelper mTextHelper -> O
+    android.graphics.PorterDuff$Mode mTrackTintMode -> k
+    float mTouchX -> w
+    android.content.res.ColorStateList mThumbTintList -> e
+    java.lang.CharSequence mTextOff -> s
+    android.text.Layout mOnLayout -> K
+    android.content.res.ColorStateList mTextColors -> J
+    boolean mHasThumbTintMode -> h
+    int mTouchMode -> u
+    android.text.TextPaint mTextPaint -> I
+    android.graphics.drawable.Drawable mThumbDrawable -> d
+    int mSwitchMinWidth -> o
+    int mSwitchBottom -> H
+    boolean mHasTrackTint -> l
+    int mSwitchTop -> F
+    android.animation.ObjectAnimator mPositionAnimator -> N
+    int mThumbWidth -> D
+    float mThumbPosition -> A
+    int mSwitchWidth -> B
+    android.util.Property THUMB_POS -> b
+    boolean mShowText -> t
+    android.graphics.Rect mTempRect -> P
+    android.text.method.TransformationMethod mSwitchTransformationMethod -> M
+    android.graphics.PorterDuff$Mode mThumbTintMode -> f
+    float mTouchY -> x
+    int mMinFlingVelocity -> z
+    int[] CHECKED_STATE_SET -> c
+    java.lang.CharSequence mTextOn -> r
+    int mTouchSlop -> v
+    android.view.VelocityTracker mVelocityTracker -> y
+    android.text.Layout mOffLayout -> L
+    boolean mHasThumbTint -> g
+    android.content.res.ColorStateList mTrackTintList -> j
+    int mSwitchPadding -> p
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:androidx.appcompat.widget.TintTypedArray androidx.appcompat.widget.TintTypedArray.obtainStyledAttributes(android.content.Context,android.util.AttributeSet,int[],int,int):0:0 -> <init>
@@ -6555,17 +6552,17 @@ androidx.appcompat.widget.ToolbarWidgetWrapper$2 -> b.b.i.b1$a:
     void onAnimationStart(android.view.View) -> b
     void onAnimationCancel(android.view.View) -> c
 androidx.appcompat.widget.TooltipCompatHandler -> b.b.i.c1:
-    java.lang.Runnable mShowRunnable -> e
-    androidx.appcompat.widget.TooltipCompatHandler sActiveHandler -> l
-    androidx.appcompat.widget.TooltipCompatHandler sPendingHandler -> k
-    boolean mFromTouch -> j
-    int mAnchorY -> h
-    java.lang.CharSequence mTooltipText -> c
-    java.lang.Runnable mHideRunnable -> f
-    int mAnchorX -> g
-    int mHoverSlop -> d
-    android.view.View mAnchor -> b
-    androidx.appcompat.widget.TooltipPopup mPopup -> i
+    int mAnchorY -> j
+    java.lang.Runnable mHideRunnable -> h
+    java.lang.Runnable mShowRunnable -> g
+    int mAnchorX -> i
+    boolean mFromTouch -> l
+    int mHoverSlop -> f
+    java.lang.CharSequence mTooltipText -> e
+    androidx.appcompat.widget.TooltipCompatHandler sActiveHandler -> c
+    androidx.appcompat.widget.TooltipCompatHandler sPendingHandler -> b
+    android.view.View mAnchor -> d
+    androidx.appcompat.widget.TooltipPopup mPopup -> k
     1:1:int androidx.core.view.ViewConfigurationCompat.getScaledHoverSlop(android.view.ViewConfiguration):0:0 -> <init>
     1:1:void <init>(android.view.View,java.lang.CharSequence):0 -> <init>
     2:2:void <init>(android.view.View,java.lang.CharSequence):0:0 -> <init>
@@ -6639,9 +6636,9 @@ androidx.appcompat.widget.ViewUtils -> b.b.i.f1:
 androidx.appcompat.widget.WithHint -> b.b.i.g1:
     java.lang.CharSequence getHint() -> a
 androidx.arch.core.executor.ArchTaskExecutor -> b.c.a.a.a:
-    androidx.arch.core.executor.ArchTaskExecutor sInstance -> c
-    androidx.arch.core.executor.TaskExecutor mDefaultTaskExecutor -> b
-    androidx.arch.core.executor.TaskExecutor mDelegate -> a
+    androidx.arch.core.executor.ArchTaskExecutor sInstance -> a
+    androidx.arch.core.executor.TaskExecutor mDelegate -> b
+    androidx.arch.core.executor.TaskExecutor mDefaultTaskExecutor -> c
     boolean isMainThread() -> a
     androidx.arch.core.executor.ArchTaskExecutor getInstance() -> b
 androidx.arch.core.executor.DefaultTaskExecutor -> b.c.a.a.b:
@@ -6736,16 +6733,16 @@ androidx.collection.ArrayMap$1 -> b.d.a$a:
     1:1:java.lang.Object androidx.collection.SimpleArrayMap.setValueAt(int,java.lang.Object):0:0 -> i
     1:1:java.lang.Object colSetValue(int,java.lang.Object):0 -> i
 androidx.collection.ArraySet -> b.d.c:
-    int[] INT -> f
-    androidx.collection.MapCollections mCollections -> e
-    java.lang.Object[] mArray -> c
-    int[] mHashes -> b
-    int sTwiceBaseCacheSize -> k
-    int sBaseCacheSize -> i
-    java.lang.Object[] sTwiceBaseCache -> j
-    int mSize -> d
-    java.lang.Object[] sBaseCache -> h
-    java.lang.Object[] OBJECT -> g
+    java.lang.Object[] sBaseCache -> d
+    int[] mHashes -> h
+    java.lang.Object[] OBJECT -> c
+    int[] INT -> b
+    int mSize -> j
+    androidx.collection.MapCollections mCollections -> k
+    int sTwiceBaseCacheSize -> g
+    int sBaseCacheSize -> e
+    java.lang.Object[] mArray -> i
+    java.lang.Object[] sTwiceBaseCache -> f
     void allocArrays(int) -> a
     1:1:void ensureCapacity(int):0:0 -> addAll
     1:1:boolean addAll(java.util.Collection):0 -> addAll
@@ -6791,11 +6788,11 @@ androidx.collection.ContainerHelpers -> b.d.d:
     int idealIntArraySize(int) -> e
     int idealLongArraySize(int) -> f
 androidx.collection.LongSparseArray -> b.d.e:
-    long[] mKeys -> c
-    java.lang.Object[] mValues -> d
-    java.lang.Object DELETED -> f
-    int mSize -> e
-    boolean mGarbage -> b
+    long[] mKeys -> d
+    java.lang.Object[] mValues -> e
+    java.lang.Object DELETED -> b
+    int mSize -> f
+    boolean mGarbage -> c
     1:1:void <init>(int):0:0 -> <init>
     1:1:void <init>():0 -> <init>
     void append(long,java.lang.Object) -> a
@@ -6867,13 +6864,13 @@ androidx.collection.MapCollections$MapIterator -> b.d.g$d:
 androidx.collection.MapCollections$ValuesCollection -> b.d.g$e:
     androidx.collection.MapCollections this$0 -> b
 androidx.collection.SimpleArrayMap -> b.d.h:
-    java.lang.Object[] mBaseCache -> e
-    java.lang.Object[] mArray -> c
-    int[] mHashes -> b
-    int mTwiceBaseCacheSize -> h
-    int mBaseCacheSize -> f
-    int mSize -> d
-    java.lang.Object[] mTwiceBaseCache -> g
+    java.lang.Object[] mTwiceBaseCache -> d
+    int[] mHashes -> f
+    java.lang.Object[] mBaseCache -> b
+    int mSize -> h
+    int mTwiceBaseCacheSize -> e
+    int mBaseCacheSize -> c
+    java.lang.Object[] mArray -> g
     void allocArrays(int) -> a
     void freeArrays(int[],java.lang.Object[],int) -> b
     1:1:int binarySearchHashes(int[],int,int):0:0 -> c
@@ -6902,10 +6899,10 @@ androidx.collection.SimpleArrayMap -> b.d.h:
     1:1:java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object):0 -> putIfAbsent
     2:2:java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object):0:0 -> putIfAbsent
 androidx.collection.SparseArrayCompat -> b.d.i:
-    java.lang.Object[] mValues -> c
-    int[] mKeys -> b
-    java.lang.Object DELETED -> e
-    int mSize -> d
+    java.lang.Object[] mValues -> d
+    int[] mKeys -> c
+    java.lang.Object DELETED -> b
+    int mSize -> e
     1:1:void <init>(int):0:0 -> <init>
     1:1:void <init>():0 -> <init>
     void append(int,java.lang.Object) -> a
@@ -7320,13 +7317,13 @@ androidx.core.app.NotificationCompatJellybean -> b.e.b.l:
     1:1:android.os.Bundle toBundle(androidx.core.app.RemoteInput):0:0 -> a
     1:1:android.os.Bundle[] toBundleArray(androidx.core.app.RemoteInput[]):0 -> a
 androidx.core.app.NotificationManagerCompat -> b.e.b.m:
-    android.content.Context mContext -> a
-    java.lang.Object sLock -> f
-    java.util.Set sEnabledNotificationListenerPackages -> e
-    android.app.NotificationManager mNotificationManager -> b
-    java.lang.Object sEnabledNotificationListenersLock -> c
-    androidx.core.app.NotificationManagerCompat$SideChannelManager sSideChannelManager -> g
-    java.lang.String sEnabledNotificationListeners -> d
+    java.util.Set sEnabledNotificationListenerPackages -> c
+    java.lang.Object sLock -> d
+    java.lang.Object sEnabledNotificationListenersLock -> a
+    java.lang.String sEnabledNotificationListeners -> b
+    android.app.NotificationManager mNotificationManager -> g
+    androidx.core.app.NotificationManagerCompat$SideChannelManager sSideChannelManager -> e
+    android.content.Context mContext -> f
     1:1:void androidx.core.app.NotificationManagerCompat$SideChannelManager.queueTask(androidx.core.app.NotificationManagerCompat$Task):0:0 -> a
     1:1:void pushSideChannelQueue(androidx.core.app.NotificationManagerCompat$Task):0 -> a
     2:2:void pushSideChannelQueue(androidx.core.app.NotificationManagerCompat$Task):0:0 -> a
@@ -7571,11 +7568,11 @@ androidx.core.graphics.ColorUtils -> b.e.d.a:
     2:2:int compositeColors(int,int):0:0 -> a
     int compositeComponent(int,int,int,int,int) -> b
 androidx.core.graphics.Insets -> b.e.d.b:
-    int bottom -> d
-    int top -> b
-    int right -> c
-    androidx.core.graphics.Insets NONE -> e
-    int left -> a
+    androidx.core.graphics.Insets NONE -> a
+    int right -> d
+    int bottom -> e
+    int left -> b
+    int top -> c
     androidx.core.graphics.Insets of(int,int,int,int) -> a
     android.graphics.Insets toPlatformInsets() -> b
 androidx.core.graphics.PathParser$PathDataNode -> b.e.d.c:
@@ -7909,17 +7906,17 @@ androidx.core.graphics.TypefaceCompatBaseImpl$StyleExtractor -> b.e.d.k$a:
     int getWeight(java.lang.Object) -> a
     boolean isItalic(java.lang.Object) -> b
 androidx.core.graphics.drawable.IconCompat -> androidx.core.graphics.drawable.IconCompat:
-    java.lang.String mTintModeStr -> i
-    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> k
-    java.lang.String mString1 -> j
-    android.graphics.PorterDuff$Mode mTintMode -> h
-    android.os.Parcelable mParcelable -> d
-    java.lang.Object mObj1 -> b
-    int mInt2 -> f
-    android.content.res.ColorStateList mTintList -> g
-    int mInt1 -> e
-    byte[] mData -> c
-    int mType -> a
+    android.graphics.PorterDuff$Mode mTintMode -> i
+    android.os.Parcelable mParcelable -> e
+    java.lang.String mString1 -> k
+    java.lang.String mTintModeStr -> j
+    int mInt1 -> f
+    android.content.res.ColorStateList mTintList -> h
+    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> a
+    java.lang.Object mObj1 -> c
+    int mInt2 -> g
+    int mType -> b
+    byte[] mData -> d
     android.graphics.Bitmap createLegacyIconFromAdaptiveIcon(android.graphics.Bitmap,boolean) -> a
     androidx.core.graphics.drawable.IconCompat createWithResource(android.content.res.Resources,java.lang.String,int) -> b
     1:1:int getResId(android.graphics.drawable.Icon):0:0 -> c
@@ -7992,13 +7989,13 @@ androidx.core.graphics.drawable.WrappedDrawable -> b.e.d.l.b:
     android.graphics.drawable.Drawable getWrappedDrawable() -> a
     void setWrappedDrawable(android.graphics.drawable.Drawable) -> b
 androidx.core.graphics.drawable.WrappedDrawableApi14 -> b.e.d.l.c:
-    android.graphics.drawable.Drawable mDrawable -> g
-    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> h
-    androidx.core.graphics.drawable.WrappedDrawableState mState -> e
-    boolean mMutated -> f
-    android.graphics.PorterDuff$Mode mCurrentMode -> c
-    int mCurrentColor -> b
-    boolean mColorFilterSet -> d
+    android.graphics.drawable.Drawable mDrawable -> h
+    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> b
+    boolean mColorFilterSet -> e
+    androidx.core.graphics.drawable.WrappedDrawableState mState -> f
+    android.graphics.PorterDuff$Mode mCurrentMode -> d
+    boolean mMutated -> g
+    int mCurrentColor -> c
     1:1:androidx.core.graphics.drawable.WrappedDrawableState mutateConstantState():0:0 -> <init>
     1:1:void <init>(android.graphics.drawable.Drawable):0 -> <init>
     2:2:void <init>(android.graphics.drawable.Drawable):0:0 -> <init>
@@ -8277,9 +8274,9 @@ androidx.core.util.Pools$SimplePool -> b.e.i.b:
     1:1:boolean release(java.lang.Object):0 -> b
     2:2:boolean release(java.lang.Object):0:0 -> b
 androidx.core.view.AccessibilityDelegateCompat -> b.e.j.a:
-    android.view.View$AccessibilityDelegate mOriginalDelegate -> a
-    android.view.View$AccessibilityDelegate mBridge -> b
-    android.view.View$AccessibilityDelegate DEFAULT_DELEGATE -> c
+    android.view.View$AccessibilityDelegate DEFAULT_DELEGATE -> a
+    android.view.View$AccessibilityDelegate mOriginalDelegate -> b
+    android.view.View$AccessibilityDelegate mBridge -> c
     1:1:void <init>(android.view.View$AccessibilityDelegate):0:0 -> <init>
     1:1:void <init>():0 -> <init>
     boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
@@ -8565,102 +8562,50 @@ androidx.core.view.ViewCompat -> b.e.j.o:
     1:1:androidx.core.view.ViewCompat$AccessibilityViewProperty paneTitleProperty():0:0 -> f
     1:1:java.lang.CharSequence getAccessibilityPaneTitle(android.view.View):0 -> f
     2:2:java.lang.CharSequence getAccessibilityPaneTitle(android.view.View):0:0 -> f
-    1:1:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api23Impl.getRootWindowInsets(android.view.View):0:0 -> g
-    1:1:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    2:2:void androidx.core.view.WindowInsetsCompat.setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> g
-    2:2:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api23Impl.getRootWindowInsets(android.view.View):0 -> g
-    2:2:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    3:3:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api23Impl.getRootWindowInsets(android.view.View):0:0 -> g
-    3:3:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    4:4:void androidx.core.view.WindowInsetsCompat.copyRootViewBounds(android.view.View):0:0 -> g
-    4:4:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api23Impl.getRootWindowInsets(android.view.View):0 -> g
-    4:4:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    5:5:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> g
-    5:5:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    5:5:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    6:6:void androidx.core.view.WindowInsetsCompat$Builder.<init>():0:0 -> g
-    6:6:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    6:6:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    6:6:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    7:7:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> g
-    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    7:7:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    8:8:androidx.core.view.WindowInsetsCompat$Builder androidx.core.view.WindowInsetsCompat$Builder.setStableInsets(androidx.core.graphics.Insets):0:0 -> g
-    8:8:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    8:8:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    8:8:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    9:9:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> g
-    9:9:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    9:9:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    9:9:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    10:10:androidx.core.view.WindowInsetsCompat$Builder androidx.core.view.WindowInsetsCompat$Builder.setSystemWindowInsets(androidx.core.graphics.Insets):0:0 -> g
-    10:10:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    10:10:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    10:10:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    11:11:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Builder.build():0:0 -> g
-    11:11:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    11:11:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    11:11:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    12:12:void androidx.core.view.WindowInsetsCompat.setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> g
-    12:12:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    12:12:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    12:12:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    13:13:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> g
-    13:13:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    13:13:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    14:14:void androidx.core.view.WindowInsetsCompat.copyRootViewBounds(android.view.View):0:0 -> g
-    14:14:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> g
-    14:14:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    14:14:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    15:15:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> g
-    15:15:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat$Api21Impl.getRootWindowInsets(android.view.View):0 -> g
-    15:15:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> g
-    1:1:int getAccessibilityLiveRegion(android.view.View):0:0 -> h
-    1:1:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    2:2:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0:0 -> h
-    3:3:int getImportantForAccessibility(android.view.View):0:0 -> h
-    3:3:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> h
-    3:3:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    4:4:void setImportantForAccessibility(android.view.View,int):0:0 -> h
-    4:4:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> h
-    4:4:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    5:5:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0:0 -> h
-    5:5:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    6:6:int getImportantForAccessibility(android.view.View):0:0 -> h
-    6:6:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> h
-    6:6:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    7:7:void setImportantForAccessibility(android.view.View,int):0:0 -> h
-    7:7:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> h
-    7:7:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    8:8:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0:0 -> h
-    8:8:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> h
-    9:9:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0:0 -> h
-    androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat) -> i
-    1:1:androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View):0:0 -> j
-    1:1:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0 -> j
-    2:2:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0:0 -> j
-    3:3:androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View):0:0 -> j
-    3:3:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0 -> j
-    4:4:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0:0 -> j
-    1:1:void androidx.core.view.ViewCompat$Api29Impl.saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int):0:0 -> k
-    1:1:void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int):0 -> k
-    1:1:android.view.View$AccessibilityDelegate androidx.core.view.AccessibilityDelegateCompat.getBridge():0:0 -> l
-    1:1:void setAccessibilityDelegate(android.view.View,androidx.core.view.AccessibilityDelegateCompat):0 -> l
-    2:2:void setAccessibilityDelegate(android.view.View,androidx.core.view.AccessibilityDelegateCompat):0:0 -> l
-    1:1:androidx.core.view.ViewCompat$AccessibilityViewProperty stateDescriptionProperty():0:0 -> m
-    1:1:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> m
-    2:2:void androidx.core.view.ViewCompat$4.frameworkSet(android.view.View,java.lang.CharSequence):0:0 -> m
-    2:2:void androidx.core.view.ViewCompat$4.frameworkSet(android.view.View,java.lang.Object):0 -> m
-    2:2:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0 -> m
-    2:2:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> m
-    3:3:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0:0 -> m
-    3:3:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> m
-    4:4:androidx.core.view.AccessibilityDelegateCompat getOrCreateAccessibilityDelegateCompat(android.view.View):0:0 -> m
-    4:4:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0 -> m
-    4:4:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> m
-    5:5:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0:0 -> m
-    5:5:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> m
+    1:1:int getAccessibilityLiveRegion(android.view.View):0:0 -> g
+    1:1:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    2:2:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0:0 -> g
+    3:3:int getImportantForAccessibility(android.view.View):0:0 -> g
+    3:3:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> g
+    3:3:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    4:4:void setImportantForAccessibility(android.view.View,int):0:0 -> g
+    4:4:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> g
+    4:4:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    5:5:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0:0 -> g
+    5:5:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    6:6:int getImportantForAccessibility(android.view.View):0:0 -> g
+    6:6:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> g
+    6:6:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    7:7:void setImportantForAccessibility(android.view.View,int):0:0 -> g
+    7:7:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0 -> g
+    7:7:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    8:8:void setViewImportanceForAccessibilityIfNeeded(android.view.View):0:0 -> g
+    8:8:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0 -> g
+    9:9:void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int):0:0 -> g
+    androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat) -> h
+    1:1:androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View):0:0 -> i
+    1:1:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0 -> i
+    2:2:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0:0 -> i
+    3:3:androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View):0:0 -> i
+    3:3:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0 -> i
+    4:4:androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat):0:0 -> i
+    void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int) -> j
+    1:1:android.view.View$AccessibilityDelegate androidx.core.view.AccessibilityDelegateCompat.getBridge():0:0 -> k
+    1:1:void setAccessibilityDelegate(android.view.View,androidx.core.view.AccessibilityDelegateCompat):0 -> k
+    2:2:void setAccessibilityDelegate(android.view.View,androidx.core.view.AccessibilityDelegateCompat):0:0 -> k
+    1:1:androidx.core.view.ViewCompat$AccessibilityViewProperty stateDescriptionProperty():0:0 -> l
+    1:1:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> l
+    2:2:void androidx.core.view.ViewCompat$4.frameworkSet(android.view.View,java.lang.CharSequence):0:0 -> l
+    2:2:void androidx.core.view.ViewCompat$4.frameworkSet(android.view.View,java.lang.Object):0 -> l
+    2:2:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0 -> l
+    2:2:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> l
+    3:3:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0:0 -> l
+    3:3:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> l
+    4:4:androidx.core.view.AccessibilityDelegateCompat getOrCreateAccessibilityDelegateCompat(android.view.View):0:0 -> l
+    4:4:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0 -> l
+    4:4:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> l
+    5:5:void androidx.core.view.ViewCompat$AccessibilityViewProperty.set(android.view.View,java.lang.Object):0:0 -> l
+    5:5:void setStateDescription(android.view.View,java.lang.CharSequence):0 -> l
 androidx.core.view.ViewCompat$1 -> b.e.j.o$a:
     androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat) -> a
 androidx.core.view.ViewCompat$2 -> b.e.j.p:
@@ -8688,29 +8633,70 @@ androidx.core.view.ViewCompat$AccessibilityViewProperty -> b.e.j.o$b:
     1:1:boolean frameworkAvailable():0:0 -> b
     1:1:java.lang.Object get(android.view.View):0 -> b
     2:2:java.lang.Object get(android.view.View):0:0 -> b
-androidx.core.view.ViewCompat$Api21Impl$1 -> b.e.j.t:
+androidx.core.view.ViewCompat$Api21Impl -> b.e.j.o$c:
+    void callCompatInsetAnimationCallback(android.view.WindowInsets,android.view.View) -> a
+    androidx.core.view.WindowInsetsCompat computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect) -> b
+    1:1:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> c
+    1:1:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    2:2:void androidx.core.view.WindowInsetsCompat$Builder.<init>():0:0 -> c
+    2:2:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    2:2:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    3:3:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> c
+    3:3:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    3:3:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    4:4:androidx.core.view.WindowInsetsCompat$Builder androidx.core.view.WindowInsetsCompat$Builder.setStableInsets(androidx.core.graphics.Insets):0:0 -> c
+    4:4:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    4:4:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    5:5:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> c
+    5:5:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    5:5:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    6:6:androidx.core.view.WindowInsetsCompat$Builder androidx.core.view.WindowInsetsCompat$Builder.setSystemWindowInsets(androidx.core.graphics.Insets):0:0 -> c
+    6:6:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    6:6:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Builder.build():0:0 -> c
+    7:7:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    7:7:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    8:8:void androidx.core.view.WindowInsetsCompat.setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> c
+    8:8:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    8:8:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    9:9:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> c
+    9:9:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    10:10:void androidx.core.view.WindowInsetsCompat.copyRootViewBounds(android.view.View):0:0 -> c
+    10:10:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0 -> c
+    10:10:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    11:11:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder.getRootWindowInsets(android.view.View):0:0 -> c
+    11:11:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> c
+    void setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener) -> d
+androidx.core.view.ViewCompat$Api21Impl$1 -> b.e.j.o$c$a:
     androidx.core.view.OnApplyWindowInsetsListener val$listener -> c
     android.view.View val$v -> b
     androidx.core.view.WindowInsetsCompat mLastInsets -> a
-    1:1:void androidx.core.view.ViewCompat$Api21Impl.callCompatInsetAnimationCallback(android.view.WindowInsets,android.view.View):0:0 -> onApplyWindowInsets
+    1:1:void androidx.core.view.ViewCompat.requestApplyInsets(android.view.View):0:0 -> onApplyWindowInsets
     1:1:android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets):0 -> onApplyWindowInsets
     2:2:android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets):0:0 -> onApplyWindowInsets
-    3:3:void androidx.core.view.ViewCompat.requestApplyInsets(android.view.View):0:0 -> onApplyWindowInsets
-    3:3:android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets):0 -> onApplyWindowInsets
-    4:4:android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets):0:0 -> onApplyWindowInsets
-androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat -> b.e.j.o$c:
+androidx.core.view.ViewCompat$Api23Impl -> b.e.j.o$d:
+    1:1:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat.toWindowInsetsCompat(android.view.WindowInsets):0:0 -> a
+    1:1:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> a
+    2:2:void androidx.core.view.WindowInsetsCompat.setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> a
+    2:2:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> a
+    3:3:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0:0 -> a
+    4:4:void androidx.core.view.WindowInsetsCompat.copyRootViewBounds(android.view.View):0:0 -> a
+    4:4:androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View):0 -> a
+androidx.core.view.ViewCompat$Api29Impl -> b.e.j.o$e:
+    void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int) -> a
+androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat -> b.e.j.o$f:
     boolean onUnhandledKeyEvent(android.view.View,android.view.KeyEvent) -> a
-androidx.core.view.ViewCompat$UnhandledKeyEventManager -> b.e.j.o$d:
-    android.util.SparseArray mCapturedKeys -> b
-    java.lang.ref.WeakReference mLastDispatchedPreViewKeyEvent -> c
-    java.util.ArrayList sViewsWithListeners -> d
-    java.util.WeakHashMap mViewsContainingListeners -> a
+androidx.core.view.ViewCompat$UnhandledKeyEventManager -> b.e.j.o$g:
+    android.util.SparseArray mCapturedKeys -> c
+    java.lang.ref.WeakReference mLastDispatchedPreViewKeyEvent -> d
+    java.util.WeakHashMap mViewsContainingListeners -> b
+    java.util.ArrayList sViewsWithListeners -> a
     android.view.View dispatchInOrder(android.view.View,android.view.KeyEvent) -> a
     boolean onUnhandledKeyEvent(android.view.View,android.view.KeyEvent) -> b
-androidx.core.view.ViewConfigurationCompat -> b.e.j.u:
+androidx.core.view.ViewConfigurationCompat -> b.e.j.t:
     java.lang.reflect.Method sGetScaledScrollFactorMethod -> a
     float getLegacyScrollFactor(android.view.ViewConfiguration,android.content.Context) -> a
-androidx.core.view.ViewPropertyAnimatorCompat -> b.e.j.v:
+androidx.core.view.ViewPropertyAnimatorCompat -> b.e.j.u:
     java.lang.ref.WeakReference mView -> a
     int mOldLayerType -> b
     androidx.core.view.ViewPropertyAnimatorCompat alpha(float) -> a
@@ -8720,25 +8706,25 @@ androidx.core.view.ViewPropertyAnimatorCompat -> b.e.j.v:
     void setListenerInternal(android.view.View,androidx.core.view.ViewPropertyAnimatorListener) -> e
     androidx.core.view.ViewPropertyAnimatorCompat setUpdateListener(androidx.core.view.ViewPropertyAnimatorUpdateListener) -> f
     androidx.core.view.ViewPropertyAnimatorCompat translationY(float) -> g
-androidx.core.view.ViewPropertyAnimatorCompat$1 -> b.e.j.v$a:
+androidx.core.view.ViewPropertyAnimatorCompat$1 -> b.e.j.u$a:
     androidx.core.view.ViewPropertyAnimatorListener val$listener -> a
     android.view.View val$view -> b
-androidx.core.view.ViewPropertyAnimatorCompat$2 -> b.e.j.v$b:
+androidx.core.view.ViewPropertyAnimatorCompat$2 -> b.e.j.u$b:
     androidx.core.view.ViewPropertyAnimatorUpdateListener val$listener -> a
     android.view.View val$view -> b
     1:1:void androidx.appcompat.app.WindowDecorActionBar$3.onAnimationUpdate(android.view.View):0:0 -> onAnimationUpdate
     1:1:void onAnimationUpdate(android.animation.ValueAnimator):0 -> onAnimationUpdate
-androidx.core.view.ViewPropertyAnimatorListener -> b.e.j.w:
+androidx.core.view.ViewPropertyAnimatorListener -> b.e.j.v:
     void onAnimationEnd(android.view.View) -> a
     void onAnimationStart(android.view.View) -> b
     void onAnimationCancel(android.view.View) -> c
-androidx.core.view.ViewPropertyAnimatorListenerAdapter -> b.e.j.x:
+androidx.core.view.ViewPropertyAnimatorListenerAdapter -> b.e.j.w:
     void onAnimationStart(android.view.View) -> b
     void onAnimationCancel(android.view.View) -> c
-androidx.core.view.ViewPropertyAnimatorUpdateListener -> b.e.j.y:
-androidx.core.view.WindowInsetsCompat -> b.e.j.z:
-    androidx.core.view.WindowInsetsCompat$Impl mImpl -> a
-    androidx.core.view.WindowInsetsCompat CONSUMED -> b
+androidx.core.view.ViewPropertyAnimatorUpdateListener -> b.e.j.x:
+androidx.core.view.WindowInsetsCompat -> b.e.j.y:
+    androidx.core.view.WindowInsetsCompat$Impl mImpl -> b
+    androidx.core.view.WindowInsetsCompat CONSUMED -> a
     int getSystemWindowInsetBottom() -> a
     int getSystemWindowInsetLeft() -> b
     int getSystemWindowInsetRight() -> c
@@ -8751,50 +8737,49 @@ androidx.core.view.WindowInsetsCompat -> b.e.j.z:
     1:1:java.lang.Object androidx.core.util.Preconditions.checkNotNull(java.lang.Object):0:0 -> h
     1:1:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0 -> h
     2:2:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0:0 -> h
-    3:3:void setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> h
+    3:3:androidx.core.view.WindowInsetsCompat androidx.core.view.ViewCompat.getRootWindowInsets(android.view.View):0:0 -> h
     3:3:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0 -> h
-    4:4:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0:0 -> h
-    5:5:void copyRootViewBounds(android.view.View):0:0 -> h
-    5:5:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0 -> h
-androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder -> b.e.j.z$a:
+    4:4:void setRootWindowInsets(androidx.core.view.WindowInsetsCompat):0:0 -> h
+    4:4:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0 -> h
+    5:5:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0:0 -> h
+    6:6:void copyRootViewBounds(android.view.View):0:0 -> h
+    6:6:androidx.core.view.WindowInsetsCompat toWindowInsetsCompat(android.view.WindowInsets,android.view.View):0 -> h
+androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder -> b.e.j.y$a:
     java.lang.reflect.Field sStableInsets -> b
     java.lang.reflect.Field sContentInsets -> c
     java.lang.reflect.Field sViewAttachInfoField -> a
     boolean sReflectionSucceeded -> d
-androidx.core.view.WindowInsetsCompat$BuilderImpl -> b.e.j.z$e:
+androidx.core.view.WindowInsetsCompat$BuilderImpl -> b.e.j.y$e:
     androidx.core.view.WindowInsetsCompat mInsets -> a
-    1:1:void <init>(androidx.core.view.WindowInsetsCompat):0:0 -> <init>
-    1:1:void <init>():0 -> <init>
-    androidx.core.view.WindowInsetsCompat build() -> a
-    void setStableInsets(androidx.core.graphics.Insets) -> b
-    void setSystemWindowInsets(androidx.core.graphics.Insets) -> c
-androidx.core.view.WindowInsetsCompat$BuilderImpl20 -> b.e.j.z$b:
-    java.lang.reflect.Constructor sConstructor -> f
-    java.lang.reflect.Field sConsumedField -> d
-    boolean sConsumedFieldFetched -> e
-    androidx.core.graphics.Insets mStableInsets -> c
-    android.view.WindowInsets mInsets -> b
-    boolean sConstructorFetched -> g
-    1:1:android.view.WindowInsets createWindowInsetsInstance():0:0 -> <init>
-    1:1:void <init>():0 -> <init>
-    2:2:void <init>():0:0 -> <init>
-    1:1:void androidx.core.view.WindowInsetsCompat.setOverriddenInsets(androidx.core.graphics.Insets[]):0:0 -> a
-    1:1:androidx.core.view.WindowInsetsCompat build():0 -> a
-    2:2:androidx.core.view.WindowInsetsCompat build():0:0 -> a
-    3:3:void androidx.core.view.WindowInsetsCompat.setStableInsets(androidx.core.graphics.Insets):0:0 -> a
-    3:3:androidx.core.view.WindowInsetsCompat build():0 -> a
-    void setStableInsets(androidx.core.graphics.Insets) -> b
-    void setSystemWindowInsets(androidx.core.graphics.Insets) -> c
-androidx.core.view.WindowInsetsCompat$BuilderImpl29 -> b.e.j.z$c:
+    void applyInsetTypes() -> a
+    androidx.core.view.WindowInsetsCompat build() -> b
+    void setStableInsets(androidx.core.graphics.Insets) -> c
+    void setSystemWindowInsets(androidx.core.graphics.Insets) -> d
+androidx.core.view.WindowInsetsCompat$BuilderImpl20 -> b.e.j.y$b:
+    boolean sConstructorFetched -> e
+    java.lang.reflect.Constructor sConstructor -> d
+    java.lang.reflect.Field sConsumedField -> b
+    androidx.core.graphics.Insets mStableInsets -> g
+    android.view.WindowInsets mInsets -> f
+    boolean sConsumedFieldFetched -> c
+    1:1:void androidx.core.view.WindowInsetsCompat.setOverriddenInsets(androidx.core.graphics.Insets[]):0:0 -> b
+    1:1:androidx.core.view.WindowInsetsCompat build():0 -> b
+    2:2:androidx.core.view.WindowInsetsCompat build():0:0 -> b
+    3:3:void androidx.core.view.WindowInsetsCompat.setStableInsets(androidx.core.graphics.Insets):0:0 -> b
+    3:3:androidx.core.view.WindowInsetsCompat build():0 -> b
+    void setStableInsets(androidx.core.graphics.Insets) -> c
+    void setSystemWindowInsets(androidx.core.graphics.Insets) -> d
+    android.view.WindowInsets createWindowInsetsInstance() -> e
+androidx.core.view.WindowInsetsCompat$BuilderImpl29 -> b.e.j.y$c:
     android.view.WindowInsets$Builder mPlatBuilder -> b
-    1:1:void androidx.core.view.WindowInsetsCompat.setOverriddenInsets(androidx.core.graphics.Insets[]):0:0 -> a
-    1:1:androidx.core.view.WindowInsetsCompat build():0 -> a
-    void setStableInsets(androidx.core.graphics.Insets) -> b
-    void setSystemWindowInsets(androidx.core.graphics.Insets) -> c
-androidx.core.view.WindowInsetsCompat$BuilderImpl30 -> b.e.j.z$d:
-androidx.core.view.WindowInsetsCompat$Impl -> b.e.j.z$k:
-    androidx.core.view.WindowInsetsCompat CONSUMED -> b
-    androidx.core.view.WindowInsetsCompat mHost -> a
+    1:1:void androidx.core.view.WindowInsetsCompat.setOverriddenInsets(androidx.core.graphics.Insets[]):0:0 -> b
+    1:1:androidx.core.view.WindowInsetsCompat build():0 -> b
+    void setStableInsets(androidx.core.graphics.Insets) -> c
+    void setSystemWindowInsets(androidx.core.graphics.Insets) -> d
+androidx.core.view.WindowInsetsCompat$BuilderImpl30 -> b.e.j.y$d:
+androidx.core.view.WindowInsetsCompat$Impl -> b.e.j.y$k:
+    androidx.core.view.WindowInsetsCompat mHost -> b
+    androidx.core.view.WindowInsetsCompat CONSUMED -> a
     1:1:void androidx.core.view.WindowInsetsCompat$Builder.<init>():0:0 -> <clinit>
     1:1:void <clinit>():0 -> <clinit>
     2:2:androidx.core.view.WindowInsetsCompat androidx.core.view.WindowInsetsCompat$Builder.build():0:0 -> <clinit>
@@ -8829,34 +8814,18 @@ androidx.core.view.WindowInsetsCompat$Impl -> b.e.j.z$k:
     void setOverriddenInsets(androidx.core.graphics.Insets[]) -> k
     void setRootWindowInsets(androidx.core.view.WindowInsetsCompat) -> l
     void setStableInsets(androidx.core.graphics.Insets) -> m
-androidx.core.view.WindowInsetsCompat$Impl20 -> b.e.j.z$f:
-    java.lang.reflect.Field sAttachInfoField -> l
-    java.lang.reflect.Field sVisibleInsetsField -> k
-    java.lang.Class sAttachInfoClass -> j
-    java.lang.reflect.Method sGetViewRootImplMethod -> h
-    java.lang.Class sViewRootImplClass -> i
-    boolean sVisibleRectReflectionFetched -> g
-    android.view.WindowInsets mPlatformInsets -> c
-    androidx.core.view.WindowInsetsCompat mRootWindowInsets -> e
-    androidx.core.graphics.Insets mRootViewVisibleInsets -> f
-    androidx.core.graphics.Insets mSystemWindowInsets -> d
-    1:1:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0:0 -> d
-    1:1:void copyRootViewBounds(android.view.View):0 -> d
-    2:2:void loadReflectionField():0:0 -> d
-    2:2:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0 -> d
-    2:2:void copyRootViewBounds(android.view.View):0 -> d
-    3:3:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0:0 -> d
-    3:3:void copyRootViewBounds(android.view.View):0 -> d
-    4:4:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> d
-    4:4:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0 -> d
-    4:4:void copyRootViewBounds(android.view.View):0 -> d
-    5:5:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0:0 -> d
-    5:5:void copyRootViewBounds(android.view.View):0 -> d
-    6:6:void copyRootViewBounds(android.view.View):0:0 -> d
-    7:7:void setRootViewData(androidx.core.graphics.Insets):0:0 -> d
-    7:7:void copyRootViewBounds(android.view.View):0 -> d
-    8:8:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0:0 -> d
-    8:8:void copyRootViewBounds(android.view.View):0 -> d
+androidx.core.view.WindowInsetsCompat$Impl20 -> b.e.j.y$f:
+    java.lang.Class sAttachInfoClass -> f
+    android.view.WindowInsets mPlatformInsets -> i
+    java.lang.Class sViewRootImplClass -> e
+    androidx.core.graphics.Insets mSystemWindowInsets -> j
+    java.lang.reflect.Field sAttachInfoField -> h
+    androidx.core.view.WindowInsetsCompat mRootWindowInsets -> k
+    java.lang.reflect.Field sVisibleInsetsField -> g
+    androidx.core.graphics.Insets mRootViewVisibleInsets -> l
+    java.lang.reflect.Method sGetViewRootImplMethod -> d
+    boolean sVisibleRectReflectionFetched -> c
+    void copyRootViewBounds(android.view.View) -> d
     androidx.core.graphics.Insets getSystemWindowInsets() -> g
     1:1:void androidx.core.view.WindowInsetsCompat$Builder.<init>(androidx.core.view.WindowInsetsCompat):0:0 -> h
     1:1:androidx.core.view.WindowInsetsCompat inset(int,int,int,int):0 -> h
@@ -8871,32 +8840,37 @@ androidx.core.view.WindowInsetsCompat$Impl20 -> b.e.j.z$f:
     boolean isRound() -> j
     void setOverriddenInsets(androidx.core.graphics.Insets[]) -> k
     void setRootWindowInsets(androidx.core.view.WindowInsetsCompat) -> l
-androidx.core.view.WindowInsetsCompat$Impl21 -> b.e.j.z$g:
+    1:1:androidx.core.graphics.Insets androidx.core.graphics.Insets.of(android.graphics.Rect):0:0 -> n
+    1:1:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0 -> n
+    2:2:androidx.core.graphics.Insets getVisibleInsets(android.view.View):0:0 -> n
+    void loadReflectionField() -> o
+    void setRootViewData(androidx.core.graphics.Insets) -> p
+androidx.core.view.WindowInsetsCompat$Impl21 -> b.e.j.y$g:
     androidx.core.graphics.Insets mStableInsets -> m
     androidx.core.view.WindowInsetsCompat consumeStableInsets() -> b
     androidx.core.view.WindowInsetsCompat consumeSystemWindowInsets() -> c
     androidx.core.graphics.Insets getStableInsets() -> f
     boolean isConsumed() -> i
     void setStableInsets(androidx.core.graphics.Insets) -> m
-androidx.core.view.WindowInsetsCompat$Impl28 -> b.e.j.z$h:
+androidx.core.view.WindowInsetsCompat$Impl28 -> b.e.j.y$h:
     androidx.core.view.WindowInsetsCompat consumeDisplayCutout() -> a
     1:1:androidx.core.view.DisplayCutoutCompat androidx.core.view.DisplayCutoutCompat.wrap(java.lang.Object):0:0 -> e
     1:1:androidx.core.view.DisplayCutoutCompat getDisplayCutout():0 -> e
-androidx.core.view.WindowInsetsCompat$Impl29 -> b.e.j.z$i:
+androidx.core.view.WindowInsetsCompat$Impl29 -> b.e.j.y$i:
     androidx.core.view.WindowInsetsCompat inset(int,int,int,int) -> h
     void setStableInsets(androidx.core.graphics.Insets) -> m
-androidx.core.view.WindowInsetsCompat$Impl30 -> b.e.j.z$j:
+androidx.core.view.WindowInsetsCompat$Impl30 -> b.e.j.y$j:
     androidx.core.view.WindowInsetsCompat CONSUMED -> n
     void copyRootViewBounds(android.view.View) -> d
-androidx.core.view.accessibility.AccessibilityClickableSpanCompat -> b.e.j.a0.a:
+androidx.core.view.accessibility.AccessibilityClickableSpanCompat -> b.e.j.z.a:
     androidx.core.view.accessibility.AccessibilityNodeInfoCompat mNodeInfoCompat -> c
     int mClickableSpanActionId -> d
     int mOriginalClickableSpanId -> b
     1:1:boolean androidx.core.view.accessibility.AccessibilityNodeInfoCompat.performAction(int,android.os.Bundle):0:0 -> onClick
     1:1:void onClick(android.view.View):0 -> onClick
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat -> b.e.j.a0.b:
-    android.view.accessibility.AccessibilityNodeInfo mInfo -> a
-    int sClickableSpanId -> b
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat -> b.e.j.z.b:
+    android.view.accessibility.AccessibilityNodeInfo mInfo -> b
+    int sClickableSpanId -> a
     void addAction(androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat) -> a
     java.util.List extrasIntList(java.lang.String) -> b
     java.lang.String getActionSymbolicName(int) -> c
@@ -8972,14 +8946,14 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat -> b.e.j.a0.b:
     42:42:java.lang.CharSequence androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat.getLabel():0:0 -> toString
     42:42:java.lang.String toString():0 -> toString
     43:43:java.lang.String toString():0:0 -> toString
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat -> b.e.j.a0.b$a:
-    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_UP -> f
-    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_DOWN -> g
-    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_FORWARD -> d
-    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_BACKWARD -> e
-    androidx.core.view.accessibility.AccessibilityViewCommand mCommand -> c
-    java.lang.Object mAction -> a
-    java.lang.Class mViewCommandArgumentClass -> b
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat -> b.e.j.z.b$a:
+    java.lang.Class mViewCommandArgumentClass -> f
+    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_DOWN -> d
+    java.lang.Object mAction -> e
+    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_BACKWARD -> b
+    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_UP -> c
+    androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat ACTION_SCROLL_FORWARD -> a
+    androidx.core.view.accessibility.AccessibilityViewCommand mCommand -> g
     1:1:void <init>(java.lang.Object,int,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand,java.lang.Class):0:0 -> <clinit>
     1:1:void <init>(int,java.lang.CharSequence):0 -> <clinit>
     1:1:void <clinit>():0 -> <clinit>
@@ -9044,24 +9018,24 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityAction
     36:36:void <clinit>():0:0 -> <clinit>
     37:37:void <init>(java.lang.Object,int,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand,java.lang.Class):0:0 -> <clinit>
     37:37:void <clinit>():0 -> <clinit>
-androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat -> b.e.j.a0.b$b:
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat -> b.e.j.z.b$b:
     java.lang.Object mInfo -> a
     androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat obtain(int,int,int,int,boolean,boolean) -> a
-androidx.core.view.accessibility.AccessibilityNodeProviderCompat -> b.e.j.a0.c:
+androidx.core.view.accessibility.AccessibilityNodeProviderCompat -> b.e.j.z.c:
     java.lang.Object mProvider -> a
-androidx.core.view.accessibility.AccessibilityViewCommand -> b.e.j.a0.d:
+androidx.core.view.accessibility.AccessibilityViewCommand -> b.e.j.z.d:
     boolean perform(android.view.View,androidx.core.view.accessibility.AccessibilityViewCommand$CommandArguments) -> a
-androidx.core.view.accessibility.AccessibilityViewCommand$CommandArguments -> b.e.j.a0.d$a:
-androidx.core.view.inputmethod.EditorInfoCompat -> b.e.j.b0.a:
+androidx.core.view.accessibility.AccessibilityViewCommand$CommandArguments -> b.e.j.z.d$a:
+androidx.core.view.inputmethod.EditorInfoCompat -> b.e.j.a0.a:
     java.lang.String[] EMPTY_STRING_ARRAY -> a
     boolean isCutOnSurrogate(java.lang.CharSequence,int,int) -> a
     void setSurroundingText(android.view.inputmethod.EditorInfo,java.lang.CharSequence,int,int) -> b
-androidx.core.view.inputmethod.InputConnectionCompat$1 -> b.e.j.b0.b:
+androidx.core.view.inputmethod.InputConnectionCompat$1 -> b.e.j.a0.b:
     androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener val$listener -> a
     1:1:androidx.core.view.inputmethod.InputContentInfoCompat androidx.core.view.inputmethod.InputContentInfoCompat.wrap(java.lang.Object):0:0 -> commitContent
     1:1:boolean commitContent(android.view.inputmethod.InputContentInfo,int,android.os.Bundle):0 -> commitContent
     2:2:boolean commitContent(android.view.inputmethod.InputContentInfo,int,android.os.Bundle):0:0 -> commitContent
-androidx.core.view.inputmethod.InputConnectionCompat$2 -> b.e.j.b0.c:
+androidx.core.view.inputmethod.InputConnectionCompat$2 -> b.e.j.a0.c:
     androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener val$listener -> a
     1:1:boolean androidx.core.view.inputmethod.InputConnectionCompat.handlePerformPrivateCommand(java.lang.String,android.os.Bundle,androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener):0:0 -> performPrivateCommand
     1:1:boolean performPrivateCommand(java.lang.String,android.os.Bundle):0 -> performPrivateCommand
@@ -9117,17 +9091,17 @@ androidx.core.view.inputmethod.InputConnectionCompat$2 -> b.e.j.b0.c:
     16:16:boolean androidx.core.view.inputmethod.InputConnectionCompat.handlePerformPrivateCommand(java.lang.String,android.os.Bundle,androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener):0:0 -> performPrivateCommand
     16:16:boolean performPrivateCommand(java.lang.String,android.os.Bundle):0 -> performPrivateCommand
     17:17:boolean performPrivateCommand(java.lang.String,android.os.Bundle):0:0 -> performPrivateCommand
-androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener -> b.e.j.b0.d:
-androidx.core.view.inputmethod.InputContentInfoCompat -> b.e.j.b0.e:
+androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener -> b.e.j.a0.d:
+androidx.core.view.inputmethod.InputContentInfoCompat -> b.e.j.a0.e:
     androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatImpl mImpl -> a
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatApi25Impl -> b.e.j.b0.e$a:
+androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatApi25Impl -> b.e.j.a0.e$a:
     android.view.inputmethod.InputContentInfo mObject -> a
     android.content.ClipDescription getDescription() -> a
     void requestPermission() -> b
     android.net.Uri getLinkUri() -> c
     java.lang.Object getInputContentInfo() -> d
     android.net.Uri getContentUri() -> e
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatBaseImpl -> b.e.j.b0.e$b:
+androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatBaseImpl -> b.e.j.a0.e$b:
     android.content.ClipDescription mDescription -> b
     android.net.Uri mLinkUri -> c
     android.net.Uri mContentUri -> a
@@ -9136,30 +9110,30 @@ androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatBase
     android.net.Uri getLinkUri() -> c
     java.lang.Object getInputContentInfo() -> d
     android.net.Uri getContentUri() -> e
-androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatImpl -> b.e.j.b0.e$c:
+androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatImpl -> b.e.j.a0.e$c:
     android.content.ClipDescription getDescription() -> a
     void requestPermission() -> b
     android.net.Uri getLinkUri() -> c
     java.lang.Object getInputContentInfo() -> d
     android.net.Uri getContentUri() -> e
 androidx.core.widget.AutoScrollHelper -> b.e.k.a:
-    boolean mAlreadyDelayed -> m
-    boolean mNeedsReset -> n
-    float[] mMinimumVelocity -> k
-    boolean mNeedsCancel -> o
-    float[] mMaximumVelocity -> l
-    boolean mAnimating -> p
-    float[] mRelativeVelocity -> j
-    android.view.animation.Interpolator mEdgeInterpolator -> c
-    float[] mMaximumEdges -> g
-    int mEdgeType -> h
-    int mActivationDelay -> i
-    float[] mRelativeEdges -> f
-    boolean mEnabled -> q
-    java.lang.Runnable mRunnable -> e
-    int DEFAULT_ACTIVATION_DELAY -> r
-    android.view.View mTarget -> d
-    androidx.core.widget.AutoScrollHelper$ClampedScroller mScroller -> b
+    float[] mMaximumVelocity -> m
+    boolean mAlreadyDelayed -> n
+    float[] mRelativeVelocity -> k
+    boolean mNeedsReset -> o
+    float[] mMinimumVelocity -> l
+    boolean mNeedsCancel -> p
+    int mActivationDelay -> j
+    float[] mRelativeEdges -> g
+    float[] mMaximumEdges -> h
+    int mEdgeType -> i
+    android.view.animation.Interpolator mEdgeInterpolator -> d
+    int DEFAULT_ACTIVATION_DELAY -> b
+    boolean mAnimating -> q
+    boolean mEnabled -> r
+    androidx.core.widget.AutoScrollHelper$ClampedScroller mScroller -> c
+    java.lang.Runnable mRunnable -> f
+    android.view.View mTarget -> e
     1:1:androidx.core.widget.AutoScrollHelper setMaximumVelocity(float,float):0:0 -> <init>
     1:1:void <init>(android.view.View):0 -> <init>
     2:2:androidx.core.widget.AutoScrollHelper setMinimumVelocity(float,float):0:0 -> <init>
@@ -9247,34 +9221,34 @@ androidx.core.widget.AutoSizeableTextView -> b.e.k.b:
 androidx.core.widget.ListViewAutoScrollHelper -> b.e.k.c:
     android.widget.ListView mTarget -> s
 androidx.core.widget.NestedScrollView -> androidx.core.widget.NestedScrollView:
-    boolean mFillViewport -> m
-    boolean mIsLaidOut -> i
-    int[] mScrollOffset -> s
-    boolean mIsBeingDragged -> k
-    androidx.core.view.NestedScrollingParentHelper mParentHelper -> x
-    androidx.core.widget.NestedScrollView$AccessibilityDelegate ACCESSIBILITY_DELEGATE -> B
-    android.graphics.Rect mTempRect -> c
-    android.widget.OverScroller mScroller -> d
-    int[] SCROLLVIEW_STYLEABLE -> C
-    android.widget.EdgeEffect mEdgeGlowTop -> e
-    boolean mIsLayoutDirty -> h
-    int mNestedYOffset -> u
-    int mMaximumVelocity -> q
-    boolean mSmoothScrollingEnabled -> n
-    int mTouchSlop -> o
-    android.view.VelocityTracker mVelocityTracker -> l
-    int[] mScrollConsumed -> t
-    long mLastScroll -> b
-    int mLastMotionY -> g
-    androidx.core.widget.NestedScrollView$SavedState mSavedState -> w
-    android.widget.EdgeEffect mEdgeGlowBottom -> f
-    float mVerticalScrollFactor -> z
-    android.view.View mChildToScrollTo -> j
-    int mLastScrollerY -> v
-    androidx.core.widget.NestedScrollView$OnScrollChangeListener mOnScrollChangeListener -> A
-    int mActivePointerId -> r
-    androidx.core.view.NestedScrollingChildHelper mChildHelper -> y
-    int mMinimumVelocity -> p
+    boolean mIsBeingDragged -> m
+    boolean mFillViewport -> o
+    boolean mIsLaidOut -> k
+    int[] mScrollOffset -> u
+    android.graphics.Rect mTempRect -> e
+    android.widget.OverScroller mScroller -> f
+    androidx.core.view.NestedScrollingParentHelper mParentHelper -> z
+    float mVerticalScrollFactor -> B
+    android.widget.EdgeEffect mEdgeGlowTop -> g
+    int mNestedYOffset -> w
+    int mMaximumVelocity -> s
+    int mTouchSlop -> q
+    int[] mScrollConsumed -> v
+    android.view.VelocityTracker mVelocityTracker -> n
+    boolean mSmoothScrollingEnabled -> p
+    androidx.core.view.NestedScrollingChildHelper mChildHelper -> A
+    boolean mIsLayoutDirty -> j
+    int mLastMotionY -> i
+    androidx.core.widget.NestedScrollView$AccessibilityDelegate ACCESSIBILITY_DELEGATE -> b
+    long mLastScroll -> d
+    androidx.core.widget.NestedScrollView$SavedState mSavedState -> y
+    android.widget.EdgeEffect mEdgeGlowBottom -> h
+    int[] SCROLLVIEW_STYLEABLE -> c
+    android.view.View mChildToScrollTo -> l
+    int mLastScrollerY -> x
+    androidx.core.widget.NestedScrollView$OnScrollChangeListener mOnScrollChangeListener -> C
+    int mActivePointerId -> t
+    int mMinimumVelocity -> r
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:void initScrollView():0:0 -> <init>
@@ -9572,8 +9546,8 @@ androidx.cursoradapter.widget.ResourceCursorAdapter -> b.f.a.c:
     android.view.LayoutInflater mInflater -> l
     android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup) -> d
 androidx.customview.view.AbsSavedState -> b.g.a.a:
-    android.os.Parcelable mSuperState -> b
-    androidx.customview.view.AbsSavedState EMPTY_STATE -> c
+    androidx.customview.view.AbsSavedState EMPTY_STATE -> b
+    android.os.Parcelable mSuperState -> c
     1:1:void <init>():0:0 -> <init>
     1:1:void <init>(androidx.customview.view.AbsSavedState$1):0 -> <init>
 androidx.customview.view.AbsSavedState$1 -> b.g.a.a$a:
@@ -11310,13 +11284,13 @@ androidx.fragment.app.FragmentManagerState$1 -> b.h.b.b0$a:
     1:1:androidx.fragment.app.FragmentManagerState[] newArray(int):0:0 -> newArray
     1:1:java.lang.Object[] newArray(int):0 -> newArray
 androidx.fragment.app.FragmentManagerViewModel -> b.h.b.c0:
-    androidx.lifecycle.ViewModelProvider$Factory FACTORY -> i
-    boolean mStateAutomaticallySaved -> f
-    boolean mHasBeenCleared -> g
-    boolean mIsStateSaved -> h
-    java.util.HashMap mViewModelStores -> e
-    java.util.HashMap mChildNonConfigs -> d
-    java.util.HashMap mRetainedFragments -> c
+    androidx.lifecycle.ViewModelProvider$Factory FACTORY -> c
+    boolean mIsStateSaved -> i
+    boolean mStateAutomaticallySaved -> g
+    boolean mHasBeenCleared -> h
+    java.util.HashMap mViewModelStores -> f
+    java.util.HashMap mChildNonConfigs -> e
+    java.util.HashMap mRetainedFragments -> d
     void onCleared() -> a
     void addRetainedFragment(androidx.fragment.app.Fragment) -> c
     void removeRetainedFragment(androidx.fragment.app.Fragment) -> d
@@ -11920,9 +11894,9 @@ androidx.fragment.app.SpecialEffectsControllerFactory -> b.h.b.w0:
 androidx.fragment.app.SuperNotCalledException -> b.h.b.x0:
 androidx.lifecycle.AndroidViewModel -> b.i.a:
 androidx.lifecycle.ClassesInfoCache -> b.i.b:
-    java.util.Map mCallbackMap -> a
-    java.util.Map mHasLifecycleMethods -> b
-    androidx.lifecycle.ClassesInfoCache sInstance -> c
+    java.util.Map mCallbackMap -> b
+    java.util.Map mHasLifecycleMethods -> c
+    androidx.lifecycle.ClassesInfoCache sInstance -> a
     1:1:java.lang.reflect.Method[] getDeclaredMethods(java.lang.Class):0:0 -> a
     1:1:androidx.lifecycle.ClassesInfoCache$CallbackInfo createInfo(java.lang.Class,java.lang.reflect.Method[]):0 -> a
     2:2:androidx.lifecycle.ClassesInfoCache$CallbackInfo createInfo(java.lang.Class,java.lang.reflect.Method[]):0:0 -> a
@@ -12111,16 +12085,16 @@ androidx.lifecycle.Lifecycling -> b.i.k:
 androidx.lifecycle.Lifecycling$1 -> androidx.lifecycle.Lifecycling$1:
     void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event) -> g
 androidx.lifecycle.LiveData -> androidx.lifecycle.LiveData:
-    java.lang.Object NOT_SET -> j
-    java.lang.Object mPendingData -> f
-    boolean mDispatchInvalidated -> i
-    java.lang.Object mData -> e
-    androidx.arch.core.internal.SafeIterableMap mObservers -> b
-    int mVersion -> g
-    java.lang.Object mDataLock -> a
-    boolean mDispatchingValue -> h
-    int mActiveCount -> c
-    boolean mChangingActiveState -> d
+    java.lang.Object mData -> f
+    boolean mDispatchingValue -> i
+    java.lang.Object mPendingData -> g
+    boolean mDispatchInvalidated -> j
+    int mVersion -> h
+    java.lang.Object mDataLock -> b
+    boolean mChangingActiveState -> e
+    int mActiveCount -> d
+    java.lang.Object NOT_SET -> a
+    androidx.arch.core.internal.SafeIterableMap mObservers -> c
     void assertMainThread(java.lang.String) -> a
     1:1:void androidx.fragment.app.DialogFragment$4.onChanged(java.lang.Object):0:0 -> b
     1:1:void considerNotify(androidx.lifecycle.LiveData$ObserverWrapper):0 -> b
@@ -12209,11 +12183,11 @@ androidx.lifecycle.ReportFragment -> b.i.p:
     void injectIfNeededIn(android.app.Activity) -> c
 androidx.lifecycle.ReportFragment$LifecycleCallbacks -> b.i.p$a:
 androidx.lifecycle.SavedStateHandle -> b.i.q:
-    java.util.Map mRegular -> a
-    java.util.Map mSavedStateProviders -> b
-    java.lang.Class[] ACCEPTABLE_CLASSES -> e
-    java.util.Map mLiveDatas -> c
-    androidx.savedstate.SavedStateRegistry$SavedStateProvider mSavedStateProvider -> d
+    java.util.Map mRegular -> b
+    java.util.Map mSavedStateProviders -> c
+    java.util.Map mLiveDatas -> d
+    java.lang.Class[] ACCEPTABLE_CLASSES -> a
+    androidx.savedstate.SavedStateRegistry$SavedStateProvider mSavedStateProvider -> e
 androidx.lifecycle.SavedStateHandle$1 -> b.i.q$a:
     androidx.lifecycle.SavedStateHandle this$0 -> a
     1:1:void androidx.lifecycle.SavedStateHandle.set(java.lang.String,java.lang.Object):0:0 -> a
@@ -12267,13 +12241,13 @@ androidx.lifecycle.SavedStateHandleController$OnRecreation -> androidx.lifecycle
     5:5:void onRecreated(androidx.savedstate.SavedStateRegistryOwner):0 -> a
     6:6:void onRecreated(androidx.savedstate.SavedStateRegistryOwner):0:0 -> a
 androidx.lifecycle.SavedStateViewModelFactory -> b.i.r:
-    android.app.Application mApplication -> a
-    java.lang.Class[] ANDROID_VIEWMODEL_SIGNATURE -> f
-    android.os.Bundle mDefaultArgs -> c
-    androidx.lifecycle.ViewModelProvider$Factory mFactory -> b
-    androidx.savedstate.SavedStateRegistry mSavedStateRegistry -> e
-    java.lang.Class[] VIEWMODEL_SIGNATURE -> g
-    androidx.lifecycle.Lifecycle mLifecycle -> d
+    android.app.Application mApplication -> c
+    androidx.lifecycle.ViewModelProvider$Factory mFactory -> d
+    androidx.savedstate.SavedStateRegistry mSavedStateRegistry -> g
+    java.lang.Class[] ANDROID_VIEWMODEL_SIGNATURE -> a
+    android.os.Bundle mDefaultArgs -> e
+    java.lang.Class[] VIEWMODEL_SIGNATURE -> b
+    androidx.lifecycle.Lifecycle mLifecycle -> f
     1:1:androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory.getInstance(android.app.Application):0:0 -> <init>
     1:1:void <init>(android.app.Application,androidx.savedstate.SavedStateRegistryOwner,android.os.Bundle):0 -> <init>
     2:2:androidx.lifecycle.ViewModelProvider$NewInstanceFactory androidx.lifecycle.ViewModelProvider$NewInstanceFactory.getInstance():0:0 -> <init>
@@ -12289,15 +12263,9 @@ androidx.lifecycle.SavedStateViewModelFactory -> b.i.r:
     3:3:androidx.lifecycle.SavedStateHandleController androidx.lifecycle.SavedStateHandleController.create(androidx.savedstate.SavedStateRegistry,androidx.lifecycle.Lifecycle,java.lang.String,android.os.Bundle):0:0 -> c
     3:3:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0 -> c
     4:4:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0:0 -> c
-    5:5:androidx.lifecycle.SavedStateHandle androidx.lifecycle.SavedStateHandleController.getHandle():0:0 -> c
+    5:5:androidx.lifecycle.SavedStateHandle androidx.lifecycle.SavedStateHandle.createHandle(android.os.Bundle,android.os.Bundle):0:0 -> c
+    5:5:androidx.lifecycle.SavedStateHandleController androidx.lifecycle.SavedStateHandleController.create(androidx.savedstate.SavedStateRegistry,androidx.lifecycle.Lifecycle,java.lang.String,android.os.Bundle):0 -> c
     5:5:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0 -> c
-    6:6:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0:0 -> c
-    7:7:androidx.lifecycle.SavedStateHandle androidx.lifecycle.SavedStateHandleController.getHandle():0:0 -> c
-    7:7:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0 -> c
-    8:8:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0:0 -> c
-    9:9:androidx.lifecycle.SavedStateHandle androidx.lifecycle.SavedStateHandle.createHandle(android.os.Bundle,android.os.Bundle):0:0 -> c
-    9:9:androidx.lifecycle.SavedStateHandleController androidx.lifecycle.SavedStateHandleController.create(androidx.savedstate.SavedStateRegistry,androidx.lifecycle.Lifecycle,java.lang.String,android.os.Bundle):0 -> c
-    9:9:androidx.lifecycle.ViewModel create(java.lang.String,java.lang.Class):0 -> c
     java.lang.reflect.Constructor findMatchingConstructor(java.lang.Class,java.lang.Class[]) -> d
 androidx.lifecycle.SingleGeneratedAdapterObserver -> androidx.lifecycle.SingleGeneratedAdapterObserver:
     androidx.lifecycle.GeneratedAdapter mGeneratedAdapter -> a
@@ -12310,8 +12278,8 @@ androidx.lifecycle.ViewModel -> b.i.s:
     1:1:java.lang.Object setTagIfAbsent(java.lang.String,java.lang.Object):0 -> b
     2:2:java.lang.Object setTagIfAbsent(java.lang.String,java.lang.Object):0:0 -> b
 androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory -> b.i.t:
-    android.app.Application mApplication -> b
-    androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory sInstance -> c
+    android.app.Application mApplication -> c
+    androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory sInstance -> b
     androidx.lifecycle.ViewModel create(java.lang.Class) -> a
 androidx.lifecycle.ViewModelProvider$Factory -> b.i.u:
     androidx.lifecycle.ViewModel create(java.lang.Class) -> a
@@ -12381,8 +12349,8 @@ androidx.loader.app.LoaderManagerImpl$LoaderInfo -> b.j.a.b$a:
     void removeObserver(androidx.lifecycle.Observer) -> f
     void setValue(java.lang.Object) -> g
 androidx.loader.app.LoaderManagerImpl$LoaderViewModel -> b.j.a.b$b:
-    androidx.collection.SparseArrayCompat mLoaders -> c
-    androidx.lifecycle.ViewModelProvider$Factory FACTORY -> d
+    androidx.lifecycle.ViewModelProvider$Factory FACTORY -> c
+    androidx.collection.SparseArrayCompat mLoaders -> d
     1:1:void androidx.collection.SparseArrayCompat.clear():0:0 -> a
     1:1:void onCleared():0 -> a
     2:2:void onCleared():0:0 -> a
@@ -12545,10 +12513,9 @@ androidx.preference.EditTextPreference$SimpleSummaryProvider -> androidx.prefere
 androidx.preference.EditTextPreferenceDialogFragmentCompat -> b.k.a:
     android.widget.EditText mEditText -> z
     java.lang.CharSequence mText -> A
-    boolean needInputMethod() -> c
-    void onBindDialogView(android.view.View) -> d
-    void onDialogClosed(boolean) -> f
-    androidx.preference.EditTextPreference getEditTextPreference() -> h
+    void onBindDialogView(android.view.View) -> c
+    void onDialogClosed(boolean) -> e
+    androidx.preference.EditTextPreference getEditTextPreference() -> g
     1:1:java.lang.String androidx.preference.EditTextPreference.getText():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
@@ -12665,13 +12632,13 @@ androidx.preference.ListPreferenceDialogFragmentCompat -> b.k.c:
     int mClickedDialogEntryIndex -> z
     java.lang.CharSequence[] mEntryValues -> B
     java.lang.CharSequence[] mEntries -> A
-    1:1:androidx.preference.ListPreference getListPreference():0:0 -> f
-    1:1:void onDialogClosed(boolean):0 -> f
-    2:2:void onDialogClosed(boolean):0:0 -> f
-    1:1:androidx.appcompat.app.AlertDialog$Builder androidx.appcompat.app.AlertDialog$Builder.setSingleChoiceItems(java.lang.CharSequence[],int,android.content.DialogInterface$OnClickListener):0:0 -> g
-    1:1:void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder):0 -> g
-    2:2:androidx.appcompat.app.AlertDialog$Builder androidx.appcompat.app.AlertDialog$Builder.setPositiveButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener):0:0 -> g
-    2:2:void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder):0 -> g
+    1:1:androidx.preference.ListPreference getListPreference():0:0 -> e
+    1:1:void onDialogClosed(boolean):0 -> e
+    2:2:void onDialogClosed(boolean):0:0 -> e
+    1:1:androidx.appcompat.app.AlertDialog$Builder androidx.appcompat.app.AlertDialog$Builder.setSingleChoiceItems(java.lang.CharSequence[],int,android.content.DialogInterface$OnClickListener):0:0 -> f
+    1:1:void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder):0 -> f
+    2:2:androidx.appcompat.app.AlertDialog$Builder androidx.appcompat.app.AlertDialog$Builder.setPositiveButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener):0:0 -> f
+    2:2:void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder):0 -> f
     1:1:androidx.preference.ListPreference getListPreference():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:java.lang.CharSequence[] androidx.preference.ListPreference.getEntries():0:0 -> onCreate
@@ -12737,10 +12704,10 @@ androidx.preference.MultiSelectListPreferenceDialogFragmentCompat -> b.k.d:
     java.lang.CharSequence[] mEntries -> B
     java.lang.CharSequence[] mEntryValues -> C
     boolean mPreferenceChanged -> A
-    1:1:androidx.preference.MultiSelectListPreference getListPreference():0:0 -> f
-    1:1:void onDialogClosed(boolean):0 -> f
-    2:2:void onDialogClosed(boolean):0:0 -> f
-    void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder) -> g
+    1:1:androidx.preference.MultiSelectListPreference getListPreference():0:0 -> e
+    1:1:void onDialogClosed(boolean):0 -> e
+    2:2:void onDialogClosed(boolean):0:0 -> e
+    void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder) -> f
     1:1:androidx.preference.MultiSelectListPreference getListPreference():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:java.lang.CharSequence[] androidx.preference.MultiSelectListPreference.getEntries():0:0 -> onCreate
@@ -13063,14 +13030,15 @@ androidx.preference.PreferenceDialogFragmentCompat -> b.k.e:
     11:11:androidx.appcompat.app.AlertDialog$Builder androidx.appcompat.app.AlertDialog$Builder.setMessage(java.lang.CharSequence):0:0 -> a
     11:11:android.app.Dialog onCreateDialog(android.os.Bundle):0 -> a
     12:12:android.app.Dialog onCreateDialog(android.os.Bundle):0:0 -> a
-    13:13:void requestInputMethod(android.app.Dialog):0:0 -> a
+    13:13:boolean needInputMethod():0:0 -> a
     13:13:android.app.Dialog onCreateDialog(android.os.Bundle):0 -> a
+    14:14:void requestInputMethod(android.app.Dialog):0:0 -> a
+    14:14:android.app.Dialog onCreateDialog(android.os.Bundle):0 -> a
     androidx.preference.DialogPreference getPreference() -> b
-    boolean needInputMethod() -> c
-    void onBindDialogView(android.view.View) -> d
-    android.view.View onCreateDialogView(android.content.Context) -> e
-    void onDialogClosed(boolean) -> f
-    void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder) -> g
+    void onBindDialogView(android.view.View) -> c
+    android.view.View onCreateDialogView(android.content.Context) -> d
+    void onDialogClosed(boolean) -> e
+    void onPrepareDialogBuilder(androidx.appcompat.app.AlertDialog$Builder) -> f
     1:1:java.lang.CharSequence androidx.preference.DialogPreference.getDialogTitle():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
@@ -13228,8 +13196,7 @@ androidx.preference.PreferenceGroup -> androidx.preference.PreferenceGroup:
     4:4:androidx.preference.Preference findPreference(java.lang.CharSequence):0:0 -> G
     androidx.preference.Preference getPreference(int) -> H
     int getPreferenceCount() -> I
-    boolean isOnSameScreenAsChildren() -> J
-    void setInitialExpandedChildrenCount(int) -> K
+    void setInitialExpandedChildrenCount(int) -> J
     void dispatchRestoreInstanceState(android.os.Bundle) -> a
     void dispatchSaveInstanceState(android.os.Bundle) -> b
     void notifyDependencyChange(boolean) -> m
@@ -13270,32 +13237,38 @@ androidx.preference.PreferenceGroupAdapter -> b.k.g:
     3:3:int androidx.preference.PreferenceGroup.getInitialExpandedChildrenCount():0:0 -> c
     3:3:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
     4:4:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0:0 -> c
-    5:5:int androidx.preference.PreferenceGroup.getInitialExpandedChildrenCount():0:0 -> c
+    5:5:boolean androidx.preference.PreferenceGroup.isOnSameScreenAsChildren():0:0 -> c
     5:5:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
     6:6:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0:0 -> c
     7:7:int androidx.preference.PreferenceGroup.getInitialExpandedChildrenCount():0:0 -> c
     7:7:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    8:8:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0:0 -> c
-    8:8:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    9:9:android.content.Context androidx.preference.Preference.getContext():0:0 -> c
-    9:9:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0 -> c
+    8:8:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0:0 -> c
+    9:9:int androidx.preference.PreferenceGroup.getInitialExpandedChildrenCount():0:0 -> c
     9:9:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    10:10:long androidx.preference.Preference.getId():0:0 -> c
-    10:10:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0 -> c
+    10:10:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0:0 -> c
     10:10:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    11:11:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0:0 -> c
+    11:11:android.content.Context androidx.preference.Preference.getContext():0:0 -> c
+    11:11:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0 -> c
     11:11:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    12:12:void androidx.preference.Preference.setOnPreferenceClickListener(androidx.preference.Preference$OnPreferenceClickListener):0:0 -> c
+    12:12:long androidx.preference.Preference.getId():0:0 -> c
     12:12:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0 -> c
     12:12:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
-    13:13:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0:0 -> c
+    13:13:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0:0 -> c
+    13:13:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
+    14:14:void androidx.preference.Preference.setOnPreferenceClickListener(androidx.preference.Preference$OnPreferenceClickListener):0:0 -> c
+    14:14:androidx.preference.ExpandButton createExpandButton(androidx.preference.PreferenceGroup,java.util.List):0 -> c
+    14:14:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0 -> c
+    15:15:java.util.List createVisiblePreferencesList(androidx.preference.PreferenceGroup):0:0 -> c
     1:1:void androidx.preference.PreferenceGroup.sortPreferences():0:0 -> d
     1:1:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0 -> d
     2:2:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0:0 -> d
-    3:3:void androidx.preference.Preference.setOnPreferenceChangeInternalListener(androidx.preference.Preference$OnPreferenceChangeInternalListener):0:0 -> d
+    3:3:boolean androidx.preference.PreferenceGroup.isOnSameScreenAsChildren():0:0 -> d
     3:3:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0 -> d
-    4:4:void androidx.preference.PreferenceGroup.sortPreferences():0:0 -> d
-    4:4:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0 -> d
+    4:4:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0:0 -> d
+    5:5:void androidx.preference.Preference.setOnPreferenceChangeInternalListener(androidx.preference.Preference$OnPreferenceChangeInternalListener):0:0 -> d
+    5:5:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0 -> d
+    6:6:void androidx.preference.PreferenceGroup.sortPreferences():0:0 -> d
+    6:6:void flattenPreferenceGroup(java.util.List,androidx.preference.PreferenceGroup):0 -> d
     androidx.preference.Preference getItem(int) -> e
     1:1:int androidx.preference.PreferenceGroup.getInitialExpandedChildrenCount():0:0 -> f
     1:1:boolean isGroupExpandable(androidx.preference.PreferenceGroup):0 -> f
@@ -13332,12 +13305,12 @@ androidx.preference.PreferenceGroupAdapter$PreferenceResourceDescriptor -> b.k.g
     3:3:void <init>(androidx.preference.Preference):0 -> <init>
     4:4:void <init>(androidx.preference.Preference):0:0 -> <init>
 androidx.preference.PreferenceInflater -> b.k.i:
-    android.content.Context mContext -> a
-    java.lang.Class[] CONSTRUCTOR_SIGNATURE -> e
-    java.lang.Object[] mConstructorArgs -> b
-    java.lang.String[] mDefaultPackages -> d
-    java.util.HashMap CONSTRUCTOR_MAP -> f
-    androidx.preference.PreferenceManager mPreferenceManager -> c
+    java.lang.Object[] mConstructorArgs -> d
+    android.content.Context mContext -> c
+    androidx.preference.PreferenceManager mPreferenceManager -> e
+    java.lang.Class[] CONSTRUCTOR_SIGNATURE -> a
+    java.util.HashMap CONSTRUCTOR_MAP -> b
+    java.lang.String[] mDefaultPackages -> f
     1:1:void init(androidx.preference.PreferenceManager):0:0 -> <init>
     1:1:void <init>(android.content.Context,androidx.preference.PreferenceManager):0 -> <init>
     2:2:void setDefaultPackages(java.lang.String[]):0:0 -> <init>
@@ -13529,7 +13502,6 @@ androidx.preference.PreferenceScreen -> androidx.preference.PreferenceScreen:
     1:1:void androidx.preference.PreferenceGroup.<init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:void <init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
-    boolean isOnSameScreenAsChildren() -> J
     1:1:android.content.Intent androidx.preference.Preference.getIntent():0:0 -> q
     1:1:void onClick():0 -> q
     2:2:java.lang.String androidx.preference.Preference.getFragment():0:0 -> q
@@ -14025,18 +13997,18 @@ androidx.recyclerview.widget.ChildHelper$Bucket -> b.l.b.b$a:
     void set(int) -> h
 androidx.recyclerview.widget.ChildHelper$Callback -> b.l.b.b$b:
 androidx.recyclerview.widget.DefaultItemAnimator -> b.l.b.k:
-    java.util.ArrayList mAddAnimations -> o
-    java.util.ArrayList mChangesList -> n
-    java.util.ArrayList mMovesList -> m
-    java.util.ArrayList mAdditionsList -> l
-    java.util.ArrayList mPendingChanges -> k
-    android.animation.TimeInterpolator sDefaultInterpolator -> s
-    java.util.ArrayList mPendingMoves -> j
-    java.util.ArrayList mPendingAdditions -> i
-    java.util.ArrayList mPendingRemovals -> h
-    java.util.ArrayList mChangeAnimations -> r
-    java.util.ArrayList mRemoveAnimations -> q
-    java.util.ArrayList mMoveAnimations -> p
+    java.util.ArrayList mChangesList -> o
+    java.util.ArrayList mMovesList -> n
+    java.util.ArrayList mAdditionsList -> m
+    java.util.ArrayList mPendingChanges -> l
+    java.util.ArrayList mPendingMoves -> k
+    java.util.ArrayList mPendingAdditions -> j
+    java.util.ArrayList mPendingRemovals -> i
+    android.animation.TimeInterpolator sDefaultInterpolator -> h
+    java.util.ArrayList mChangeAnimations -> s
+    java.util.ArrayList mRemoveAnimations -> r
+    java.util.ArrayList mMoveAnimations -> q
+    java.util.ArrayList mAddAnimations -> p
     1:1:void androidx.recyclerview.widget.SimpleItemAnimator.dispatchMoveFinished(androidx.recyclerview.widget.RecyclerView$ViewHolder):0:0 -> e
     1:1:void endAnimation(androidx.recyclerview.widget.RecyclerView$ViewHolder):0 -> e
     2:2:void endAnimation(androidx.recyclerview.widget.RecyclerView$ViewHolder):0:0 -> e
@@ -14190,37 +14162,37 @@ androidx.recyclerview.widget.DefaultItemAnimator$MoveInfo -> b.l.b.k$b:
     int fromX -> b
     int fromY -> c
 androidx.recyclerview.widget.FastScroller -> b.l.b.l:
-    int mHorizontalThumbWidth -> n
-    int mVerticalThumbCenterY -> l
-    int[] mHorizontalRange -> y
-    int mHorizontalTrackHeight -> j
-    int mVerticalTrackWidth -> f
-    boolean mNeedHorizontalScrollbar -> u
-    int mMargin -> b
-    androidx.recyclerview.widget.RecyclerView$OnScrollListener mOnScrollListener -> C
-    int mAnimationState -> A
-    java.lang.Runnable mHideRunnable -> B
-    int[] EMPTY_STATE_SET -> E
-    int mDragState -> w
-    float mVerticalDragY -> m
-    int mRecyclerViewWidth -> q
-    android.graphics.drawable.Drawable mVerticalTrackDrawable -> d
-    int mHorizontalThumbCenterX -> o
-    int[] mVerticalRange -> x
-    androidx.recyclerview.widget.RecyclerView mRecyclerView -> s
-    android.graphics.drawable.Drawable mHorizontalTrackDrawable -> h
-    int mVerticalThumbHeight -> k
-    android.animation.ValueAnimator mShowHideAnimator -> z
-    int mHorizontalThumbHeight -> i
-    android.graphics.drawable.StateListDrawable mVerticalThumbDrawable -> c
-    int mVerticalThumbWidth -> e
-    android.graphics.drawable.StateListDrawable mHorizontalThumbDrawable -> g
-    int mScrollbarMinimumRange -> a
-    boolean mNeedVerticalScrollbar -> t
-    int[] PRESSED_STATE_SET -> D
-    int mState -> v
-    float mHorizontalDragX -> p
-    int mRecyclerViewHeight -> r
+    int mVerticalThumbCenterY -> n
+    androidx.recyclerview.widget.RecyclerView$OnScrollListener mOnScrollListener -> E
+    int mHorizontalTrackHeight -> l
+    int mVerticalTrackWidth -> h
+    int mMargin -> d
+    boolean mNeedHorizontalScrollbar -> w
+    int[] mHorizontalRange -> A
+    int mAnimationState -> C
+    java.lang.Runnable mHideRunnable -> D
+    int[] EMPTY_STATE_SET -> b
+    int mDragState -> y
+    float mVerticalDragY -> o
+    int mRecyclerViewWidth -> s
+    int mHorizontalThumbCenterX -> q
+    android.graphics.drawable.Drawable mVerticalTrackDrawable -> f
+    int mVerticalThumbHeight -> m
+    int mHorizontalThumbHeight -> k
+    androidx.recyclerview.widget.RecyclerView mRecyclerView -> u
+    android.graphics.drawable.Drawable mHorizontalTrackDrawable -> j
+    int mVerticalThumbWidth -> g
+    boolean mNeedVerticalScrollbar -> v
+    int[] PRESSED_STATE_SET -> a
+    android.graphics.drawable.StateListDrawable mVerticalThumbDrawable -> e
+    int[] mVerticalRange -> z
+    int mScrollbarMinimumRange -> c
+    android.graphics.drawable.StateListDrawable mHorizontalThumbDrawable -> i
+    int mState -> x
+    float mHorizontalDragX -> r
+    int mRecyclerViewHeight -> t
+    android.animation.ValueAnimator mShowHideAnimator -> B
+    int mHorizontalThumbWidth -> p
     1:1:void attachToRecyclerView(androidx.recyclerview.widget.RecyclerView):0:0 -> <init>
     1:1:void <init>(androidx.recyclerview.widget.RecyclerView,android.graphics.drawable.StateListDrawable,android.graphics.drawable.Drawable,android.graphics.drawable.StateListDrawable,android.graphics.drawable.Drawable,int,int,int):0 -> <init>
     2:2:void destroyCallbacks():0:0 -> <init>
@@ -14318,12 +14290,12 @@ androidx.recyclerview.widget.FastScroller$AnimatorUpdater -> b.l.b.l$d:
     1:1:void androidx.recyclerview.widget.FastScroller.requestRedraw():0:0 -> onAnimationUpdate
     1:1:void onAnimationUpdate(android.animation.ValueAnimator):0 -> onAnimationUpdate
 androidx.recyclerview.widget.GapWorker -> b.l.b.m:
-    java.util.Comparator sTaskComparator -> g
-    java.lang.ThreadLocal sGapWorker -> f
-    long mFrameIntervalNs -> d
-    java.util.ArrayList mTasks -> e
-    long mPostTimeNs -> c
-    java.util.ArrayList mRecyclerViews -> b
+    java.lang.ThreadLocal sGapWorker -> b
+    long mFrameIntervalNs -> f
+    long mPostTimeNs -> e
+    java.util.ArrayList mTasks -> g
+    java.util.Comparator sTaskComparator -> c
+    java.util.ArrayList mRecyclerViews -> d
     1:1:void androidx.recyclerview.widget.GapWorker$LayoutPrefetchRegistryImpl.setPrefetchVector(int,int):0:0 -> a
     1:1:void postFromTraversal(androidx.recyclerview.widget.RecyclerView,int,int):0 -> a
     1:1:void buildTaskList():0:0 -> b
@@ -15191,88 +15163,88 @@ androidx.recyclerview.widget.OrientationHelper$2 -> b.l.b.u:
     int getTransformedStartWithDecoration(android.view.View) -> o
     void offsetChildren(int) -> p
 androidx.recyclerview.widget.RecyclerView -> androidx.recyclerview.widget.RecyclerView:
-    java.util.List mRecyclerListeners -> p
-    androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory mEdgeEffectFactory -> J
-    androidx.recyclerview.widget.RecyclerView$LayoutManager mLayout -> n
-    boolean mHasFixedSize -> u
-    android.widget.EdgeEffect mBottomGlow -> N
-    java.util.List mPendingAccessibilityImportanceChange -> w0
-    androidx.recyclerview.widget.AdapterHelper mAdapterHelper -> e
-    androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate mAccessibilityDelegate -> p0
-    boolean mLayoutWasDefered -> y
-    androidx.recyclerview.widget.RecyclerView$Recycler mRecycler -> c
-    int[] NESTED_SCROLLING_ATTRS -> C0
-    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemAnimatorListener mItemAnimatorListener -> n0
-    boolean mDispatchItemsChangedEvent -> G
-    int mInitialTouchY -> T
-    boolean mClipToPadding -> h
-    java.util.ArrayList mItemDecorations -> q
-    boolean mAdapterUpdateDuringMeasure -> C
-    android.view.accessibility.AccessibilityManager mAccessibilityManager -> D
-    int mScrollState -> P
-    float mScaledHorizontalScrollFactor -> c0
-    androidx.core.view.NestedScrollingChildHelper mScrollingChildHelper -> s0
-    boolean POST_UPDATES_ON_ANIMATION -> E0
-    int mMaxFlingVelocity -> b0
-    androidx.recyclerview.widget.RecyclerView$ViewFlinger mViewFlinger -> f0
-    int mLayoutOrScrollCounter -> H
-    androidx.recyclerview.widget.RecyclerView$OnItemTouchListener mInterceptingOnItemTouchListener -> s
-    int[] mScrollOffset -> t0
-    androidx.recyclerview.widget.RecyclerView$RecyclerListener mRecyclerListener -> o
-    boolean mEnableFastScroller -> v
-    int[] mReusableIntPair -> v0
-    androidx.recyclerview.widget.RecyclerView$OnScrollListener mScrollListener -> j0
-    int[] mMinMaxLayoutPositions -> r0
-    android.widget.EdgeEffect mRightGlow -> M
-    java.util.List mScrollListeners -> k0
-    boolean mLayoutSuppressed -> z
-    boolean mItemsAddedOrRemoved -> l0
-    int mLastAutoMeasureNonExactMeasuredWidth -> z0
-    int mLastTouchX -> U
-    java.util.ArrayList mOnItemTouchListeners -> r
-    androidx.recyclerview.widget.ViewInfoStore mViewInfoStore -> g
-    int mScrollPointerId -> Q
-    android.view.VelocityTracker mVelocityTracker -> R
-    float mScaledVerticalScrollFactor -> d0
-    boolean mPreserveFocusAfterLayout -> e0
-    int mLastAutoMeasureNonExactMeasuredHeight -> A0
-    int mDispatchScrollCounter -> I
-    java.lang.Runnable mItemAnimatorRunner -> x0
-    java.lang.Class[] LAYOUT_MANAGER_CONSTRUCTOR_SIGNATURE -> G0
-    boolean mFirstLayoutComplete -> w
-    android.view.animation.Interpolator sQuinticInterpolator -> H0
-    android.graphics.RectF mTempRectF -> l
-    android.widget.EdgeEffect mTopGlow -> L
-    java.lang.Runnable mUpdateChildViewsRunnable -> i
-    java.util.List mOnChildAttachStateListeners -> E
-    android.graphics.Rect mTempRect -> j
-    int mLastTouchY -> V
-    androidx.recyclerview.widget.RecyclerView$ChildDrawingOrderCallback mChildDrawingOrderCallback -> q0
-    androidx.recyclerview.widget.ViewInfoStore$ProcessCallback mViewInfoProcessCallback -> B0
-    boolean mIgnoreMotionEventTillDown -> A
-    boolean ALLOW_SIZE_IN_UNSPECIFIED_SPEC -> D0
-    androidx.recyclerview.widget.RecyclerView$State mState -> i0
-    boolean ALLOW_THREAD_GAP_WORK -> F0
-    androidx.recyclerview.widget.GapWorker mGapWorker -> g0
-    androidx.recyclerview.widget.RecyclerView$SavedState mPendingSavedState -> d
-    int mMinFlingVelocity -> a0
-    androidx.recyclerview.widget.RecyclerView$Adapter mAdapter -> m
-    androidx.recyclerview.widget.GapWorker$LayoutPrefetchRegistryImpl mPrefetchRegistry -> h0
-    int[] mNestedOffsets -> u0
-    int mEatenAccessibilityChangeFlags -> B
-    boolean mLastAutoMeasureSkippedDueToExact -> y0
-    android.widget.EdgeEffect mLeftGlow -> K
-    boolean mIsAttached -> t
-    androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver mObserver -> b
-    androidx.recyclerview.widget.RecyclerView$ItemAnimator mItemAnimator -> O
-    androidx.recyclerview.widget.ChildHelper mChildHelper -> f
-    android.graphics.Rect mTempRect2 -> k
-    int mInterceptRequestLayoutDepth -> x
-    boolean mItemsChanged -> m0
-    boolean mDataSetHasChangedAfterLayout -> F
-    int mTouchSlop -> W
-    boolean mPostedAnimatorRunner -> o0
-    int mInitialTouchX -> S
+    int mDispatchScrollCounter -> O
+    android.widget.EdgeEffect mTopGlow -> R
+    float mScaledHorizontalScrollFactor -> i0
+    androidx.core.view.NestedScrollingChildHelper mScrollingChildHelper -> y0
+    boolean mDataSetHasChangedAfterLayout -> L
+    int mLastAutoMeasureNonExactMeasuredWidth -> F0
+    androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate mAccessibilityDelegate -> v0
+    android.graphics.Rect mTempRect -> p
+    android.graphics.RectF mTempRectF -> r
+    int[] NESTED_SCROLLING_ATTRS -> b
+    androidx.recyclerview.widget.RecyclerView$SavedState mPendingSavedState -> j
+    boolean mIgnoreMotionEventTillDown -> G
+    java.lang.Runnable mUpdateChildViewsRunnable -> o
+    boolean mFirstLayoutComplete -> C
+    int[] mNestedOffsets -> A0
+    boolean POST_UPDATES_ON_ANIMATION -> d
+    java.util.List mOnChildAttachStateListeners -> K
+    androidx.recyclerview.widget.RecyclerView$Adapter mAdapter -> s
+    boolean mDispatchItemsChangedEvent -> M
+    int mLastTouchX -> d0
+    boolean mClipToPadding -> n
+    boolean mLastAutoMeasureSkippedDueToExact -> E0
+    int mInitialTouchX -> b0
+    androidx.recyclerview.widget.RecyclerView$OnScrollListener mScrollListener -> p0
+    boolean mAdapterUpdateDuringMeasure -> I
+    int mMaxFlingVelocity -> h0
+    int[] mMinMaxLayoutPositions -> x0
+    int mEatenAccessibilityChangeFlags -> H
+    int mTouchSlop -> f0
+    int[] mScrollOffset -> z0
+    android.view.animation.Interpolator sQuinticInterpolator -> g
+    int mInterceptRequestLayoutDepth -> D
+    android.widget.EdgeEffect mLeftGlow -> Q
+    java.util.List mScrollListeners -> q0
+    androidx.recyclerview.widget.ChildHelper mChildHelper -> l
+    boolean mIsAttached -> z
+    androidx.recyclerview.widget.RecyclerView$ItemAnimator mItemAnimator -> U
+    boolean mItemsAddedOrRemoved -> r0
+    boolean ALLOW_THREAD_GAP_WORK -> e
+    androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver mObserver -> h
+    android.graphics.Rect mTempRect2 -> q
+    android.view.VelocityTracker mVelocityTracker -> a0
+    androidx.recyclerview.widget.ViewInfoStore$ProcessCallback mViewInfoProcessCallback -> H0
+    androidx.recyclerview.widget.ViewInfoStore mViewInfoStore -> m
+    androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory mEdgeEffectFactory -> P
+    java.util.List mRecyclerListeners -> v
+    int mLastAutoMeasureNonExactMeasuredHeight -> G0
+    android.widget.EdgeEffect mBottomGlow -> T
+    java.util.ArrayList mOnItemTouchListeners -> x
+    float mScaledVerticalScrollFactor -> j0
+    androidx.recyclerview.widget.RecyclerView$LayoutManager mLayout -> t
+    androidx.recyclerview.widget.RecyclerView$Recycler mRecycler -> i
+    androidx.recyclerview.widget.AdapterHelper mAdapterHelper -> k
+    androidx.recyclerview.widget.RecyclerView$ChildDrawingOrderCallback mChildDrawingOrderCallback -> w0
+    java.util.ArrayList mItemDecorations -> w
+    boolean mLayoutWasDefered -> E
+    int mScrollState -> V
+    boolean mHasFixedSize -> A
+    java.util.List mPendingAccessibilityImportanceChange -> C0
+    androidx.recyclerview.widget.RecyclerView$ViewFlinger mViewFlinger -> l0
+    int[] mReusableIntPair -> B0
+    int mLayoutOrScrollCounter -> N
+    int mInitialTouchY -> c0
+    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemAnimatorListener mItemAnimatorListener -> t0
+    android.view.accessibility.AccessibilityManager mAccessibilityManager -> J
+    android.widget.EdgeEffect mRightGlow -> S
+    int mMinFlingVelocity -> g0
+    int mLastTouchY -> e0
+    androidx.recyclerview.widget.GapWorker mGapWorker -> m0
+    androidx.recyclerview.widget.RecyclerView$RecyclerListener mRecyclerListener -> u
+    androidx.recyclerview.widget.GapWorker$LayoutPrefetchRegistryImpl mPrefetchRegistry -> n0
+    boolean mPostedAnimatorRunner -> u0
+    java.lang.Class[] LAYOUT_MANAGER_CONSTRUCTOR_SIGNATURE -> f
+    boolean mItemsChanged -> s0
+    java.lang.Runnable mItemAnimatorRunner -> D0
+    androidx.recyclerview.widget.RecyclerView$OnItemTouchListener mInterceptingOnItemTouchListener -> y
+    boolean mLayoutSuppressed -> F
+    int mScrollPointerId -> W
+    androidx.recyclerview.widget.RecyclerView$State mState -> o0
+    boolean mEnableFastScroller -> B
+    boolean ALLOW_SIZE_IN_UNSPECIFIED_SPEC -> c
+    boolean mPreserveFocusAfterLayout -> k0
     1:1:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
     1:1:void <init>(android.content.Context,android.util.AttributeSet):0 -> <init>
     2:2:float androidx.core.view.ViewConfigurationCompat.getScaledHorizontalScrollFactor(android.view.ViewConfiguration,android.content.Context):0:0 -> <init>
@@ -17137,10 +17109,10 @@ androidx.recyclerview.widget.ViewInfoStore -> b.l.b.b0:
     5:5:void removeViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder):0 -> g
     6:6:void removeViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder):0:0 -> g
 androidx.recyclerview.widget.ViewInfoStore$InfoRecord -> b.l.b.b0$a:
-    androidx.core.util.Pools$Pool sPool -> d
-    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo preInfo -> b
-    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo postInfo -> c
-    int flags -> a
+    androidx.core.util.Pools$Pool sPool -> a
+    int flags -> b
+    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo preInfo -> c
+    androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo postInfo -> d
     androidx.recyclerview.widget.ViewInfoStore$InfoRecord obtain() -> a
     void recycle(androidx.recyclerview.widget.ViewInfoStore$InfoRecord) -> b
 androidx.recyclerview.widget.ViewInfoStore$ProcessCallback -> b.l.b.b0$b:
@@ -17461,15 +17433,15 @@ androidx.vectordrawable.graphics.drawable.VectorDrawableCommon -> b.n.a.a.e:
     1:1:void androidx.core.graphics.drawable.DrawableCompat.setHotspotBounds(android.graphics.drawable.Drawable,int,int,int,int):0:0 -> setHotspotBounds
     1:1:void setHotspotBounds(int,int,int,int):0 -> setHotspotBounds
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat -> b.n.a.a.f:
-    androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState mVectorState -> c
-    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> k
-    android.graphics.PorterDuffColorFilter mTintFilter -> d
-    android.graphics.ColorFilter mColorFilter -> e
-    android.graphics.Matrix mTmpMatrix -> i
-    float[] mTmpFloats -> h
-    android.graphics.Rect mTmpBounds -> j
-    boolean mMutated -> f
-    boolean mAllowCaching -> g
+    androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState mVectorState -> d
+    android.graphics.PorterDuffColorFilter mTintFilter -> e
+    android.graphics.Matrix mTmpMatrix -> j
+    float[] mTmpFloats -> i
+    android.graphics.Rect mTmpBounds -> k
+    android.graphics.ColorFilter mColorFilter -> f
+    boolean mMutated -> g
+    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> c
+    boolean mAllowCaching -> h
     androidx.vectordrawable.graphics.drawable.VectorDrawableCompat createFromXmlInner(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme) -> a
     android.graphics.PorterDuffColorFilter updateTintFilter(android.graphics.PorterDuffColorFilter,android.content.res.ColorStateList,android.graphics.PorterDuff$Mode) -> b
     1:1:boolean androidx.core.graphics.drawable.DrawableCompat.canApplyTheme(android.graphics.drawable.Drawable):0:0 -> canApplyTheme
@@ -17783,7 +17755,6 @@ androidx.vectordrawable.graphics.drawable.VectorDrawableCompat -> b.n.a.a.f:
     2:2:void setAutoMirrored(boolean):0:0 -> setAutoMirrored
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1 -> b.n.a.a.f$a:
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath -> b.n.a.a.f$b:
-    boolean isClipPath() -> c
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VFullPath -> b.n.a.a.f$c:
     float mTrimPathEnd -> l
     float mTrimPathStart -> k
@@ -17834,27 +17805,26 @@ androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath -> b.n.a.a.
     androidx.core.graphics.PathParser$PathDataNode[] mNodes -> a
     java.lang.String mPathName -> b
     int mFillRule -> c
-    boolean isClipPath() -> c
     1:1:void androidx.core.graphics.PathParser.updateNodes(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[]):0:0 -> setPathData
     1:1:void setPathData(androidx.core.graphics.PathParser$PathDataNode[]):0 -> setPathData
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer -> b.n.a.a.f$g:
-    android.graphics.Path mPath -> a
-    float mViewportHeight -> l
-    float mViewportWidth -> k
-    float mBaseHeight -> j
-    androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup mRootGroup -> h
-    float mBaseWidth -> i
-    int mRootAlpha -> m
-    java.lang.Boolean mIsStateful -> o
-    int mChangingConfigurations -> g
-    java.lang.String mRootName -> n
-    android.graphics.Matrix IDENTITY_MATRIX -> q
-    android.graphics.Path mRenderPath -> b
-    androidx.collection.ArrayMap mVGTargetsMap -> p
-    android.graphics.PathMeasure mPathMeasure -> f
-    android.graphics.Paint mFillPaint -> e
-    android.graphics.Paint mStrokePaint -> d
-    android.graphics.Matrix mFinalPathMatrix -> c
+    float mViewportWidth -> l
+    int mRootAlpha -> n
+    float mBaseHeight -> k
+    androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup mRootGroup -> i
+    float mBaseWidth -> j
+    int mChangingConfigurations -> h
+    java.lang.String mRootName -> o
+    java.lang.Boolean mIsStateful -> p
+    androidx.collection.ArrayMap mVGTargetsMap -> q
+    android.graphics.Path mRenderPath -> c
+    android.graphics.Path mPath -> b
+    android.graphics.PathMeasure mPathMeasure -> g
+    android.graphics.Paint mFillPaint -> f
+    android.graphics.Paint mStrokePaint -> e
+    android.graphics.Matrix mFinalPathMatrix -> d
+    android.graphics.Matrix IDENTITY_MATRIX -> a
+    float mViewportHeight -> m
     1:1:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     1:1:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     2:2:float getMatrixScale(android.graphics.Matrix):0:0 -> a
@@ -17867,47 +17837,52 @@ androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer -> 
     4:4:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     5:5:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     5:5:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    6:6:boolean androidx.core.content.res.ComplexColorCompat.willDraw():0:0 -> a
+    6:6:boolean androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath.isClipPath():0:0 -> a
     6:6:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     6:6:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     7:7:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     7:7:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    8:8:android.graphics.Shader androidx.core.content.res.ComplexColorCompat.getShader():0:0 -> a
+    8:8:boolean androidx.core.content.res.ComplexColorCompat.willDraw():0:0 -> a
     8:8:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     8:8:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     9:9:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     9:9:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    10:10:int androidx.core.content.res.ComplexColorCompat.getColor():0:0 -> a
+    10:10:android.graphics.Shader androidx.core.content.res.ComplexColorCompat.getShader():0:0 -> a
     10:10:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     10:10:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     11:11:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     11:11:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    12:12:int androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.applyAlpha(int,float):0:0 -> a
+    12:12:int androidx.core.content.res.ComplexColorCompat.getColor():0:0 -> a
     12:12:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     12:12:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     13:13:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     13:13:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    14:14:boolean androidx.core.content.res.ComplexColorCompat.willDraw():0:0 -> a
+    14:14:int androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.applyAlpha(int,float):0:0 -> a
     14:14:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     14:14:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     15:15:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     15:15:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    16:16:android.graphics.Shader androidx.core.content.res.ComplexColorCompat.getShader():0:0 -> a
+    16:16:boolean androidx.core.content.res.ComplexColorCompat.willDraw():0:0 -> a
     16:16:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     16:16:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     17:17:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     17:17:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    18:18:int androidx.core.content.res.ComplexColorCompat.getColor():0:0 -> a
+    18:18:android.graphics.Shader androidx.core.content.res.ComplexColorCompat.getShader():0:0 -> a
     18:18:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     18:18:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     19:19:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     19:19:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    20:20:int androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.applyAlpha(int,float):0:0 -> a
+    20:20:int androidx.core.content.res.ComplexColorCompat.getColor():0:0 -> a
     20:20:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     20:20:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
     21:21:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
     21:21:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
-    22:22:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
+    22:22:int androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.applyAlpha(int,float):0:0 -> a
+    22:22:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
+    22:22:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
+    23:23:void drawPath(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
+    23:23:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0 -> a
+    24:24:void drawGroupTree(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup,android.graphics.Matrix,android.graphics.Canvas,int,int,android.graphics.ColorFilter):0:0 -> a
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState -> b.n.a.a.f$h:
     android.content.res.ColorStateList mTint -> c
     boolean mCachedAutoMirrored -> j
@@ -18005,6 +17980,7 @@ androidx.versionedparcelable.VersionedParcelParcel -> b.o.b:
     void writeString(java.lang.String) -> v
 androidx.versionedparcelable.VersionedParcelable -> b.o.c:
 com.android.tools.r8.GeneratedOutlineSupport -> c.a.a.a.a:
+# {"id":"sourceFile","fileName":"outline"}
     java.lang.String outline0(androidx.recyclerview.widget.RecyclerView,java.lang.StringBuilder) -> a
     java.lang.String outline1(java.lang.String,androidx.fragment.app.Fragment,java.lang.String) -> b
     java.lang.String outline2(java.lang.String,java.lang.String) -> c
@@ -18511,21 +18487,17 @@ com.tglt.launcher.discreet.core.Application -> c.b.a.a.a.a:
     8:8:void com.tglt.launcher.discreet.events.U.startActivityLowerCenter(android.content.Context,android.content.Intent):0:0 -> a
     8:8:boolean start(android.view.View):0 -> a
     9:9:boolean start(android.view.View):0:0 -> a
-com.tglt.launcher.discreet.core.ApplicationType -> c.b.a.a.a.b:
-    com.tglt.launcher.discreet.core.ApplicationType APP_PORTRAIT -> b
-    com.tglt.launcher.discreet.core.ApplicationType FREEFORM_HACK -> e
-    com.tglt.launcher.discreet.core.ApplicationType CONTEXT_MENU -> f
-    com.tglt.launcher.discreet.core.ApplicationType APP_LANDSCAPE -> c
-    com.tglt.launcher.discreet.core.ApplicationType APP_FULLSCREEN -> d
-    com.tglt.launcher.discreet.core.ApplicationType[] $VALUES -> g
+com.tglt.launcher.discreet.core.ApplicationType$r8$EnumUnboxingUtility -> c.b.a.a.a.b:
+    int[] $VALUES$field$com$tglt$launcher$discreet$core$ApplicationType -> a
+    int $enumboxing$ordinal(int) -> a
 com.tglt.launcher.discreet.core.ApplicationsList -> c.b.a.a.a.c:
-    com.tglt.launcher.discreet.core.ApplicationsList$StartupTask mStartupTask -> e
-    java.util.ArrayList defaultApps -> g
-    java.util.ArrayList quickbar -> f
-    java.util.ArrayList favorites -> c
-    java.util.ArrayList hidden -> b
-    java.util.ArrayList drawer -> a
-    boolean update_in_progress -> d
+    com.tglt.launcher.discreet.core.ApplicationsList$StartupTask mStartupTask -> g
+    boolean update_in_progress -> f
+    java.util.ArrayList favorites -> e
+    java.util.ArrayList hidden -> d
+    java.util.ArrayList drawer -> c
+    java.util.ArrayList defaultApps -> b
+    java.util.ArrayList quickbar -> a
     1:1:java.util.ArrayList com.tglt.launcher.discreet.core.Folder.getApplications():0:0 -> a
     1:1:java.util.ArrayList getApplications(boolean):0 -> a
     2:2:java.util.ArrayList getApplications(boolean):0:0 -> a

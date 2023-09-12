@@ -4,6 +4,6 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Value from build type: release -->
-    <string name="app_version" translatable="false">2.0</string>
+    <string name="app_version" translatable="false">3.0</string>
 
 </resources>

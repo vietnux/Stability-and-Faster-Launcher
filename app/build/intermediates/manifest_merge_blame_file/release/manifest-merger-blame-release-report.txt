@@ -1,145 +1,147 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.tglt.launcher.discreet"
-4    android:versionCode="2"
-5    android:versionName="2.0" >
+4    android:versionCode="3"
+5    android:versionName="3.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="30" />
-9-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml
+8-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml
 10
 11    <!-- Required for Android 11+ (<queries> not applicable for Launcher applications) -->
 12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-12-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:5-8:53
-12-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:7:22-74
+12-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:7:5-8:53
+12-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:7:22-74
 13    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
-13-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:2-72
-13-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:9:19-69
-14    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
-14-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:2-113
-14-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:10:19-111
-15
+13-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:9:2-72
+13-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:9:19-69
+14
+15    <!-- <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/> -->
 16    <application
-16-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:12:2-78:16
+16-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:12:2-80:16
 17        android:allowBackup="false"
-17-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:13:3-30
+17-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:13:3-30
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.5.0] /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
 19        android:icon="@mipmap/ic_launcher"
-19-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:14:3-37
+19-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:14:3-37
 20        android:label="@string/app_name"
-20-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:15:3-35
+20-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:15:3-35
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:16:3-48
+21-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:16:3-48
 22        android:theme="@style/AppThemeTransparent" >
-22-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:17:3-45
+22-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:17:3-45
 23        <activity
-23-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:19:3-31:14
+23-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:19:3-32:14
 24            android:name="com.tglt.launcher.discreet.ActivityMain"
-24-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:20:5-33
+24-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:20:5-33
 25            android:excludeFromRecents="true"
-25-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:23:5-38
-26            android:label="@string/app_name"
-26-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:21:5-37
-27            android:launchMode="singleTask" >
-27-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:22:5-36
-28            <intent-filter>
-28-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:24:4-30:20
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:5-57
-29-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:25:13-54
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:5-65
-31-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:27:15-62
-32                <category android:name="android.intent.category.HOME" />
-32-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:5-61
-32-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:28:15-58
-33                <category android:name="android.intent.category.DEFAULT" />
-33-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:5-64
-33-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:15-61
-34            </intent-filter>
-35        </activity>
-36        <activity
-36-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:33:9-37:46
-37            android:name="com.tglt.launcher.discreet.ActivitySettings"
-37-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:34:13-45
-38            android:label="@string/settings_title"
-38-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:35:13-51
-39            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
-39-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:36:13-55
-40            android:theme="@style/AppTheme" />
-40-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:37:13-44
-41        <activity
-41-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:39:9-43:46
-42            android:name="com.tglt.launcher.discreet.ActivityExportImport"
-42-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:40:13-49
-43            android:label="@string/export_import_title"
-43-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:41:13-56
-44            android:parentActivityName="com.tglt.launcher.discreet.ActivitySettings"
-44-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:42:13-59
-45            android:theme="@style/AppTheme" />
-45-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:43:13-44
-46        <activity
-46-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:45:9-49:46
-47            android:name="com.tglt.launcher.discreet.ActivityFavorites"
-47-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:46:13-46
-48            android:label="@string/button_manage_favorites"
-48-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:47:13-60
-49            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
-49-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:48:13-55
-50            android:theme="@style/AppTheme" />
-50-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:49:13-44
-51        <activity
-51-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:50:3-54:46
-52            android:name="com.tglt.launcher.discreet.ActivityQuickBar"
-52-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:51:13-45
-53            android:label="@string/button_manage_quickbar"
-53-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:52:13-59
-54            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
-54-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:53:13-55
-55            android:theme="@style/AppTheme" />
-55-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:54:13-44
-56        <activity
-56-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:56:9-60:46
-57            android:name="com.tglt.launcher.discreet.ActivityFolders"
-57-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:57:13-44
-58            android:label="@string/button_organize_folders"
-58-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:58:13-60
-59            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
-59-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:59:13-55
-60            android:theme="@style/AppTheme" />
-60-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:60:13-44
-61        <activity
-61-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:62:9-70:20
-62            android:name="com.tglt.launcher.discreet.events.ShortcutListener"
-62-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:63:13-52
-63            android:excludeFromRecents="true"
-63-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:65:13-46
-64            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain" >
-64-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:64:13-55
-65            <intent-filter>
-65-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:66:13-69:29
-66                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
-66-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:17-89
-66-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:67:25-86
-67
-68                <category android:name="android.intent.category.DEFAULT" />
-68-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:5-64
-68-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:29:15-61
-69            </intent-filter>
-70        </activity>
-71        <activity
-71-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:72:9-76:20
-72            android:name="com.tglt.launcher.discreet.events.NotificationListener"
-72-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:73:13-56
-73            android:excludeFromRecents="true"
-73-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:75:13-46
-74            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-74-->D:\Launcher\discreet-launcher\app\src\main\AndroidManifest.xml:74:13-72
-75        </activity>
-76    </application>
-77
-78</manifest>
+25-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:23:5-38
+26            android:exported="true"
+26-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:24:4-27
+27            android:label="@string/app_name"
+27-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:21:5-37
+28            android:launchMode="singleTask" >
+28-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:22:5-36
+29            <intent-filter>
+29-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:25:4-31:20
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:26:5-57
+30-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:26:13-54
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:28:5-65
+32-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:28:15-62
+33                <category android:name="android.intent.category.HOME" />
+33-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:29:5-61
+33-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:29:15-58
+34                <category android:name="android.intent.category.DEFAULT" />
+34-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:5-64
+34-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:15-61
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:34:9-38:46
+38            android:name="com.tglt.launcher.discreet.ActivitySettings"
+38-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:35:13-45
+39            android:label="@string/settings_title"
+39-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:36:13-51
+40            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+40-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:37:13-55
+41            android:theme="@style/AppTheme" />
+41-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:38:13-44
+42        <activity
+42-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:40:9-44:46
+43            android:name="com.tglt.launcher.discreet.ActivityExportImport"
+43-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:41:13-49
+44            android:label="@string/export_import_title"
+44-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:42:13-56
+45            android:parentActivityName="com.tglt.launcher.discreet.ActivitySettings"
+45-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:43:13-59
+46            android:theme="@style/AppTheme" />
+46-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:44:13-44
+47        <activity
+47-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:46:9-50:46
+48            android:name="com.tglt.launcher.discreet.ActivityFavorites"
+48-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:47:13-46
+49            android:label="@string/button_manage_favorites"
+49-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:48:13-60
+50            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+50-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:49:13-55
+51            android:theme="@style/AppTheme" />
+51-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:50:13-44
+52        <activity
+52-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:51:3-55:46
+53            android:name="com.tglt.launcher.discreet.ActivityQuickBar"
+53-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:52:13-45
+54            android:label="@string/button_manage_quickbar"
+54-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:53:13-59
+55            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+55-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:54:13-55
+56            android:theme="@style/AppTheme" />
+56-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:55:13-44
+57        <activity
+57-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:57:9-61:46
+58            android:name="com.tglt.launcher.discreet.ActivityFolders"
+58-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:58:13-44
+59            android:label="@string/button_organize_folders"
+59-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:59:13-60
+60            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain"
+60-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:60:13-55
+61            android:theme="@style/AppTheme" />
+61-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:61:13-44
+62        <activity
+62-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:63:9-72:20
+63            android:name="com.tglt.launcher.discreet.events.ShortcutListener"
+63-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:64:13-52
+64            android:excludeFromRecents="true"
+64-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:66:13-46
+65            android:exported="true"
+65-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:67:4-27
+66            android:parentActivityName="com.tglt.launcher.discreet.ActivityMain" >
+66-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:65:13-55
+67            <intent-filter>
+67-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:68:13-71:29
+68                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+68-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:69:17-89
+68-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:69:25-86
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:5-64
+70-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:30:15-61
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:74:9-78:20
+74            android:name="com.tglt.launcher.discreet.events.NotificationListener"
+74-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:75:13-56
+75            android:excludeFromRecents="true"
+75-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:77:13-46
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->/Users/tuantt/development/Stability-and-Faster-Launcher/app/src/main/AndroidManifest.xml:76:13-72
+77        </activity>
+78    </application>
+79
+80</manifest>

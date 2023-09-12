@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is D:\Launcher\discreet-launcher\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.1.3
+# The proguard configuration file for the following section is /Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.2
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -111,8 +111,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from D:\Launcher\discreet-launcher\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.1.3
-# The proguard configuration file for the following section is D:\Launcher\discreet-launcher\app\proguard-rules.pro
+# End of content from /Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.2
+# The proguard configuration file for the following section is /Users/tuantt/development/Stability-and-Faster-Launcher/app/proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
@@ -143,8 +143,8 @@
     <methods> ;
 }
 
-# End of content from D:\Launcher\discreet-launcher\app\proguard-rules.pro
-# The proguard configuration file for the following section is D:\Launcher\discreet-launcher\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from /Users/tuantt/development/Stability-and-Faster-Launcher/app/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class com.tglt.launcher.discreet.ActivityExportImport { <init>(); }
 -keep class com.tglt.launcher.discreet.ActivityFavorites { <init>(); }
@@ -209,8 +209,8 @@
 -keepclassmembers class * { *** onClickMainActivity(android.view.View); }
 
 
-# End of content from D:\Launcher\discreet-launcher\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\b7f624538b3b9b419a197115fa477125\preference-1.1.1\proguard.txt
+# End of content from /Users/tuantt/development/Stability-and-Faster-Launcher/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -233,8 +233,8 @@
     public <init>(android.content.Context, android.util.AttributeSet);
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\b7f624538b3b9b419a197115fa477125\preference-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\baf0dc31829adf197a572a81727f18f7\appcompat-1.3.0\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/294c6b9f4a36309a96edfa3a4dcb76c5/preference-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -258,8 +258,8 @@
   <methods>;
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\baf0dc31829adf197a572a81727f18f7\appcompat-1.3.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8691aa885b8e903f7bd4beea6e6a64f8\recyclerview-1.2.0\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/640ebe7d2f6677fc0aa7bf4bbae966df/recyclerview-1.2.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -285,8 +285,8 @@
     public void suppressLayout(boolean);
     public boolean isLayoutSuppressed();
 }
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8691aa885b8e903f7bd4beea6e6a64f8\recyclerview-1.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\19f14860a898457fd2cc917054e34869\fragment-1.3.4\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/640ebe7d2f6677fc0aa7bf4bbae966df/recyclerview-1.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3dfbfe02bbb582980615633bd4eefc97/fragment-1.3.4/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -307,8 +307,8 @@
     public <init>();
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\19f14860a898457fd2cc917054e34869\fragment-1.3.4\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/3dfbfe02bbb582980615633bd4eefc97/fragment-1.3.4/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/f8265d5cb033aea9b3b2b59393038f53/vectordrawable-animated-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -329,8 +329,8 @@
    *** get*();
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/f8265d5cb033aea9b3b2b59393038f53/vectordrawable-animated-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -342,8 +342,8 @@
   <methods>;
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d2ff709217adbaee68cbce4e138923f2/jetified-lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -352,8 +352,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\jetified-savedstate-1.1.0\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/d2ff709217adbaee68cbce4e138923f2/jetified-lifecycle-viewmodel-savedstate-2.3.1/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b3cfbfb1b9d3c28903be03b381ffe5a1/jetified-savedstate-1.1.0/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -372,8 +372,8 @@
     <init>();
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\jetified-savedstate-1.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/b3cfbfb1b9d3c28903be03b381ffe5a1/jetified-savedstate-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/5b22b0456eb746581b5b739357fde86e/lifecycle-runtime-2.3.1/proguard.txt
 -keepattributes *Annotation*
 
 -keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
@@ -394,8 +394,8 @@
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/5b22b0456eb746581b5b739357fde86e/lifecycle-runtime-2.3.1/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/2173da8f0e3b2f5d6ed51ddfa294cf15/lifecycle-viewmodel-2.3.1/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -404,15 +404,15 @@
     <init>(android.app.Application);
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\proguard.txt
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/2173da8f0e3b2f5d6ed51ddfa294cf15/lifecycle-viewmodel-2.3.1/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\8762043a317ea402c55271fbd46774b1\versionedparcelable-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\766d83adac20a5272f851c64c64ef536\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/9c1a19876166723a3f4a522f5e580c9e/versionedparcelable-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /Users/tuantt/.gradle/caches/transforms-2/files-2.1/111e3ff0a7b0ab4745e359b890e66934/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -432,7 +432,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\vietn\.gradle\caches\transforms-2\files-2.1\766d83adac20a5272f851c64c64ef536\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from /Users/tuantt/.gradle/caches/transforms-2/files-2.1/111e3ff0a7b0ab4745e359b890e66934/rules/lib/META-INF/proguard/androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>
